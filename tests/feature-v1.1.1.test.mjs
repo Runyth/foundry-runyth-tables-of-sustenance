@@ -11,10 +11,10 @@ test("feature version and current Foundry v13 verification are coherent", async 
   const manifest = JSON.parse(await read("module.json"));
   const pkg = JSON.parse(await read("package.json"));
   const constants = await read("scripts/constants.mjs");
-  assert.equal(manifest.version, "1.1.1");
-  assert.equal(pkg.version, "1.1.1");
+  assert.equal(manifest.version, "1.2.0");
+  assert.equal(pkg.version, "1.2.0");
   assert.equal(manifest.compatibility.verified, "13.351");
-  assert.match(constants, /MODULE_VERSION = "1\.1\.1"/u);
+  assert.match(constants, /MODULE_VERSION = "1\.2\.0"/u);
 });
 
 test("dashboard cards use content-sized responsive geometry", async () => {

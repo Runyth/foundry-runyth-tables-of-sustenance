@@ -18,11 +18,11 @@ test("food detail no longer adds a startup-critical standalone ES module", async
 });
 
 test("the built installable tree has a closed runtime asset graph", async () => {
-  execFileSync(process.execPath, [join(rootPath, "scripts-dev/build.mjs")], { cwd: rootPath, stdio: "pipe" });
+  execFileSync(process.execPath, [join(rootPath, "tools/build.mjs")], { cwd: rootPath, stdio: "pipe" });
   const builtRoot = join(rootPath, "dist/module", moduleId);
   execFileSync(process.execPath, [join(rootPath, "scripts-dev/validate-runtime-assets.mjs"), builtRoot], { cwd: rootPath, stdio: "pipe" });
   const manifest = JSON.parse(await readFile(join(builtRoot, "module.json"), "utf8"));
-  assert.equal(manifest.version, "1.1.1");
+  assert.equal(manifest.version, "1.2.0");
   await access(join(builtRoot, "scripts/apps/food-browser-app.mjs"));
   await assert.rejects(access(join(builtRoot, "scripts/apps/food-detail-app.mjs")));
 });

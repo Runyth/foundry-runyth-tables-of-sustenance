@@ -87,7 +87,17 @@ export function build() {
     report: reportName
   };
 
-  writeFileSync(path.join(DIST, names.mod), writeZip(buildZipEntries(MODULE_ID, runtimeNames())));
+  const stagedModule = path.join(DIST, "module", MODULE_ID);
+  rmSync(path.join(DIST, "module"), { recursive: true, force: true });
+  mkdirSync(stagedModule, { recursive: true });
+  const runtimeRows = buildZipEntries(MODULE_ID, runtimeNames());
+  for (const row of runtimeRows) {
+    if (row.isDirectory) continue;
+    const absolute = path.join(stagedModule, path.relative(`${MODULE_ID}/`, row.name));
+    mkdirSync(path.dirname(absolute), { recursive: true });
+    writeFileSync(absolute, Buffer.from(row.data, "utf8"));
+  }
+  writeFileSync(path.join(DIST, names.mod), writeZip(runtimeRows));
   writeFileSync(path.join(DIST, names.doc), writeZip(buildZipEntries(`${MODULE_ID}-v${VERSION}-doc`, docNames())));
   writeFileSync(path.join(DIST, names.src), writeZip(buildZipEntries(`${MODULE_ID}-v${VERSION}-src`, sourceNames())));
 

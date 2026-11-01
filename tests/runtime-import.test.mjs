@@ -43,7 +43,7 @@ globalThis.Hooks = {
   callAll: () => undefined
 };
 globalThis.game = {
-  modules: new Map([["runyth-tables-of-sustenance", { version: "1.1.1" }]]),
+  modules: new Map([["runyth-tables-of-sustenance", { version: "1.2.0" }]]),
   settings: { get: () => ({}), register: () => undefined, registerMenu: () => undefined },
   i18n: { lang: "en", localize: key => key, format: key => key },
   system: { id: "dnd5e" },
