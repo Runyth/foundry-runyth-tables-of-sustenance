@@ -1,8 +1,7 @@
-# runyth-tables-of-sustenance-1.1.1
+# Changelog
 
-## Changelog
 
-### 1.1.1 — 2026-08-12
+## 1.1.1 — 2026-08-12
 
 - Fixed a startup-critical ES-module dependency on `scripts/apps/food-detail-app.mjs`.
 - Folded the food-detail ApplicationV2 implementation into the Food Browser module so food preview remains available without an additional startup request.
@@ -14,7 +13,7 @@
 - No API, content, stable-ID, system-adapter, cooldown, or Tier S identity changes.
 
 
-### 1.1.0 — 2026-08-09
+## 1.1.0 — 2026-08-09
 
 - Feature release: decoupled all game-system implementation from the core.
 - Converted all 335 canonical foods to `system-neutral-food-v1` definitions with declarative effect intents.
@@ -34,7 +33,7 @@
 - Hardened socket serving validation with Actor ownership checks and rejected player source-ID-only requests.
 - Replaced Item-directory-specific discovery with the documented generic `renderApplicationV2` hook plus positive ItemDirectory eligibility.
 
-### 1.0.1 — 2026-08-09
+## 1.0.1 — 2026-08-09
 
 - Responsive dashboard/browser UX overhaul.
 - Runtime food image overrides.
