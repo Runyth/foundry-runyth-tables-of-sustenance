@@ -45,15 +45,30 @@ All module-owned applications use Foundry v13 ApplicationV2. Main Actor/Item she
 ### Development
 
 ```text
-npm run generate
-npm run check
-npm run validate
 npm test
-npm run build
-npm run package
+npm run check
+npm run generate
+npm run validate
 ```
 
 Repository default branch: `master`.
+
+## Releases
+
+The GitHub repository is
+[`Runyth/foundry-runyth-tables-of-sustenance`](https://github.com/Runyth/foundry-runyth-tables-of-sustenance).
+Every release attaches:
+
+```text
+runyth-tables-of-sustenance-v<version>-mod.zip
+runyth-tables-of-sustenance-v<version>-src.zip
+runyth-tables-of-sustenance-v<version>-doc.zip
+module.json
+runyth-tables-of-sustenance-v<version>-SHA256SUMS.txt
+```
+
+The `module.json` manifest download URL points at the matching release's installable
+archive, and the marked Latest release is always the highest published version.
 
 ## Licence
 Copyright © 2026  [Daniel Braniewski](https://brani.dev/)

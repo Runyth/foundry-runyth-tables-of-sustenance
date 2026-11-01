@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2.0 — 2026-11-02
+
+- The module joins the Runyth suite as `runyth-tables-of-sustenance` / **Runyth Tables of Sustenance**: the module id, title, npm package, flag scope, pack names, stylesheet, and class scope were rebranded, and the release moves a minor version for the identity change.
+- The content catalogue keeps its shape: 335 foods, 190 recipes, 12 roll tables, checksummed per-version asset paths, and the same system-neutral contract for complementary system adapters.
+- Implemented the publication standard: deterministic installable `-mod`, source `-src`, and documentation `-doc` archives with per-version checksums and byte-identical rebuild verification, the standard quality and release pipelines, the full GNU AGPL-3.0-or-later licence with the standard source notice, and the publication history free of private campaign attribution.
 
 ## 1.1.1 — 2026-08-12
 
