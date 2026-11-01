@@ -16,10 +16,10 @@ test("feature version and current Foundry v13 verification are coherent", async 
 });
 
 test("dashboard cards use content-sized responsive geometry", async () => {
-  const css = await read("styles/obts.css");
+  const css = await read("styles/runyth-tables-of-sustenance.css");
   assert.match(css, /repeat\(auto-fit,minmax\(min\(280px,100%\),1fr\)\)/u);
-  assert.match(css, /\.obts-dashboard-grid \{[^}]*grid-auto-rows: 1fr/u);
-  assert.match(css, /\.obts-dashboard-card[\s\S]*grid-template-columns: 48px minmax\(0,1fr\) auto/u);
+  assert.match(css, /\.rts-dashboard-grid \{[^}]*grid-auto-rows: 1fr/u);
+  assert.match(css, /\.rts-dashboard-card[\s\S]*grid-template-columns: 48px minmax\(0,1fr\) auto/u);
   assert.match(css, /white-space: normal/u);
   assert.match(css, /overflow-wrap: anywhere/u);
 });
@@ -100,11 +100,11 @@ test("diagnostics cover extensions, duplicate IDs and image overrides", async ()
 });
 
 test("new module interfaces have scoped responsive accessibility styling", async () => {
-  const css = await read("styles/obts.css");
-  assert.match(css, /\.obts button:focus-visible/u);
-  assert.match(css, /\.obts-card-actions \{[^}]*grid-template-columns: repeat\(2,minmax\(0,1fr\)\)/u);
+  const css = await read("styles/runyth-tables-of-sustenance.css");
+  assert.match(css, /\.rts button:focus-visible/u);
+  assert.match(css, /\.rts-card-actions \{[^}]*grid-template-columns: repeat\(2,minmax\(0,1fr\)\)/u);
   assert.match(css, /@media \(max-width: 640px\)/u);
-  assert.match(css, /\.obts-food-card \{[^}]*grid-template-columns: minmax\(112px, 34%\) minmax\(0,1fr\)/u);
+  assert.match(css, /\.rts-food-card \{[^}]*grid-template-columns: minmax\(112px, 34%\) minmax\(0,1fr\)/u);
 });
 
 
@@ -120,8 +120,8 @@ test("document sheet controls use the public v13 ApplicationV2 header-control co
   const main = await read("scripts/main.mjs");
   assert.match(main, /Hooks\.on\("getHeaderControlsApplicationV2", addDocumentSheetControls\)/u);
   assert.match(main, /document\.sheet !== app/u);
-  assert.match(main, /action: "obts-consume-food"/u);
-  assert.match(main, /action: "obts-food-benefits"/u);
+  assert.match(main, /action: "rts-consume-food"/u);
+  assert.match(main, /action: "rts-food-benefits"/u);
   assert.doesNotMatch(main, /renderItemSheet(?:V2)?/u);
   assert.doesNotMatch(main, /renderActorSheet(?:V2)?/u);
   assert.doesNotMatch(main, /_getHeaderButtons/u);

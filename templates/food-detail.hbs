@@ -1,12 +1,12 @@
-<div class="obts-food-detail-scroll">
+<div class="rts-food-detail-scroll">
   {{#if missing}}
     <p class="notification error">{{localize "runyth-tables-of-sustenance.Detail.Missing"}}</p>
   {{else}}
-    <header class="obts-food-detail-header">
+    <header class="rts-food-detail-header">
       <img src="{{img}}" alt="{{name}}">
-      <div><div class="obts-food-title"><h1>{{name}}</h1><span class="obts-tier">{{tier}}</span></div><p>{{settlement}} · {{region}}</p><small>{{sourceId}}</small></div>
+      <div><div class="rts-food-title"><h1>{{name}}</h1><span class="rts-tier">{{tier}}</span></div><p>{{settlement}} · {{region}}</p><small>{{sourceId}}</small></div>
     </header>
-    <dl class="obts-definition-grid">
+    <dl class="rts-definition-grid">
       <dt>{{localize "runyth-tables-of-sustenance.Browser.Culture"}}</dt><dd>{{culture}}</dd>
       <dt>{{localize "runyth-tables-of-sustenance.Browser.Venue"}}</dt><dd>{{venue}}</dd>
       <dt>{{localize "runyth-tables-of-sustenance.Browser.Consumer"}}</dt><dd>{{consumers}}</dd>
@@ -20,6 +20,6 @@
       <dt>{{localize "runyth-tables-of-sustenance.Browser.Servings"}}</dt><dd>{{servings}}</dd>
     </dl>
     {{#unless adapterAvailable}}<p class="notification warning">{{localize "runyth-tables-of-sustenance.Detail.NoAdapter"}}</p>{{/unless}}
-    <article class="obts-food-detail-description">{{{description}}}</article>
+    <article class="rts-food-detail-description">{{{description}}}</article>
   {{/if}}
 </div>

@@ -13,7 +13,7 @@
 
 The core no longer creates game-system Items or effects by itself. A world can use the browser, recipes, menus, metadata, artwork overrides, diagnostics and transfer features on any game system. Inventory import, serving mutation, and food mechanics require an adapter registered for `game.system.id`.
 
-The D&D 5e 2024 implementation is provided separately by `tables-of-sustenance-dnd5e-2024`.
+The D&D 5e 2024 implementation is provided separately by `runyth-tables-of-sustenance-dnd5e-2024`.
 
 ### Foundry v13 audit
 

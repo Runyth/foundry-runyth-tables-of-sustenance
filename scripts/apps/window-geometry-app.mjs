@@ -4,7 +4,7 @@ import { PersistentApplication } from "./base-app.mjs";
 export class WindowGeometryApp extends PersistentApplication {
   static DEFAULT_OPTIONS = {
     id: `${MODULE_ID}-window-geometry`,
-    classes: ["obts", "obts-window-geometry"],
+    classes: ["rts", "rts-window-geometry"],
     tag: "section",
     position: { width: 620, height: 420 },
     window: { title: `${MODULE_ID}.WindowGeometry.Title`, icon: "fa-solid fa-up-right-and-down-left-from-center", resizable: true },
@@ -16,7 +16,7 @@ export class WindowGeometryApp extends PersistentApplication {
   };
 
   static PARTS = {
-    content: { template: `modules/${MODULE_ID}/templates/window-geometry.hbs`, scrollable: [".obts-window-geometry-scroll"] }
+    content: { template: `modules/${MODULE_ID}/templates/window-geometry.hbs`, scrollable: [".rts-window-geometry-scroll"] }
   };
 
   async _prepareContext() {

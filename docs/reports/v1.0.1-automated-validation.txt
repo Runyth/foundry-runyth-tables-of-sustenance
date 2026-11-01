@@ -168,4 +168,4 @@ ok 23 - the Foundry entrypoint imports and registers one init and one ready hook
 > runyth-tables-of-sustenance@1.0.1 build
 > node scripts-dev/build.mjs
 
-Built installable module at /mnt/data/obts-v1.0.1-work/runyth-tables-of-sustenance/dist/module/runyth-tables-of-sustenance
+Built installable module at /mnt/data/rts-v1.0.1-work/runyth-tables-of-sustenance/dist/module/runyth-tables-of-sustenance

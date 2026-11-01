@@ -13,7 +13,7 @@ It deliberately contains **no game-system Item schema, actor data path, Active E
 - Foundry VTT: minimum 13.347, verified 13.351, maximum major version 13.
 - Game system: unrestricted. Core browsing/worldbuilding works in any system.
 - Mechanical inventory/effects: require a compatible system adapter.
-- D&D 5e 2024: install `tables-of-sustenance-dnd5e-2024` alongside this core.
+- D&D 5e 2024: install `runyth-tables-of-sustenance-dnd5e-2024` alongside this core.
 
 Foundry v13 release history: https://foundryvtt.com/releases/
 

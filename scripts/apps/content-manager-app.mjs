@@ -13,7 +13,7 @@ export class ContentManagerApp extends PersistentApplication {
 
   static DEFAULT_OPTIONS = {
     id: APP_IDS.manager,
-    classes: ["obts", "obts-manager"],
+    classes: ["rts", "rts-manager"],
     tag: "section",
     position: { width: 900, height: 720 },
     window: { title: `${MODULE_ID}.Manager.Title`, icon: "fa-solid fa-box-archive", resizable: true },
@@ -45,7 +45,7 @@ export class ContentManagerApp extends PersistentApplication {
   }
 
   #options() {
-    const form = this.element.querySelector("form.obts-manager-form");
+    const form = this.element.querySelector("form.rts-manager-form");
     const data = new FormDataExtended(form).object;
     return {
       kinds: arrayValue(data.kinds),

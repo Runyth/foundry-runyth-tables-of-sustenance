@@ -11,7 +11,7 @@ export class MenuGeneratorApp extends PersistentApplication {
 
   static DEFAULT_OPTIONS = {
     id: APP_IDS.generator,
-    classes: ["obts", "obts-generator"],
+    classes: ["rts", "rts-generator"],
     tag: "section",
     position: { width: 900, height: 720 },
     window: { title: `${MODULE_ID}.Generator.Title`, icon: "fa-solid fa-shop", resizable: true },
@@ -46,14 +46,14 @@ export class MenuGeneratorApp extends PersistentApplication {
 
   _onRender(context, options) {
     super._onRender(context, options);
-    const form = this.element.querySelector("form.obts-generator-form");
+    const form = this.element.querySelector("form.rts-generator-form");
     form?.addEventListener("change", () => {
       this.#config = { ...this.#config, ...new FormDataExtended(form).object };
     });
   }
 
   static async #generate() {
-    const form = this.element.querySelector("form.obts-generator-form");
+    const form = this.element.querySelector("form.rts-generator-form");
     this.#config = { ...this.#config, ...new FormDataExtended(form).object };
     try {
       this.#menu = await menuService.generate(this.#config);

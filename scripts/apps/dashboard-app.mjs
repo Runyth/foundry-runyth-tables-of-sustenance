@@ -7,7 +7,7 @@ import { PersistentApplication } from "./base-app.mjs";
 export class DashboardApp extends PersistentApplication {
   static DEFAULT_OPTIONS = {
     id: APP_IDS.dashboard,
-    classes: ["obts", "obts-dashboard"],
+    classes: ["rts", "rts-dashboard"],
     tag: "section",
     position: { width: 980, height: 720 },
     window: { title: `${MODULE_ID}.Dashboard.Title`, icon: "fa-solid fa-utensils", resizable: true },
@@ -24,7 +24,7 @@ export class DashboardApp extends PersistentApplication {
   };
 
   static PARTS = {
-    content: { template: `modules/${MODULE_ID}/templates/dashboard.hbs`, scrollable: [".obts-dashboard-scroll"] }
+    content: { template: `modules/${MODULE_ID}/templates/dashboard.hbs`, scrollable: [".rts-dashboard-scroll"] }
   };
 
   async _prepareContext() {

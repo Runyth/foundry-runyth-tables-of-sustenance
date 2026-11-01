@@ -14,7 +14,7 @@ export class BenefitManagerApp extends PersistentApplication {
 
   static DEFAULT_OPTIONS = {
     id: `${MODULE_ID}-benefits`,
-    classes: ["obts", "obts-benefits"],
+    classes: ["rts", "rts-benefits"],
     tag: "section",
     position: { width: 700, height: 600 },
     window: { title: `${MODULE_ID}.Benefits.Title`, icon: "fa-solid fa-seedling", resizable: true },

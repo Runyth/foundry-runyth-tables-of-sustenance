@@ -10,6 +10,6 @@
 
 ### D&D 5e 2024
 
-Install and enable `tables-of-sustenance-dnd5e-2024` after the core. The companion requires core 1.1.0 or newer.
+Install and enable `runyth-tables-of-sustenance-dnd5e-2024` after the core. The companion requires core 1.1.0 or newer.
 
 When upgrading from core 1.0.1, install the new core and the D&D companion before updating/importing managed food Items in an existing D&D world.

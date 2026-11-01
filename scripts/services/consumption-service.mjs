@@ -139,7 +139,7 @@ class ConsumptionService {
       ? `<p>${game.i18n.localize(`${MODULE_ID}.Consume.OverrideEnabled`)}</p>`
       : "";
     const content = `
-      <div class="obts-confirm">
+      <div class="rts-confirm">
         ${permanentWarning}
         <p><strong>${htmlEscape(food.name)}</strong></p>
         <p>${htmlEscape(mechanics.summary)}</p>

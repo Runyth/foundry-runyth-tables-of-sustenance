@@ -11,7 +11,7 @@ export class MealComposerApp extends PersistentApplication {
 
   static DEFAULT_OPTIONS = {
     id: APP_IDS.composer,
-    classes: ["obts", "obts-composer"],
+    classes: ["rts", "rts-composer"],
     tag: "section",
     position: { width: 850, height: 680 },
     window: { title: `${MODULE_ID}.Composer.Title`, icon: "fa-solid fa-plate-wheat", resizable: true },
@@ -40,7 +40,7 @@ export class MealComposerApp extends PersistentApplication {
 
   _onRender(context, options) {
     super._onRender(context, options);
-    const form = this.element.querySelector("form.obts-composer-form");
+    const form = this.element.querySelector("form.rts-composer-form");
     form?.addEventListener("change", () => {
       const data = new FormDataExtended(form).object;
       for (const slot of SLOTS) this.#slots[slot] = data[slot] || null;

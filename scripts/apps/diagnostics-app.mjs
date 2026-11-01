@@ -9,7 +9,7 @@ export class DiagnosticsApp extends PersistentApplication {
 
   static DEFAULT_OPTIONS = {
     id: APP_IDS.diagnostics,
-    classes: ["obts", "obts-diagnostics"],
+    classes: ["rts", "rts-diagnostics"],
     tag: "section",
     position: { width: 900, height: 720 },
     window: { title: `${MODULE_ID}.Diagnostics.Title`, icon: "fa-solid fa-stethoscope", resizable: true },
@@ -20,7 +20,7 @@ export class DiagnosticsApp extends PersistentApplication {
   };
 
   static PARTS = {
-    content: { template: `modules/${MODULE_ID}/templates/diagnostics.hbs`, scrollable: [".obts-diagnostics-scroll"] }
+    content: { template: `modules/${MODULE_ID}/templates/diagnostics.hbs`, scrollable: [".rts-diagnostics-scroll"] }
   };
 
   async _prepareContext() {

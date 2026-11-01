@@ -11,9 +11,9 @@ export const DATA_PATHS = Object.freeze({
 });
 
 export const PACKS = Object.freeze({
-  foods: Object.freeze({ collection: "world.obts-foods", name: "obts-foods", label: "Foods", type: "Item" }),
-  recipes: Object.freeze({ collection: "world.obts-recipes", name: "obts-recipes", label: "Recipes", type: "JournalEntry" }),
-  tables: Object.freeze({ collection: "world.obts-food-tables", name: "obts-food-tables", label: "Food Tables", type: "RollTable" })
+  foods: Object.freeze({ collection: "world.rts-foods", name: "rts-foods", label: "Runyth: Foods", type: "Item" }),
+  recipes: Object.freeze({ collection: "world.rts-recipes", name: "rts-recipes", label: "Runyth: Recipes", type: "JournalEntry" }),
+  tables: Object.freeze({ collection: "world.rts-food-tables", name: "rts-food-tables", label: "Runyth: Food Tables", type: "RollTable" })
 });
 
 export const TIERS = Object.freeze(["1", "2", "3", "4", "S"]);

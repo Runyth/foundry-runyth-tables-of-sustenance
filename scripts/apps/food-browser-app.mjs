@@ -16,7 +16,7 @@ export class FoodBrowserApp extends PersistentApplication {
 
   static DEFAULT_OPTIONS = {
     id: APP_IDS.browser,
-    classes: ["obts", "obts-browser", "obts-browser-layout"],
+    classes: ["rts", "rts-browser", "rts-browser-layout"],
     tag: "section",
     position: { width: 1180, height: 780 },
     window: { title: `${MODULE_ID}.Browser.Title`, icon: "fa-solid fa-bowl-food", resizable: true },
@@ -39,7 +39,7 @@ export class FoodBrowserApp extends PersistentApplication {
 
   static PARTS = {
     filters: { template: `modules/${MODULE_ID}/templates/food-browser-filters.hbs` },
-    results: { template: `modules/${MODULE_ID}/templates/food-browser-results.hbs`, scrollable: [".obts-food-grid", ".obts-table-scroll"] }
+    results: { template: `modules/${MODULE_ID}/templates/food-browser-results.hbs`, scrollable: [".rts-food-grid", ".rts-table-scroll"] }
   };
 
   async _prepareContext() {
@@ -69,16 +69,16 @@ export class FoodBrowserApp extends PersistentApplication {
 
   _onRender(context, options) {
     super._onRender(context, options);
-    const form = this.element.querySelector("form.obts-browser-filters");
-    if (form && !form.dataset.obtsBound) {
-      form.dataset.obtsBound = "true";
+    const form = this.element.querySelector("form.rts-browser-filters");
+    if (form && !form.dataset.rtsBound) {
+      form.dataset.rtsBound = "true";
       form.addEventListener("input", () => this.#readFilters(form));
       form.addEventListener("change", () => this.#readFilters(form));
     }
     if (!game.user.isGM) return;
     for (const draggable of this.element.querySelectorAll("[data-food-source-id]")) {
-      if (draggable.dataset.obtsDragBound) continue;
-      draggable.dataset.obtsDragBound = "true";
+      if (draggable.dataset.rtsDragBound) continue;
+      draggable.dataset.rtsDragBound = "true";
       draggable.addEventListener("dragstart", event => {
         event.dataTransfer.setData("text/plain", JSON.stringify({ type: "OBTSFood", sourceId: draggable.dataset.foodSourceId }));
       });
@@ -227,14 +227,14 @@ class FoodDetailApp extends PersistentApplication {
 
   static DEFAULT_OPTIONS = {
     id: `${MODULE_ID}-food-detail`,
-    classes: ["obts", "obts-food-detail-app"],
+    classes: ["rts", "rts-food-detail-app"],
     tag: "section",
     position: { width: 760, height: 720 },
     window: { title: `${MODULE_ID}.Detail.Title`, icon: "fa-solid fa-bowl-food", resizable: true }
   };
 
   static PARTS = {
-    content: { template: `modules/${MODULE_ID}/templates/food-detail.hbs`, scrollable: [".obts-food-detail-scroll"] }
+    content: { template: `modules/${MODULE_ID}/templates/food-detail.hbs`, scrollable: [".rts-food-detail-scroll"] }
   };
 
   setSourceId(sourceId) {

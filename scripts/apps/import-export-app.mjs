@@ -10,7 +10,7 @@ export class ImportExportApp extends PersistentApplication {
 
   static DEFAULT_OPTIONS = {
     id: APP_IDS.transfer,
-    classes: ["obts", "obts-transfer"],
+    classes: ["rts", "rts-transfer"],
     tag: "section",
     position: { width: 860, height: 700 },
     window: { title: `${MODULE_ID}.Transfer.Title`, icon: "fa-solid fa-right-left", resizable: true },
@@ -23,7 +23,7 @@ export class ImportExportApp extends PersistentApplication {
   };
 
   static PARTS = {
-    content: { template: `modules/${MODULE_ID}/templates/import-export.hbs`, scrollable: [".obts-transfer-scroll"] }
+    content: { template: `modules/${MODULE_ID}/templates/import-export.hbs`, scrollable: [".rts-transfer-scroll"] }
   };
 
   async _prepareContext() {
@@ -32,7 +32,7 @@ export class ImportExportApp extends PersistentApplication {
 
   _onRender(context, options) {
     super._onRender(context, options);
-    const input = this.element.querySelector("input[data-obts-import-file]");
+    const input = this.element.querySelector("input[data-rts-import-file]");
     input?.addEventListener("change", async event => {
       const file = event.currentTarget.files?.[0];
       if (!file) return;
@@ -50,7 +50,7 @@ export class ImportExportApp extends PersistentApplication {
   }
 
   #formData() {
-    const form = this.element.querySelector("form.obts-transfer-form");
+    const form = this.element.querySelector("form.rts-transfer-form");
     return new FormDataExtended(form).object;
   }
 
@@ -77,7 +77,7 @@ export class ImportExportApp extends PersistentApplication {
   }
 
   static #chooseFile() {
-    this.element.querySelector("input[data-obts-import-file]")?.click();
+    this.element.querySelector("input[data-rts-import-file]")?.click();
   }
 
   static async #apply() {

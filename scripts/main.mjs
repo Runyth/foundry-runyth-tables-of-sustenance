@@ -34,17 +34,17 @@ Hooks.on("updateWorldTime", cleanupActors);
 
 function addSidebarButtons(html) {
   const root = html instanceof HTMLElement ? html : html?.[0];
-  if (!root || root.querySelector(`[data-obts-sidebar-buttons]`)) return;
+  if (!root || root.querySelector(`[data-rts-sidebar-buttons]`)) return;
   const header = root.querySelector(".directory-header .header-actions, .directory-header");
   if (!header) return;
   const wrapper = document.createElement("div");
-  wrapper.dataset.obtsSidebarButtons = "true";
-  wrapper.className = "obts-sidebar-buttons";
+  wrapper.dataset.rtsSidebarButtons = "true";
+  wrapper.className = "rts-sidebar-buttons";
   wrapper.innerHTML = `
-    <button type="button" data-action="obts-browser" title="${game.i18n.localize(`${MODULE_ID}.Browser.Title`)}"><i class="fa-solid fa-bowl-food"></i><span>${game.i18n.localize(`${MODULE_ID}.Sidebar.Browser`)}</span></button>
-    <button type="button" data-action="obts-dashboard" title="${game.i18n.localize(`${MODULE_ID}.Dashboard.Title`)}"><i class="fa-solid fa-utensils"></i><span>${game.i18n.localize(`${MODULE_ID}.Sidebar.Dashboard`)}</span></button>`;
-  wrapper.querySelector("[data-action='obts-browser']").addEventListener("click", () => api.apps.browser().render(true));
-  wrapper.querySelector("[data-action='obts-dashboard']").addEventListener("click", () => api.apps.dashboard().render(true));
+    <button type="button" data-action="rts-browser" title="${game.i18n.localize(`${MODULE_ID}.Browser.Title`)}"><i class="fa-solid fa-bowl-food"></i><span>${game.i18n.localize(`${MODULE_ID}.Sidebar.Browser`)}</span></button>
+    <button type="button" data-action="rts-dashboard" title="${game.i18n.localize(`${MODULE_ID}.Dashboard.Title`)}"><i class="fa-solid fa-utensils"></i><span>${game.i18n.localize(`${MODULE_ID}.Sidebar.Dashboard`)}</span></button>`;
+  wrapper.querySelector("[data-action='rts-browser']").addEventListener("click", () => api.apps.browser().render(true));
+  wrapper.querySelector("[data-action='rts-dashboard']").addEventListener("click", () => api.apps.dashboard().render(true));
   header.append(wrapper);
 }
 
@@ -53,9 +53,9 @@ function addDocumentSheetControls(app, controls) {
   if (!document || document.sheet !== app) return;
 
   if (document.documentName === "Item" && foundry.utils.getProperty(document, `flags.${FLAG_SCOPE}.kind`) === "food") {
-    if (!controls.some(control => control.action === "obts-consume-food")) {
+    if (!controls.some(control => control.action === "rts-consume-food")) {
       controls.unshift({
-        action: "obts-consume-food",
+        action: "rts-consume-food",
         icon: "fa-solid fa-utensils",
         label: `${MODULE_ID}.Common.Consume`,
         onClick: () => {
@@ -69,9 +69,9 @@ function addDocumentSheetControls(app, controls) {
     return;
   }
 
-  if (document.documentName === "Actor" && !controls.some(control => control.action === "obts-food-benefits")) {
+  if (document.documentName === "Actor" && !controls.some(control => control.action === "rts-food-benefits")) {
     controls.unshift({
-      action: "obts-food-benefits",
+      action: "rts-food-benefits",
       icon: "fa-solid fa-seedling",
       label: `${MODULE_ID}.Benefits.Title`,
       onClick: () => api.apps.benefits(document).render(true)
