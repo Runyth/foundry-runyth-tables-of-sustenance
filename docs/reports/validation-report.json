@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-08-12T21:10:16.631Z",
+  "moduleVersion": "1.1.1",
+  "status": "passed",
+  "systemNeutral": true,
+  "foods": 335,
+  "recipes": 190,
+  "tables": 12,
+  "counts": {
+    "1": 180,
+    "2": 80,
+    "3": 45,
+    "4": 20,
+    "S": 10
+  },
+  "tierSDirectRandomGeneration": false,
+  "checkedImages": 335,
+  "checkedLocalizationKeys": 170,
+  "errors": [],
+  "warnings": []
+}

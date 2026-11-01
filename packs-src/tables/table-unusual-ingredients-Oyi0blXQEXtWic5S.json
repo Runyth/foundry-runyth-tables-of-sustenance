@@ -1,0 +1,410 @@
+{
+  "_id": "Oyi0blXQEXtWic5S",
+  "name": "Unusual Ingredients",
+  "description": "Food table: Unusual Ingredients.",
+  "results": [
+    {
+      "_id": "MxplCnoGj3uxYIEf",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "description": "herring, mussel, onion",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "RKzvnfR4hmV9VWU5",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "description": "hazelnut, elderberry, soft cheese",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "glt16NzepNVYuFG8",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "description": "bean, brown bread, brown bread",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "I0v3fwqjoUK9LRpU",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "description": "river crab, almond, butter",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "jVRjJKQKWyzBwuJA",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "description": "wild garlic, mushroom, juniper",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "NkKl0CXs2WrCYhPs",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "description": "hardtack, rendered fat, mustard seed",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "NE1woRdZCxUPN6Wv",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "description": "cabbage, dark ale, potato",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "wnL13KPOzKgneRNC",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "description": "trout, venison, venison",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "Mqa4VZqqiNvZeDQb",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "description": "goat, flatbread, goat",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "VjKgYvWOVk2vJjrd",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "description": "black bean, lime, seaweed",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "QNrHe3sHUnPwYzs9",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "description": "herring, mussel, onion",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "xJdiqtYPs4xMF2yx",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "description": "hazelnut, elderberry, soft cheese",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "ezaMyxyDMnArEYNx",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "description": "bean, brown bread, brown bread",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "UMxo1jra4TM1368e",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "description": "river crab, almond, butter",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "2JgEkh7DxfBfrL4X",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "description": "wild garlic, mushroom, juniper",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "zfHFGjDsTITkJbUA",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "description": "hardtack, rendered fat, mustard seed",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "3qNfvcIIj2rWDb94",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "description": "cabbage, dark ale, potato",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "SQtdSKVLK4pu3awj",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "description": "trout, venison, venison",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "TtBvIdlT4S6X4JdA",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "description": "goat, flatbread, goat",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "ZFMLxztyrGfIiOut",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "description": "black bean, lime, seaweed",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    }
+  ],
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "table.unusual-ingredients",
+      "sourceVersion": "1.0.0",
+      "kind": "table",
+      "containsTierSFood": false,
+      "containsTierSClues": false,
+      "localizations": {
+        "de": {
+          "name": "Ungewöhnliche Zutaten",
+          "description": "Nahrungstabelle: Ungewöhnliche Zutaten."
+        }
+      }
+    }
+  }
+}

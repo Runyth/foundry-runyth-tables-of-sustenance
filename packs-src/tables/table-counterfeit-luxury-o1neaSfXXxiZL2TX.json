@@ -1,0 +1,410 @@
+{
+  "_id": "o1neaSfXXxiZL2TX",
+  "name": "Counterfeit Luxury Food",
+  "description": "Food table: Counterfeit Luxury Food.",
+  "results": [
+    {
+      "_id": "2Pljc0CPdTvHbyJV",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "description": "Counterfeit Velia Fortified Air-Dried Herring Loaf: cheaper staple, dyed garnish, and no mechanical effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "HlpuyoLERsYOeKgL",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "description": "Counterfeit Knot Orchard Fortified Stone-Ground Hazelnut Broth: cheaper staple, dyed garnish, and no mechanical effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "cryMtkXE1L5kgpg5",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "description": "Counterfeit Southbank Fortified River-Smoked Bean Dumpling: cheaper staple, dyed garnish, and no mechanical effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "kV2VOthIAaEhJ77q",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "description": "Counterfeit Calpheon Fortified Fine-Milled River Crab Bowl: cheaper staple, dyed garnish, and no mechanical effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "TC1yW94cxntbojwJ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "description": "Counterfeit Bellroot Hollow Fortified Stone-Simmered Wild Garlic Pottage: cheaper staple, dyed garnish, and no mechanical effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "LIelUtufnidM0wBW",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "description": "Counterfeit Banner Road Fortified Compressed Hardtack Pickle: cheaper staple, dyed garnish, and no mechanical effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "z1SuAD3Hz2CIczEp",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "description": "Counterfeit Coldhammer Fortified Cellar-Cured Cabbage Roll: cheaper staple, dyed garnish, and no mechanical effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "4eGV36PluQnGTIGr",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "description": "Counterfeit Rootwatch Fortified Berry-Cured Trout Custard: cheaper staple, dyed garnish, and no mechanical effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "pL0U7vrwNz3nqg1z",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "description": "Counterfeit Copper Shade Fortified Clay-Pot Cooked Goat Ale: cheaper staple, dyed garnish, and no mechanical effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "NyP41sPPmY1zQpBQ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "description": "Counterfeit Farwake Fortified Coconut-Braised Black Bean Filled Bun: cheaper staple, dyed garnish, and no mechanical effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "t4INDrhbeDKPnEtw",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "description": "Counterfeit Westkai Fortified Pan-Seared Herring Loaf: cheaper staple, dyed garnish, and no mechanical effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "97tQzVGFTDVSZYoq",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "description": "Counterfeit Hainbund Farms Fortified Cider-Braised Hazelnut Broth: cheaper staple, dyed garnish, and no mechanical effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "KuRpheQmNkLKniS3",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "description": "Counterfeit Heidel Fortified Braised Bean Dumpling: cheaper staple, dyed garnish, and no mechanical effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "wksHP6FMEerCQlxA",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "description": "Counterfeit North Gate Fortified Clarified River Crab Bowl: cheaper staple, dyed garnish, and no mechanical effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "WYhdWHKvZfJtyRSZ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "description": "Counterfeit Mist Garden Fortified Mortar-Ground Wild Garlic Pottage: cheaper staple, dyed garnish, and no mechanical effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "IpN2iHkhtHSrlLpd",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "description": "Counterfeit Third Milestone Fortified Wax-Sealed Hardtack Pickle: cheaper staple, dyed garnish, and no mechanical effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "tdsB1L4PlyPWzxZG",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "description": "Counterfeit Slate Cut Fortified Pickled Cabbage Roll: cheaper staple, dyed garnish, and no mechanical effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "Cem2ov1h9ABDAiLL",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "description": "Counterfeit Mosswater Fortified Resin-Smoked Trout Custard: cheaper staple, dyed garnish, and no mechanical effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "B0Xi0kV25hCMubsU",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "description": "Counterfeit Dustwell Fortified Sand-Baked Goat Ale: cheaper staple, dyed garnish, and no mechanical effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "wBVA1OMEJPohR9x7",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "description": "Counterfeit Copper Bay Fortified Lime-Cured Black Bean Filled Bun: cheaper staple, dyed garnish, and no mechanical effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    }
+  ],
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "table.counterfeit-luxury",
+      "sourceVersion": "1.0.0",
+      "kind": "table",
+      "containsTierSFood": false,
+      "containsTierSClues": false,
+      "localizations": {
+        "de": {
+          "name": "Gefälschte Luxusspeisen",
+          "description": "Nahrungstabelle: Gefälschte Luxusspeisen."
+        }
+      }
+    }
+  }
+}

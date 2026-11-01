@@ -1,0 +1,59 @@
+{
+  "_id": "8Ix9vgg1UvgFQ4YK",
+  "name": "Recipe: Mosswater Master-Cook’s Berry-Cured Trout Flatbread",
+  "pages": [
+    {
+      "_id": "QJjoNGMUCyvVZymA",
+      "name": "Recipe",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<h2>Mosswater Master-Cook’s Berry-Cured Trout Flatbread</h2><p><strong>Ingredients:</strong> trout, venison, venison</p><p><strong>Tools:</strong> cook’s utensils and region-appropriate heat source.</p><p><strong>Time:</strong> 4 hours</p><p><strong>Difficulty:</strong> expert</p><p><strong>Batch:</strong> 2 serving(s).</p><p><strong>Failure:</strong> ingredients are consumed; the result becomes a spoiled Tier 1 ration with no benefit.</p><p><strong>Partial success:</strong> half yield, no mechanical effect, safe to eat.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {}
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "recipe.food.evergreen-marches.3.018.mosswater-master-cooks-berry-cured-trout-flatbread",
+      "sourceVersion": "1.0.0",
+      "kind": "recipe",
+      "foodSourceId": "food.evergreen-marches.3.018.mosswater-master-cooks-berry-cured-trout-flatbread",
+      "requirements": {
+        "ingredients": [
+          "trout",
+          "venison",
+          "venison"
+        ],
+        "tools": [
+          "cook’s utensils"
+        ],
+        "skill": "Cooking",
+        "difficulty": "expert",
+        "time": "4 hours",
+        "authorization": null
+      },
+      "gmOnly": false,
+      "localizations": {
+        "de": {
+          "name": "Rezept: Mosswater Meisterkoch- Berry-Cured Forellen Flatbread",
+          "pageName": "Rezept",
+          "content": "<h2>Mosswater Meisterkoch- Berry-Cured Forellen Flatbread</h2><p><strong>Zutaten:</strong> Forelle, Wildbret, Wildbret</p><p><strong>Werkzeuge:</strong> Kochutensilien und eine regional geeignete Hitzequelle.</p><p><strong>Zeit:</strong> 4 hours</p><p><strong>Schwierigkeit:</strong> fachkundig</p><p><strong>Fehlschlag:</strong> Die Zutaten werden verbraucht; das Ergebnis wird zu einer verdorbenen Tier-1-Ration ohne Vorteil.</p><p><strong>Teilerfolg:</strong> Halbe Ausbeute, kein mechanischer Effekt, aber sicher essbar.</p>"
+        }
+      }
+    }
+  }
+}

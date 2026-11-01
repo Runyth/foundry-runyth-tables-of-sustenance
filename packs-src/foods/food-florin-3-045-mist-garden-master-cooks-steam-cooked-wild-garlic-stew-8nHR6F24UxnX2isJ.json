@@ -1,0 +1,114 @@
+{
+  "_id": "8nHR6F24UxnX2isJ",
+  "name": "Mist Garden Master-Cook’s Steam-Cooked Wild Garlic Stew",
+  "img": "modules/runyth-tables-of-sustenance/assets/food/florin-ration.svg",
+  "description": "<h3>Overview</h3><p>A crisp, fresh stew built around wild garlic, mushroom, and the steam-cooked technique common near Mist Garden.</p><h3>Origin</h3><p>Associated with Mist Garden in Florin Herbal Vale. Florin draws no sharp line between supper and remedy, but careful cooks distinguish nourishment from medicine and dosage from appetite.</p><h3>Availability</h3><p>Usually encountered in homes; availability is rare and strongest during lean season.</p><h3>Typical Consumers</h3><p>Most often eaten by elderly people, while hunters actively seek it out for its portability, familiarity, or social meaning.</p><h3>Preparation</h3><p>Prepared from wild garlic, mushroom, juniper using ordinary cookware and 4 hours of work. Its expected shelf life is 2 days.</p><h3>Cultural Meaning</h3><p>It signals noble circumstances in Florin Herbalists; serving it outside its normal context can read as hospitality, thrift, nostalgia, or quiet insult.</p><h3>Mechanical Effect</h3><p>For 8 hours, gain a +2 bonus to Insight checks. Only one Tier 3 food effect can be active at a time.</p><h3>Consumption and Cooldown</h3><p>One serving is consumed as an action or as part of a rest. Duration: 28800 seconds. No cooldown. Effects of the same tier follow the configured stacking rule.</p><h3>Imperial Status</h3><p>Imperial classification: approved medicinal preparation. Inspection focuses on provenance, repeatability, and whether the preparation is licensed.</p><section class=\"secret\"><h3>GM Notes</h3><p>Substitute another local stew if the ingredient is unavailable. Counterfeits usually replace wild garlic with cheaper grain or conceal spoilage with vinegar.</p></section>",
+  "unidentifiedDescription": "",
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "food.florin.3.045.mist-garden-master-cooks-steam-cooked-wild-garlic-stew",
+      "sourceVersion": "1.0.0",
+      "kind": "food",
+      "meta": {
+        "tier": "3",
+        "tierLabel": "Exceptional Cuisine",
+        "originRegion": "Florin Herbal Vale",
+        "originSettlement": "Mist Garden",
+        "culture": "Florin Herbalists",
+        "factionAssociation": [
+          "Forest Gatherers"
+        ],
+        "typicalVenue": [
+          "homes",
+          "hunting camps"
+        ],
+        "usualConsumers": [
+          "elderly people"
+        ],
+        "preferredConsumers": [
+          "hunters",
+          "regional factions"
+        ],
+        "avoidedBy": [
+          "religious communities"
+        ],
+        "socialClass": [
+          "noble"
+        ],
+        "professionAssociation": [
+          "elderly people"
+        ],
+        "priceCategory": "moderate",
+        "rarity": "rare",
+        "legality": "approved medicinal preparation",
+        "season": [
+          "lean season"
+        ],
+        "mealType": [
+          "ration"
+        ],
+        "servingTemperature": "hot",
+        "preservationMethod": "salted",
+        "preparationDifficulty": "expert",
+        "preparationTime": "4 hours",
+        "shelfLife": "2 days",
+        "ingredients": [
+          "wild garlic",
+          "mushroom",
+          "juniper"
+        ],
+        "dietaryProperties": [
+          "medicinal herb",
+          "vegetarian"
+        ],
+        "flavourProfile": [
+          "fresh",
+          "earthy"
+        ],
+        "texture": "crisp",
+        "alcoholic": false,
+        "nature": "medicinal",
+        "effectDurationSeconds": 28800,
+        "cooldownSeconds": 0,
+        "servings": 1,
+        "weight": 1.0,
+        "purchasePrice": {
+          "value": 7,
+          "denomination": "gp"
+        },
+        "suggestedAvailability": "rare",
+        "identificationStatus": "identified",
+        "preparationMethod": "steam-cooked",
+        "activeEffect": true
+      },
+      "mechanics": {
+        "tier": "3",
+        "effectId": "effect.food.florin.3.045.mist-garden-master-cooks-steam-cooked-wild-garlic-stew",
+        "summary": "For 8 hours, gain a +2 bonus to Insight checks. Only one Tier 3 food effect can be active at a time.",
+        "summaryDe": "Für 8 Stunden erhältst du +2 auf Motiv erkennen. Es kann nur ein Effekt einer Speise der Stufe 3 gleichzeitig aktiv sein.",
+        "durationSeconds": 28800,
+        "cooldownSeconds": 0,
+        "activation": "immediate",
+        "stackingGroup": "tier-3",
+        "permanent": false,
+        "duplicatePolicy": "replace-weaker",
+        "requiresConfirmation": true,
+        "effectIntents": [
+          {
+            "kind": "check-bonus",
+            "domain": "insight",
+            "amount": 2
+          }
+        ]
+      },
+      "localizations": {
+        "de": {
+          "name": "Mist Garden Meisterkoch- Steam-Cooked Bärlauch Stew",
+          "description": "<h3>Überblick</h3><p>Die Speise verbindet Bärlauch, Pilz, Wacholder mit der für Mist Garden typischen Zubereitung „dampfgegart“. Geschmack und Textur bleiben bodenständig und von den verfügbaren Vorräten geprägt.</p><h3>Herkunft</h3><p>Sie ist eng mit Mist Garden in der Region Florin Herbal Vale sowie mit der Kultur Florin Herbalists verbunden.</p><h3>Verfügbarkeit</h3><p>Gewöhnlich ist sie in Haushalten, Jagdlagern zu finden. Ihre Seltenheit gilt als selten; die beste Verfügbarkeit besteht während lean season.</p><h3>Typische Verbraucher</h3><p>Sie wird meist von älteren Menschen gegessen. Besonders geschätzt wird sie von Jägern, regionalen Fraktionen, weil Preis, Haltbarkeit, Geschmack oder gesellschaftliche Bedeutung zu deren Alltag passen.</p><h3>Zubereitung</h3><p>Benötigt werden Bärlauch, Pilz, Wacholder. Die Zubereitung gilt als fachkundig, dauert 4 hours und wird heiß serviert. Die erwartete Haltbarkeit beträgt 2 Tage.</p><h3>Kulturelle Bedeutung</h3><p>Innerhalb von Florin Herbalists steht die Speise vor allem für eine adlige Lebenslage. Außerhalb ihres üblichen Umfelds kann sie als Gastfreundschaft, Sparsamkeit, Erinnerung, Standeszeichen oder bewusste Kränkung verstanden werden.</p><h3>Mechanischer Effekt</h3><p>Für 8 Stunden erhältst du +2 auf Motiv erkennen. Es kann nur ein Effekt einer Speise der Stufe 3 gleichzeitig aktiv sein.</p><h3>Verzehr und Abklingzeit</h3><p>Eine Portion wird als Aktion oder im Rahmen einer Rast verzehrt. Effektdauer: 28800 Sekunden. Abklingzeit: keine. Stapelung und Einschränkungen folgen den Welteinstellungen und den stabilen Effektkennungen.</p><h3>Imperialer Status</h3><p>Imperiale Einstufung: zugelassene medizinische Zubereitung. Kontrollen prüfen Herkunft, Wiederholbarkeit, Lizenzierung und mögliche Grenzüberschreitungen von Körper, Identität, Erinnerung, Tod, Traum, Blut oder Geist.</p><section class=\"secret\"><h3>SL-Hinweise</h3><p>Zutaten können durch regional gleichwertige Vorräte ersetzt werden. Fälschungen verwenden meist billigere Grundnahrung, gefärbte Garnitur oder Gewürze, die Verderb verbergen.</p></section>",
+          "mechanicalEffect": "Für 8 Stunden erhältst du +2 auf Motiv erkennen. Es kann nur ein Effekt einer Speise der Stufe 3 gleichzeitig aktiv sein."
+        }
+      },
+      "contentSchema": "system-neutral-food-v1"
+    }
+  }
+}

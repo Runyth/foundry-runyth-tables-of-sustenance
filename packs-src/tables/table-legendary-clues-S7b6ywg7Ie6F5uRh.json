@@ -1,0 +1,220 @@
+{
+  "_id": "S7b6ywg7Ie6F5uRh",
+  "name": "Legendary Food Clues",
+  "description": "Food table: Legendary Food Clues.",
+  "results": [
+    {
+      "_id": "sZMCMWxXM3yQJO4L",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "description": "A rumour points toward Unbroken Green: Said to ripen only where a forest boundary has remained unbroken for thirty-three generations..",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "uUPgGObfiNEMAieW",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "description": "A rumour points toward Knot Orchard: A single silver-skinned pear appears after an orchard survives a moonless frost without fire..",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "QOtjgdUkMbG7j4yN",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "description": "A rumour points toward Westkai: The oyster forms around a coin lost during the first storm of a new imperial year..",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "U2EMC7qUGbSjlepS",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "description": "A rumour points toward Florin: A physician who refused an Imperial title cultivated one flawless root and left no written recipe..",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "uMzpoGj6TLT6VwKL",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "description": "A rumour points toward Black Road: Thirty-three black kernels were found fused into glass after a silent light crossed the desert..",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "0Uo6nZIH0b6U51GU",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "description": "A rumour points toward Ashen Post: Imperial doctrine calls it a symbolic replica; three sealed archives disagree on which loaf was copied..",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "Z1xGD6D20YNAQMYm",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "description": "A rumour points toward Deep Lantern: It is said to form in an ancient horned beast that sleeps beneath a mine until every lamp goes dark at once..",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "8OABPfAKTINJstz2",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "description": "A rumour points toward Calpheon: Every jar bears a date from before its orchard existed, and no two witnesses remember the cook’s face..",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "B96mSG3foUQ45eSx",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "description": "A rumour points toward Stormmarket: Brewed from leaves gathered during a winter when an entire coastal cemetery flowered green..",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "t0FXsBBDTpCwy2ms",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "description": "A rumour points toward Southbank: The honey is found in a hive built inside river glass created by a lightning strike..",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    }
+  ],
+  "formula": "1d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "table.legendary-clues",
+      "sourceVersion": "1.0.0",
+      "kind": "table",
+      "containsTierSFood": false,
+      "containsTierSClues": true,
+      "localizations": {
+        "de": {
+          "name": "Hinweise auf legendäre Nahrung",
+          "description": "Nahrungstabelle: Hinweise auf legendäre Nahrung."
+        }
+      }
+    }
+  }
+}

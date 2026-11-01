@@ -1,0 +1,410 @@
+{
+  "runyth-tables-of-sustenance": {
+    "Common": {
+      "All": "All",
+      "Any": "Any",
+      "None": "None",
+      "Yes": "Yes",
+      "No": "No",
+      "Permanent": "Permanent",
+      "Preview": "Preview",
+      "Add": "Add",
+      "Consume": "Consume",
+      "Cancel": "Cancel",
+      "Save": "Save",
+      "Remove": "Remove",
+      "Clear": "Clear",
+      "ServeSelected": "Serve selected",
+      "Hidden": "Hidden",
+      "Actions": "Actions",
+      "Previous": "Previous",
+      "Next": "Next",
+      "ResetSize": "Reset size",
+      "ResetPosition": "Reset position"
+    },
+    "Time": {
+      "Days": "{count} days",
+      "Hours": "{count} hours",
+      "Minutes": "{count} minutes",
+      "Seconds": "{count} seconds"
+    },
+    "Tier": {
+      "1": "Tier 1 — Sustenance",
+      "2": "Tier 2 — Fortifying Food",
+      "3": "Tier 3 — Exceptional Cuisine",
+      "4": "Tier 4 — Masterwork Feast",
+      "S": "Tier S — Legendary Sustenance"
+    },
+    "Dashboard": {
+      "Title": "Runyth Tables of Sustenance",
+      "Intro": "Browse 335 grounded foods, assemble meals, generate coherent menus, and manage packaged content.",
+      "BrowserHint": "Search by region, venue, consumer, tier, legality, ingredients, and effects.",
+      "GeneratorHint": "Build regionally coherent tavern, market, military, household, prison, ship, or ceremonial menus.",
+      "ComposerHint": "Compose narrative meals while enforcing configured effect-stacking rules.",
+      "ManagerHint": "Import and update stable, versioned world-compendium copies without overwriting protected edits.",
+      "Version": "Module version {version}",
+      "LibraryStatus": "Content and extension status",
+      "Providers": "Providers",
+      "ExtensionFoods": "Extension foods",
+      "PlayTools": "Play tools",
+      "GMTools": "GM tools",
+      "TransferHint": "Export a portable world configuration or safely import settings, image overrides, and module-managed content.",
+      "DiagnosticsHint": "Inspect compatibility, packaged content, world compendia, image overrides, duplicate IDs, and complementary providers.",
+      "System": "Game system {version}",
+      "MechanicsReady": "Mechanical adapter ready",
+      "NoAdapter": "No adapter",
+      "MechanicsUnavailable": "Browsing and narrative tools remain available; inventory/effects are disabled."
+    },
+    "Sidebar": {
+      "Browser": "Foods",
+      "Dashboard": "Sustenance"
+    },
+    "Browser": {
+      "Title": "Food Browser",
+      "Search": "Full-text search",
+      "SearchPlaceholder": "Name, ingredient, origin, culture, consumer…",
+      "Tier": "Tier",
+      "Region": "Region",
+      "Venue": "Venue",
+      "Consumer": "Consumer",
+      "Culture": "Culture",
+      "Faction": "Faction",
+      "SocialClass": "Social class",
+      "Rarity": "Rarity",
+      "Price": "Price",
+      "Legality": "Imperial status",
+      "Nature": "Nature",
+      "Dietary": "Dietary properties",
+      "ActiveEffect": "Mechanical effect",
+      "Cooldown": "Cooldown",
+      "Sort": "Sort",
+      "Name": "Name",
+      "Origin": "Origin",
+      "PreparationTime": "Preparation time",
+      "Duration": "Effect duration",
+      "Reset": "Reset filters",
+      "SavePreset": "Save preset",
+      "PresetName": "Preset name",
+      "Presets": "Saved presets",
+      "ResultCount": "{count} matching foods",
+      "CardView": "Card view",
+      "TableView": "Table view",
+      "Servings": "Servings",
+      "Page": "Page {page} of {pages}",
+      "AddedToActor": "Added {food} to {actor}.",
+      "ChangeImage": "Change image",
+      "ResetImage": "Reset packaged image"
+    },
+    "Generator": {
+      "Title": "Shop and Menu Generator",
+      "Context": "Venue context",
+      "Settlement": "Settlement",
+      "SocialClass": "Social class",
+      "CulturalInfluence": "Cultural influence",
+      "Prosperity": "Prosperity",
+      "Poor": "Poor",
+      "Ordinary": "Ordinary",
+      "Wealthy": "Wealthy",
+      "Scarcity": "Scarcity",
+      "Normal": "Normal",
+      "Severe": "Severe",
+      "MilitaryPresence": "Military presence",
+      "Heavy": "Heavy",
+      "Output": "Output rules",
+      "Count": "Number of dishes",
+      "MaxTier": "Maximum tier",
+      "PriceMultiplier": "Price multiplier",
+      "IncludeDrinks": "Include drinks",
+      "IncludeIllicit": "Include illicit food",
+      "IncludeLegendary": "Include Tier S (separately warned setting required)",
+      "Generate": "Generate menu",
+      "GeneratedMenu": "Generated Menu",
+      "CreateJournal": "Create journal",
+      "MenuPage": "Menu",
+      "Empty": "Choose a context and generate a menu."
+    },
+    "Manager": {
+      "Title": "Content Management",
+      "ContentTypes": "Content types",
+      "Foods": "Foods",
+      "Recipes": "Recipes",
+      "Tables": "Roll tables",
+      "Categories": "Meal categories",
+      "EmptyMeansAll": "No selection means all.",
+      "PreserveEdited": "Preserve user-edited imported entries",
+      "LocalizedImport": "Import names and descriptions in the active language",
+      "Import": "Import or update",
+      "ImportComplete": "Content import completed.",
+      "RemoveTitle": "Remove imported module content",
+      "RemoveWarning": "This removes selected module-managed entries from their world compendia. Packaged source data remains available.",
+      "PreviewTitle": "Change preview",
+      "Create": "Create",
+      "Update": "Update",
+      "Preserve": "Preserve edits",
+      "Unchanged": "Unchanged",
+      "Report": "Operation report",
+      "ForceRestore": "Force restoration from packaged sources and overwrite matching imported edits.",
+      "AdapterRequiredForFoods": "Food Item import requires a compatible game-system adapter. Recipes and roll tables remain importable."
+    },
+    "Composer": {
+      "Title": "Meal Composer",
+      "Intro": "Choose up to six meal components. Side dishes are narrative by default unless the selected stacking rule permits another effect.",
+      "Slot": {
+        "main": "Main dish",
+        "side": "Side",
+        "staple": "Bread or staple",
+        "drink": "Drink",
+        "dessert": "Dessert",
+        "supplement": "Seasoning or supplement"
+      },
+      "StackingRule": "Meal stacking rule",
+      "OnePerTier": "One effect per tier",
+      "AllEffects": "All compatible effects",
+      "NarrativeOnly": "Narrative only",
+      "EffectPreview": "Selected components",
+      "AppliedEffects": "Effects that will apply",
+      "NoFood": "No components selected.",
+      "NoMechanicalEffects": "This meal applies no mechanical food effect."
+    },
+    "Consume": {
+      "ConfirmTitle": "Confirm consumption",
+      "CooldownRemaining": "Cooldown active for {duration}",
+      "Available": "Available",
+      "LegendaryWarning": "This legendary food records a permanent actor benefit. It is intended as a rare narrative reward, not routine progression.",
+      "OverrideEnabled": "GM override is enabled for this operation.",
+      "Duration": "Effect duration: {duration}",
+      "DietaryTitle": "Dietary conflict",
+      "DietaryWarning": "{actor} has a recorded restriction matching: {conflicts}.",
+      "ContinueAnyway": "Consume anyway"
+    },
+    "Chat": {
+      "ConsumedTerse": "{actor} consumes {food}.",
+      "ConsumedBy": "Consumed by {actor}",
+      "PermanentRecorded": "A stable permanent legendary benefit was recorded on the actor.",
+      "RestActivation": "Activation timing: {rest} rest",
+      "RestHealingApplied": "{actor} recovers {amount} additional Hit Point from legendary sustenance."
+    },
+    "Errors": {
+      "GMOnly": "Only a Game Master can perform this operation.",
+      "NotFood": "The selected document is not a Tables of Sustenance food item.",
+      "NoActorPermission": "You do not control the target actor.",
+      "PlayerConsumptionDisabled": "Player self-consumption is disabled.",
+      "ServingOthersDisabled": "Players are not permitted to serve actors they do not own.",
+      "NotEnoughServings": "Only {available} servings remain; {requested} are required.",
+      "CooldownActive": "This actor is still within a Tier 4 cooldown.",
+      "DuplicateLegendary": "This actor already has this permanent legendary benefit.",
+      "NoTargets": "Select at least one token or assign a user character.",
+      "LegendaryGenerationDisabled": "Legendary generation is disabled in world settings. Tier S food is never included by default.",
+      "InvalidRecipeImport": "The recipe import file is invalid.",
+      "SocketTimeout": "No active Game Master completed the serving request.",
+      "InvalidSocketUser": "The requesting user is not active.",
+      "UnsupportedSystem": "No compatible system adapter is active. Browsing and worldbuilding remain available; inventory materialization and mechanical effects require an adapter for the current game system.",
+      "SystemAdapterMissing": "No system adapter is active for {system}. Food browsing, menus, recipes, lore, and narrative consumption remain available; inventory materialisation and mechanical food effects require a complementary system module.",
+      "SystemAdapterCapabilityMissing": "The active adapter for {system} does not implement required capability: {capability}.",
+      "MechanicalConsumptionUnavailable": "This food has a mechanical benefit that cannot be applied safely in the current system configuration, so no serving was consumed.",
+      "InventoryFoodRequired": "Players can consume or serve only food Items held in an Actor inventory. The catalogue itself cannot create free servings."
+    },
+    "Settings": {
+      "mechanicsEnabled": {
+        "Name": "Mechanical food effects",
+        "Hint": "Apply mechanics through the active game-system adapter and retain stable permanent-benefit records in the core."
+      },
+      "hungerThirstCompatibility": {
+        "Name": "Hunger and thirst compatibility",
+        "Hint": "Expose nourishing and hydration flags for compatible modules."
+      },
+      "tierSPermanentEffects": {
+        "Name": "Tier S permanent effects",
+        "Hint": "Permit legendary foods to record tiny permanent benefits."
+      },
+      "playerSelfConsumption": {
+        "Name": "Player self-consumption",
+        "Hint": "Allow players to consume food for actors they own."
+      },
+      "playerServingOthers": {
+        "Name": "Players may serve others",
+        "Hint": "Allow player requests to be routed to an active GM for actors they do not own."
+      },
+      "legendaryConfirmation": {
+        "Name": "Legendary confirmation",
+        "Hint": "Require a prominent confirmation before Tier S consumption."
+      },
+      "automaticServingReduction": {
+        "Name": "Reduce servings automatically",
+        "Hint": "Decrease remaining servings after successful consumption."
+      },
+      "deleteEmptyItems": {
+        "Name": "Delete empty disposable items",
+        "Hint": "Delete actor food items after their final serving is consumed."
+      },
+      "hideImperialClassifications": {
+        "Name": "Hide Imperial classifications",
+        "Hint": "Hide regulated classifications from non-GM browser views."
+      },
+      "legendaryGeneration": {
+        "Name": "Enable legendary menu generation",
+        "Hint": "Danger: allow Tier S foods to enter explicitly enabled generated menus."
+      },
+      "recipesEnabled": {
+        "Name": "Recipe system",
+        "Hint": "Enable recipe learning, checking, importing, and exporting."
+      },
+      "spoilageEnabled": {
+        "Name": "Spoilage",
+        "Hint": "Enable spoilage metadata and compatibility hooks."
+      },
+      "dietaryRestrictions": {
+        "Name": "Dietary restrictions",
+        "Hint": "Warn when actor dietary flags conflict with food metadata."
+      },
+      "preserveEditedImports": {
+        "Name": "Preserve edited imports",
+        "Hint": "Do not overwrite world-compendium entries changed after import."
+      },
+      "priceScale": {
+        "Name": "World price scale",
+        "Hint": "Scale generated menu prices without changing packaged source data."
+      },
+      "tier2Stacking": {
+        "Name": "Tier 2 stacking",
+        "Hint": "Choose how multiple Tier 2 food effects interact."
+      },
+      "tier3Stacking": {
+        "Name": "Tier 3 stacking",
+        "Hint": "Choose how multiple Tier 3 food effects interact."
+      },
+      "tier4CooldownRule": {
+        "Name": "Tier 4 cooldown rule",
+        "Hint": "Choose whether all Tier 4 meals or only the same dish are blocked."
+      },
+      "chatDetail": {
+        "Name": "Chat-message detail",
+        "Hint": "Choose the amount of consumption information posted to chat."
+      },
+      "weightUnits": {
+        "Name": "Weight display",
+        "Hint": "Choose Imperial or metric display in module interfaces."
+      },
+      "Stacking": {
+        "Strongest": "Only strongest",
+        "One": "One effect at a time",
+        "Allow": "Allow compatible effects"
+      },
+      "Cooldown": {
+        "Strict": "One Tier 4 per Long Rest plus dish cooldown",
+        "SameDish": "Only enforce the dish cooldown",
+        "Advisory": "Warn but allow"
+      },
+      "Chat": {
+        "Terse": "Terse",
+        "Standard": "Standard",
+        "Detailed": "Detailed"
+      },
+      "Weight": {
+        "Imperial": "Imperial",
+        "Metric": "Metric"
+      },
+      "Dashboard": {
+        "Name": "Tables of Sustenance dashboard",
+        "Label": "Open dashboard",
+        "Hint": "Open the food browser, menu generator, meal composer, and content manager."
+      },
+      "ContentManager": {
+        "Name": "Tables of Sustenance content",
+        "Label": "Manage content",
+        "Hint": "Preview, import, update, restore, and remove module content."
+      },
+      "ImportExport": {
+        "Name": "Tables of Sustenance import / export",
+        "Label": "Open import / export",
+        "Hint": "Export or import world settings, image overrides, and exact module-managed content."
+      },
+      "Diagnostics": {
+        "Name": "Tables of Sustenance diagnostics",
+        "Label": "Open diagnostics",
+        "Hint": "Inspect runtime compatibility, content integrity, imported data, image overrides, and complementary providers."
+      },
+      "WindowGeometry": {
+        "Name": "Tables of Sustenance window geometry",
+        "Label": "Reset window geometry",
+        "Hint": "Reset client-specific saved sizes and positions for module windows."
+      }
+    },
+    "Benefits": {
+      "Title": "Food Benefits and Cooldowns",
+      "Intro": "Review permanent legendary benefits and Tier 4 cooldowns. Contextual bonuses must be primed before the relevant roll; the module then adds the bonus and clears it after that roll.",
+      "Primed": "Primed for the next matching roll:",
+      "Unprime": "Cancel",
+      "Permanent": "Permanent legendary benefits",
+      "Prime": "Prime next roll",
+      "None": "No permanent legendary benefits are recorded.",
+      "Cooldowns": "Active Tier 4 cooldowns",
+      "NoCooldowns": "No active Tier 4 cooldowns.",
+      "ClearCooldowns": "Clear all cooldowns",
+      "Applied": "Applied +{bonus} from {name} to the roll."
+    },
+    "Transfer": {
+      "Title": "Import / Export",
+      "Intro": "Move module configuration, image overrides, and exact module-managed content between worlds without treating unrelated Documents as module data.",
+      "ExportTitle": "Export",
+      "ExportHint": "Create a portable JSON snapshot. Client-specific window geometry is intentionally excluded.",
+      "Settings": "World settings",
+      "Images": "Image overrides",
+      "ManagedContent": "Managed compendium content",
+      "Export": "Export JSON",
+      "ImportTitle": "Import",
+      "ImportHint": "Choose an export produced by this module. The preview is read-only until you explicitly apply it.",
+      "ChooseFile": "Choose JSON file",
+      "Preview": "Import preview",
+      "SourceVersion": "Source module version",
+      "OverwriteContent": "Overwrite matching module-managed entries",
+      "Apply": "Apply import",
+      "ImportWarning": "Import only writes this module’s settings, image overrides, and Documents carrying exact Tables of Sustenance provenance. Existing matching content is preserved unless overwrite is selected.",
+      "ImportComplete": "Import completed.",
+      "InvalidFile": "The selected file is not a valid Tables of Sustenance export.",
+      "UnsupportedSchema": "This export uses an unsupported schema version."
+    },
+    "Diagnostics": {
+      "Title": "Diagnostics",
+      "Intro": "Validate the active runtime, content library, world compendia, image overrides, and registered complementary providers.",
+      "Run": "Run diagnostics",
+      "Export": "Export report",
+      "Errors": "Errors",
+      "Warnings": "Warnings",
+      "ImageOverrides": "Image overrides",
+      "Environment": "Environment",
+      "Generated": "Generated",
+      "Findings": "Findings",
+      "NoFindings": "No diagnostic problems were found.",
+      "NotRun": "Diagnostics have not been run yet.",
+      "FoundryVersion": "Foundry {version} is outside the supported v13 line.",
+      "SystemAdapter": "No complementary system adapter is active for {system}; system-neutral core features are available, but Item materialisation and mechanics are unavailable.",
+      "FoodCount": "Only {count} foods are available; at least 335 packaged or registered foods were expected.",
+      "LegendaryCount": "Only {count} Tier S foods are available.",
+      "DuplicateSourceId": "{kind} contains duplicate stable source IDs.",
+      "ProviderMissing": "Registered provider {provider} has no installed module {module}.",
+      "ContentLoad": "Content loading failed: {message}",
+      "PackIndex": "Could not index {kind}: {message}",
+      "ImageInvalid": "Image override {sourceId} is incomplete.",
+      "ImageExtension": "Image override {sourceId} uses a path whose extension is not a recognised web image type.",
+      "FoodPackSystemMismatch": "Imported food Items were materialised for {systems}, but the current world system is {system}. Re-import packaged foods through the active adapter."
+    },
+    "WindowGeometry": {
+      "Title": "Window geometry",
+      "Intro": "Reset saved client-specific window sizes or positions without changing world content or module settings.",
+      "Saved": "Saved geometry exists for {count} module windows.",
+      "ResetAll": "Reset size and position",
+      "SizeReset": "Saved module window sizes were reset.",
+      "PositionReset": "Saved module window positions were reset.",
+      "AllReset": "All saved module window geometry was reset."
+    },
+    "Detail": {
+      "Title": "Food details",
+      "Missing": "The requested food definition could not be found.",
+      "Ingredients": "Ingredients",
+      "Dietary": "Dietary properties",
+      "ShelfLife": "Shelf life",
+      "NoAdapter": "No compatible system adapter is active. Lore and metadata are fully available; inventory and mechanical application require an adapter."
+    }
+  }
+}

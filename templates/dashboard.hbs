@@ -1,0 +1,36 @@
+<div class="obts-dashboard-scroll">
+  <header class="obts-hero">
+    <div class="obts-hero-icon"><i class="fa-solid fa-utensils" aria-hidden="true"></i></div>
+    <div class="obts-hero-copy"><h1>{{localize "runyth-tables-of-sustenance.Dashboard.Title"}}</h1><p>{{localize "runyth-tables-of-sustenance.Dashboard.Intro"}}</p></div>
+    <div class="obts-version-badge">v{{moduleVersion}}</div>
+  </header>
+  <section class="obts-status-strip" aria-label="{{localize 'runyth-tables-of-sustenance.Dashboard.LibraryStatus'}}">
+    <span><strong>{{foodCount}}</strong>{{localize "runyth-tables-of-sustenance.Manager.Foods"}}</span>
+    <span><strong>{{recipeCount}}</strong>{{localize "runyth-tables-of-sustenance.Manager.Recipes"}}</span>
+    <span><strong>{{tableCount}}</strong>{{localize "runyth-tables-of-sustenance.Manager.Tables"}}</span>
+    <span><strong>{{providerCount}}</strong>{{localize "runyth-tables-of-sustenance.Dashboard.Providers"}}</span>
+    <span><strong>{{systemTitle}}</strong>{{localize "runyth-tables-of-sustenance.Dashboard.System" version=systemVersion}}</span>
+    {{#if adapterAvailable}}<span class="obts-status-good"><strong>{{adapterName}}</strong>{{localize "runyth-tables-of-sustenance.Dashboard.MechanicsReady"}}</span>{{else}}<span class="obts-status-warning"><strong>{{localize "runyth-tables-of-sustenance.Dashboard.NoAdapter"}}</strong>{{localize "runyth-tables-of-sustenance.Dashboard.MechanicsUnavailable"}}</span>{{/if}}
+    <span><strong>{{extensionFoodCount}}</strong>{{localize "runyth-tables-of-sustenance.Dashboard.ExtensionFoods"}}</span>
+  </section>
+
+  <section class="obts-dashboard-section">
+    <h2>{{localize "runyth-tables-of-sustenance.Dashboard.PlayTools"}}</h2>
+    <div class="obts-dashboard-grid">
+      <button type="button" class="obts-dashboard-card" data-action="browser"><span class="obts-dashboard-icon"><i class="fa-solid fa-bowl-food"></i></span><span class="obts-dashboard-copy"><strong>{{localize "runyth-tables-of-sustenance.Browser.Title"}}</strong><small>{{localize "runyth-tables-of-sustenance.Dashboard.BrowserHint"}}</small></span><i class="fa-solid fa-chevron-right obts-dashboard-chevron" aria-hidden="true"></i></button>
+      <button type="button" class="obts-dashboard-card" data-action="generator"><span class="obts-dashboard-icon"><i class="fa-solid fa-shop"></i></span><span class="obts-dashboard-copy"><strong>{{localize "runyth-tables-of-sustenance.Generator.Title"}}</strong><small>{{localize "runyth-tables-of-sustenance.Dashboard.GeneratorHint"}}</small></span><i class="fa-solid fa-chevron-right obts-dashboard-chevron" aria-hidden="true"></i></button>
+      <button type="button" class="obts-dashboard-card" data-action="composer"><span class="obts-dashboard-icon"><i class="fa-solid fa-plate-wheat"></i></span><span class="obts-dashboard-copy"><strong>{{localize "runyth-tables-of-sustenance.Composer.Title"}}</strong><small>{{localize "runyth-tables-of-sustenance.Dashboard.ComposerHint"}}</small></span><i class="fa-solid fa-chevron-right obts-dashboard-chevron" aria-hidden="true"></i></button>
+    </div>
+  </section>
+
+  {{#if isGM}}<section class="obts-dashboard-section">
+    <h2>{{localize "runyth-tables-of-sustenance.Dashboard.GMTools"}}</h2>
+    <div class="obts-dashboard-grid">
+      <button type="button" class="obts-dashboard-card" data-action="manager"><span class="obts-dashboard-icon"><i class="fa-solid fa-box-archive"></i></span><span class="obts-dashboard-copy"><strong>{{localize "runyth-tables-of-sustenance.Manager.Title"}}</strong><small>{{localize "runyth-tables-of-sustenance.Dashboard.ManagerHint"}}</small></span><i class="fa-solid fa-chevron-right obts-dashboard-chevron" aria-hidden="true"></i></button>
+      <button type="button" class="obts-dashboard-card" data-action="transfer"><span class="obts-dashboard-icon"><i class="fa-solid fa-right-left"></i></span><span class="obts-dashboard-copy"><strong>{{localize "runyth-tables-of-sustenance.Transfer.Title"}}</strong><small>{{localize "runyth-tables-of-sustenance.Dashboard.TransferHint"}}</small></span><i class="fa-solid fa-chevron-right obts-dashboard-chevron" aria-hidden="true"></i></button>
+      <button type="button" class="obts-dashboard-card" data-action="diagnostics"><span class="obts-dashboard-icon"><i class="fa-solid fa-stethoscope"></i></span><span class="obts-dashboard-copy"><strong>{{localize "runyth-tables-of-sustenance.Diagnostics.Title"}}</strong><small>{{localize "runyth-tables-of-sustenance.Dashboard.DiagnosticsHint"}}</small></span><i class="fa-solid fa-chevron-right obts-dashboard-chevron" aria-hidden="true"></i></button>
+    </div>
+  </section>{{/if}}
+
+  <footer class="obts-dashboard-footer"><span>{{localize "runyth-tables-of-sustenance.Dashboard.Version" version=moduleVersion}}</span><div><button type="button" data-action="resetSize"><i class="fa-solid fa-expand"></i><span>{{localize "runyth-tables-of-sustenance.Common.ResetSize"}}</span></button><button type="button" data-action="resetPosition"><i class="fa-solid fa-crosshairs"></i><span>{{localize "runyth-tables-of-sustenance.Common.ResetPosition"}}</span></button></div></footer>
+</div>

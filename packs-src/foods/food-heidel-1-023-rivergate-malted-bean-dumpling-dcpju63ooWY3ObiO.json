@@ -1,0 +1,106 @@
+{
+  "_id": "dcpju63ooWY3ObiO",
+  "name": "Rivergate Malted Bean Dumpling",
+  "img": "modules/runyth-tables-of-sustenance/assets/food/heidel-medicinal-preparation.svg",
+  "description": "<h3>Overview</h3><p>A silky, sweet dumpling built around bean, brown bread, and the malted technique common near Rivergate.</p><h3>Origin</h3><p>Associated with Rivergate in Heidel Riverlands. Heidel cuisine is practical, heavy, and shaped by barges, garrisons, cattle yards, and the river’s dependable traffic.</p><h3>Availability</h3><p>Usually encountered in homes; availability is common and strongest during autumn.</p><h3>Typical Consumers</h3><p>Most often eaten by Imperial officials, while merchants actively seek it out for its portability, familiarity, or social meaning.</p><h3>Preparation</h3><p>Prepared from bean, brown bread, brown bread using ordinary cookware and 30 minutes of work. Its expected shelf life is one season.</p><h3>Cultural Meaning</h3><p>It signals middling circumstances in Heidel River Culture; serving it outside its normal context can read as hospitality, thrift, nostalgia, or quiet insult.</p><h3>Mechanical Effect</h3><p>No direct statistical benefit. It counts as one nourishing serving for optional ration, hunger, thirst, or rest integrations.</p><h3>Consumption and Cooldown</h3><p>One serving is consumed as an action or as part of a rest. Duration: 0 seconds. No cooldown. Effects of the same tier follow the configured stacking rule.</p><h3>Imperial Status</h3><p>Imperial classification: ordinary provision. Inspection focuses on provenance, repeatability, and whether the preparation is licensed.</p><section class=\"secret\"><h3>GM Notes</h3><p>Substitute another local dumpling if the ingredient is unavailable. Counterfeits usually replace bean with cheaper grain or conceal spoilage with vinegar.</p></section>",
+  "unidentifiedDescription": "",
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "food.heidel.1.023.rivergate-malted-bean-dumpling",
+      "sourceVersion": "1.0.0",
+      "kind": "food",
+      "meta": {
+        "tier": "1",
+        "tierLabel": "Sustenance",
+        "originRegion": "Heidel Riverlands",
+        "originSettlement": "Rivergate",
+        "culture": "Heidel River Culture",
+        "factionAssociation": [
+          "River Wardens"
+        ],
+        "typicalVenue": [
+          "homes"
+        ],
+        "usualConsumers": [
+          "Imperial officials"
+        ],
+        "preferredConsumers": [
+          "merchants"
+        ],
+        "avoidedBy": [
+          "labourers"
+        ],
+        "socialClass": [
+          "middling"
+        ],
+        "professionAssociation": [
+          "Imperial officials"
+        ],
+        "priceCategory": "cheap",
+        "rarity": "common",
+        "legality": "ordinary provision",
+        "season": [
+          "autumn"
+        ],
+        "mealType": [
+          "medicinal preparation"
+        ],
+        "servingTemperature": "hot",
+        "preservationMethod": "dried",
+        "preparationDifficulty": "simple",
+        "preparationTime": "30 minutes",
+        "shelfLife": "one season",
+        "ingredients": [
+          "bean",
+          "brown bread",
+          "brown bread"
+        ],
+        "dietaryProperties": [
+          "gluten",
+          "vegetarian"
+        ],
+        "flavourProfile": [
+          "sweet",
+          "earthy"
+        ],
+        "texture": "silky",
+        "alcoholic": false,
+        "nature": "mundane",
+        "effectDurationSeconds": 0,
+        "cooldownSeconds": 0,
+        "servings": 1,
+        "weight": 0.75,
+        "purchasePrice": {
+          "value": 8,
+          "denomination": "cp"
+        },
+        "suggestedAvailability": "common",
+        "identificationStatus": "identified",
+        "preparationMethod": "malted",
+        "activeEffect": false
+      },
+      "mechanics": {
+        "tier": "1",
+        "effectId": "effect.food.heidel.1.023.rivergate-malted-bean-dumpling",
+        "summary": "No direct statistical benefit. It counts as one nourishing serving for optional ration, hunger, thirst, or rest integrations.",
+        "summaryDe": "Kein direkter statistischer Vorteil. Es zählt als eine nahrhafte Portion für optionale Rations-, Hunger-, Durst- oder Rastintegrationen.",
+        "durationSeconds": 0,
+        "cooldownSeconds": 0,
+        "activation": "immediate",
+        "stackingGroup": "tier-1",
+        "permanent": false,
+        "duplicatePolicy": "replace-weaker",
+        "requiresConfirmation": false,
+        "effectIntents": []
+      },
+      "localizations": {
+        "de": {
+          "name": "Rivergate Malted Bohnen Kloß",
+          "description": "<h3>Überblick</h3><p>Die Speise verbindet Bohne, Graubrot, Graubrot mit der für Rivergate typischen Zubereitung „gemälzt“. Geschmack und Textur bleiben bodenständig und von den verfügbaren Vorräten geprägt.</p><h3>Herkunft</h3><p>Sie ist eng mit Rivergate in der Region Heidel Riverlands sowie mit der Kultur Heidel River Culture verbunden.</p><h3>Verfügbarkeit</h3><p>Gewöhnlich ist sie in Haushalten zu finden. Ihre Seltenheit gilt als häufig; die beste Verfügbarkeit besteht während Herbst.</p><h3>Typische Verbraucher</h3><p>Sie wird meist von imperialen Beamten gegessen. Besonders geschätzt wird sie von Händlern, weil Preis, Haltbarkeit, Geschmack oder gesellschaftliche Bedeutung zu deren Alltag passen.</p><h3>Zubereitung</h3><p>Benötigt werden Bohne, Graubrot, Graubrot. Die Zubereitung gilt als einfach, dauert 30 minutes und wird heiß serviert. Die erwartete Haltbarkeit beträgt eine Jahreszeit.</p><h3>Kulturelle Bedeutung</h3><p>Innerhalb von Heidel River Culture steht die Speise vor allem für eine middlinge Lebenslage. Außerhalb ihres üblichen Umfelds kann sie als Gastfreundschaft, Sparsamkeit, Erinnerung, Standeszeichen oder bewusste Kränkung verstanden werden.</p><h3>Mechanischer Effekt</h3><p>Kein direkter statistischer Vorteil. Es zählt als eine nahrhafte Portion für optionale Rations-, Hunger-, Durst- oder Rastintegrationen.</p><h3>Verzehr und Abklingzeit</h3><p>Eine Portion wird als Aktion oder im Rahmen einer Rast verzehrt. Effektdauer: 0 Sekunden. Abklingzeit: keine. Stapelung und Einschränkungen folgen den Welteinstellungen und den stabilen Effektkennungen.</p><h3>Imperialer Status</h3><p>Imperiale Einstufung: gewöhnlicher Proviant. Kontrollen prüfen Herkunft, Wiederholbarkeit, Lizenzierung und mögliche Grenzüberschreitungen von Körper, Identität, Erinnerung, Tod, Traum, Blut oder Geist.</p><section class=\"secret\"><h3>SL-Hinweise</h3><p>Zutaten können durch regional gleichwertige Vorräte ersetzt werden. Fälschungen verwenden meist billigere Grundnahrung, gefärbte Garnitur oder Gewürze, die Verderb verbergen.</p></section>",
+          "mechanicalEffect": "Kein direkter statistischer Vorteil. Es zählt als eine nahrhafte Portion für optionale Rations-, Hunger-, Durst- oder Rastintegrationen."
+        }
+      },
+      "contentSchema": "system-neutral-food-v1"
+    }
+  }
+}

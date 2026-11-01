@@ -1,0 +1,59 @@
+{
+  "_id": "G96EWDcEmRPBWkrc",
+  "name": "Recipe: North Gate Fortified Layered River Crab Bowl",
+  "pages": [
+    {
+      "_id": "0cnTywt517pegWva",
+      "name": "Recipe",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<h2>North Gate Fortified Layered River Crab Bowl</h2><p><strong>Ingredients:</strong> river crab, almond, butter</p><p><strong>Tools:</strong> cook’s utensils and region-appropriate heat source.</p><p><strong>Time:</strong> 1 hour</p><p><strong>Difficulty:</strong> trained</p><p><strong>Batch:</strong> 1 serving(s).</p><p><strong>Failure:</strong> ingredients are consumed; the result becomes a spoiled Tier 1 ration with no benefit.</p><p><strong>Partial success:</strong> half yield, no mechanical effect, safe to eat.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {}
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "recipe.food.calpheon.2.044.north-gate-fortified-layered-river-crab-bowl",
+      "sourceVersion": "1.0.0",
+      "kind": "recipe",
+      "foodSourceId": "food.calpheon.2.044.north-gate-fortified-layered-river-crab-bowl",
+      "requirements": {
+        "ingredients": [
+          "river crab",
+          "almond",
+          "butter"
+        ],
+        "tools": [
+          "cook’s utensils"
+        ],
+        "skill": "Cooking",
+        "difficulty": "trained",
+        "time": "1 hour",
+        "authorization": null
+      },
+      "gmOnly": false,
+      "localizations": {
+        "de": {
+          "name": "Rezept: North Gate Stärkender Layered Flusskrebs Schale",
+          "pageName": "Rezept",
+          "content": "<h2>North Gate Stärkender Layered Flusskrebs Schale</h2><p><strong>Zutaten:</strong> Flusskrebs, Mandel, Butter</p><p><strong>Werkzeuge:</strong> Kochutensilien und eine regional geeignete Hitzequelle.</p><p><strong>Zeit:</strong> 1 hour</p><p><strong>Schwierigkeit:</strong> geübt</p><p><strong>Fehlschlag:</strong> Die Zutaten werden verbraucht; das Ergebnis wird zu einer verdorbenen Tier-1-Ration ohne Vorteil.</p><p><strong>Teilerfolg:</strong> Halbe Ausbeute, kein mechanischer Effekt, aber sicher essbar.</p>"
+        }
+      }
+    }
+  }
+}

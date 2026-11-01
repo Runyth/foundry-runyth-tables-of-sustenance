@@ -1,0 +1,116 @@
+{
+  "_id": "H1qeG8JFVhoXKm4i",
+  "name": "Stormmarket Customs Banquet",
+  "img": "modules/runyth-tables-of-sustenance/assets/food/distant-coasts-ceremonial-dish.svg",
+  "description": "<h3>Overview</h3><p>A demanding multi-course preparation whose aroma, timing, and service announce expert labour before the first bite.</p><h3>Origin</h3><p>Developed in Stormmarket, Distant Coasts, under circumstances that made reliable physical performance more valuable than display alone.</p><h3>Availability</h3><p>Commissioned from a master cook, military kitchen, licensed alchemical kitchen, or ritual household. Ingredients are rare and spoil quickly.</p><h3>Typical Consumers</h3><p>Senior officers, wealthy patrons, renowned hunters, rescue crews, and guests bound to a major oath or undertaking.</p><h3>Preparation</h3><p>Requires cane syrup, coconut, restricted finishing stock, eight hours of work, a proper kitchen, and a qualified cook.</p><h3>Cultural Meaning</h3><p>Serving this feast creates obligation. Refusing it may be read as distrust, cowardice, religious objection, or rejection of the host’s authority.</p><h3>Mechanical Effect</h3><p>For 8 hours, gain a +3 bonus to Insight checks.</p><h3>Consumption and Cooldown</h3><p>The effect lasts 28800 seconds. A creature can benefit from only one Tier 4 food at a time and cannot benefit from this dish again for 7 days. The dish spoils within 6 hours of completion.</p><h3>Imperial Status</h3><p>Restricted culinary craft. Sale, transport, and preparation are recorded; unlicensed copies are treated as suspicious alchemical food.</p><section class=\"secret\"><h3>GM Notes</h3><p>The cook must be present for final service. Repeated consumption before the cooldown expires produces no effect. The GM may override this only for explicit story reasons.</p></section>",
+  "unidentifiedDescription": "",
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "food.distant-coasts.4.020.stormmarket-customs-banquet",
+      "sourceVersion": "1.0.0",
+      "kind": "food",
+      "meta": {
+        "tier": "4",
+        "tierLabel": "Masterwork Feast",
+        "originRegion": "Distant Coasts",
+        "originSettlement": "Stormmarket",
+        "culture": "Outer Sea Traditions",
+        "factionAssociation": [
+          "Import Factors"
+        ],
+        "typicalVenue": [
+          "military camps"
+        ],
+        "usualConsumers": [
+          "soldiers",
+          "nobles"
+        ],
+        "preferredConsumers": [
+          "Imperial officials",
+          "regional factions"
+        ],
+        "avoidedBy": [
+          "prisoners"
+        ],
+        "socialClass": [
+          "noble",
+          "military"
+        ],
+        "professionAssociation": [
+          "master cooks"
+        ],
+        "priceCategory": "luxury",
+        "rarity": "very rare",
+        "legality": "licensed alchemical food",
+        "season": [
+          "all year"
+        ],
+        "mealType": [
+          "ceremonial dish"
+        ],
+        "servingTemperature": "hot",
+        "preservationMethod": "none",
+        "preparationDifficulty": "masterwork",
+        "preparationTime": "8 hours",
+        "shelfLife": "6 hours",
+        "ingredients": [
+          "cane syrup",
+          "coconut",
+          "restricted finishing stock"
+        ],
+        "dietaryProperties": [
+          "vegetarian"
+        ],
+        "flavourProfile": [
+          "rich",
+          "spiced"
+        ],
+        "texture": "layered",
+        "alcoholic": false,
+        "nature": "alchemical",
+        "effectDurationSeconds": 28800,
+        "cooldownSeconds": 604800,
+        "servings": 4,
+        "weight": 4,
+        "purchasePrice": {
+          "value": 575,
+          "denomination": "gp"
+        },
+        "suggestedAvailability": "commission only",
+        "identificationStatus": "identified",
+        "preparationMethod": "masterwork service",
+        "activeEffect": true
+      },
+      "mechanics": {
+        "tier": "4",
+        "effectId": "effect.food.distant-coasts.4.020.stormmarket-customs-banquet",
+        "summary": "For 8 hours, gain a +3 bonus to Insight checks.",
+        "summaryDe": "Für 8 Stunden erhältst du +3 auf Motiv erkennen.",
+        "durationSeconds": 28800,
+        "cooldownSeconds": 604800,
+        "activation": "immediate",
+        "stackingGroup": "tier-4",
+        "permanent": false,
+        "duplicatePolicy": "deny-during-cooldown",
+        "requiresConfirmation": true,
+        "requiresQualifiedCook": true,
+        "spoilageSeconds": 21600,
+        "effectIntents": [
+          {
+            "kind": "check-bonus",
+            "domain": "insight",
+            "amount": 3
+          }
+        ]
+      },
+      "localizations": {
+        "de": {
+          "name": "Stormmarket Customs Bankett",
+          "description": "<h3>Überblick</h3><p>Die Speise verbindet Rohrzuckersirup, Kokosnuss, beschränkter Abschlusssud mit der für Stormmarket typischen Zubereitung „als Meistermahl zubereitet“. Geschmack und Textur bleiben bodenständig und von den verfügbaren Vorräten geprägt.</p><h3>Herkunft</h3><p>Sie ist eng mit Stormmarket in der Region Distant Coasts sowie mit der Kultur Outer Sea Traditions verbunden.</p><h3>Verfügbarkeit</h3><p>Gewöhnlich ist sie in Militärlagern zu finden. Ihre Seltenheit gilt als sehr selten; die beste Verfügbarkeit besteht während ganzjährig.</p><h3>Typische Verbraucher</h3><p>Sie wird meist von Soldaten, Adligen gegessen. Besonders geschätzt wird sie von imperialen Beamten, regionalen Fraktionen, weil Preis, Haltbarkeit, Geschmack oder gesellschaftliche Bedeutung zu deren Alltag passen.</p><h3>Zubereitung</h3><p>Benötigt werden Rohrzuckersirup, Kokosnuss, beschränkter Abschlusssud. Die Zubereitung gilt als meisterlich, dauert 8 hours und wird heiß serviert. Die erwartete Haltbarkeit beträgt 6 Stunden.</p><h3>Kulturelle Bedeutung</h3><p>Innerhalb von Outer Sea Traditions steht die Speise vor allem für eine adlig, militärische Lebenslage. Außerhalb ihres üblichen Umfelds kann sie als Gastfreundschaft, Sparsamkeit, Erinnerung, Standeszeichen oder bewusste Kränkung verstanden werden.</p><h3>Mechanischer Effekt</h3><p>Für 8 Stunden erhältst du +3 auf Motiv erkennen.</p><h3>Verzehr und Abklingzeit</h3><p>Eine Portion wird als Aktion oder im Rahmen einer Rast verzehrt. Effektdauer: 28800 Sekunden. Abklingzeit: 604800 Sekunden. Stapelung und Einschränkungen folgen den Welteinstellungen und den stabilen Effektkennungen.</p><h3>Imperialer Status</h3><p>Imperiale Einstufung: lizenzierte alchemistische Nahrung. Kontrollen prüfen Herkunft, Wiederholbarkeit, Lizenzierung und mögliche Grenzüberschreitungen von Körper, Identität, Erinnerung, Tod, Traum, Blut oder Geist.</p><section class=\"secret\"><h3>SL-Hinweise</h3><p>Zutaten können durch regional gleichwertige Vorräte ersetzt werden. Fälschungen verwenden meist billigere Grundnahrung, gefärbte Garnitur oder Gewürze, die Verderb verbergen.</p></section>",
+          "mechanicalEffect": "Für 8 Stunden erhältst du +3 auf Motiv erkennen."
+        }
+      },
+      "contentSchema": "system-neutral-food-v1"
+    }
+  }
+}

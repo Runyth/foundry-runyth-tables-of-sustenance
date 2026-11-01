@@ -1,0 +1,117 @@
+{
+  "_id": "GLzklN8f0XjTVVxV",
+  "name": "Coldhammer Fortified Fat-Sealed Cabbage Roll",
+  "img": "modules/runyth-tables-of-sustenance/assets/food/northern-mines-breakfast.svg",
+  "description": "<h3>Overview</h3><p>A sticky, smoky roll built around cabbage, dark ale, and the fat-sealed technique common near Coldhammer.</p><h3>Origin</h3><p>Associated with Coldhammer in Northern Mineholds. Minehold food favours dense calories, strong salt, and meals that can be eaten with blackened hands during a short bell break.</p><h3>Availability</h3><p>Usually encountered in worker kitchens; availability is uncommon and strongest during autumn.</p><h3>Typical Consumers</h3><p>Most often eaten by children, while elderly people actively seek it out for its portability, familiarity, or social meaning.</p><h3>Preparation</h3><p>Prepared from cabbage, dark ale, potato using ordinary cookware and 30 minutes of work. Its expected shelf life is 1 week.</p><h3>Cultural Meaning</h3><p>It signals poor circumstances in Minehold Communities; serving it outside its normal context can read as hospitality, thrift, nostalgia, or quiet insult.</p><h3>Mechanical Effect</h3><p>For 10 minutes, gain a +1 bonus to Insight checks. Only the strongest Tier 2 food effect applies.</p><h3>Consumption and Cooldown</h3><p>One serving is consumed as an action or as part of a rest. Duration: 600 seconds. No cooldown. Effects of the same tier follow the configured stacking rule.</p><h3>Imperial Status</h3><p>Imperial classification: approved medicinal preparation. Inspection focuses on provenance, repeatability, and whether the preparation is licensed.</p><section class=\"secret\"><h3>GM Notes</h3><p>Substitute another local roll if the ingredient is unavailable. Counterfeits usually replace cabbage with cheaper grain or conceal spoilage with vinegar.</p></section>",
+  "unidentifiedDescription": "",
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "food.northern-mines.2.037.coldhammer-fortified-fat-sealed-cabbage-roll",
+      "sourceVersion": "1.0.0",
+      "kind": "food",
+      "meta": {
+        "tier": "2",
+        "tierLabel": "Fortifying Food",
+        "originRegion": "Northern Mineholds",
+        "originSettlement": "Coldhammer",
+        "culture": "Minehold Communities",
+        "factionAssociation": [
+          "Deep Lantern Union"
+        ],
+        "typicalVenue": [
+          "worker kitchens",
+          "funerals",
+          "slave and forced-labour camps"
+        ],
+        "usualConsumers": [
+          "children",
+          "miners"
+        ],
+        "preferredConsumers": [
+          "elderly people",
+          "regional factions"
+        ],
+        "avoidedBy": [
+          "miners"
+        ],
+        "socialClass": [
+          "poor"
+        ],
+        "professionAssociation": [
+          "children",
+          "miners"
+        ],
+        "priceCategory": "common",
+        "rarity": "uncommon",
+        "legality": "approved medicinal preparation",
+        "season": [
+          "autumn"
+        ],
+        "mealType": [
+          "breakfast"
+        ],
+        "servingTemperature": "hot",
+        "preservationMethod": "smoked",
+        "preparationDifficulty": "trained",
+        "preparationTime": "30 minutes",
+        "shelfLife": "1 week",
+        "ingredients": [
+          "cabbage",
+          "dark ale",
+          "potato"
+        ],
+        "dietaryProperties": [
+          "medicinal herb",
+          "vegetarian"
+        ],
+        "flavourProfile": [
+          "smoky",
+          "earthy"
+        ],
+        "texture": "sticky",
+        "alcoholic": false,
+        "nature": "medicinal",
+        "effectDurationSeconds": 600,
+        "cooldownSeconds": 0,
+        "servings": 2,
+        "weight": 0.75,
+        "purchasePrice": {
+          "value": 1,
+          "denomination": "sp"
+        },
+        "suggestedAvailability": "uncommon",
+        "identificationStatus": "identified",
+        "preparationMethod": "fat-sealed",
+        "activeEffect": true
+      },
+      "mechanics": {
+        "tier": "2",
+        "effectId": "effect.food.northern-mines.2.037.coldhammer-fortified-fat-sealed-cabbage-roll",
+        "summary": "For 10 minutes, gain a +1 bonus to Insight checks. Only the strongest Tier 2 food effect applies.",
+        "summaryDe": "Für 10 Minuten erhältst du +1 auf Motiv erkennen. Es gilt nur der stärkste Effekt einer Speise der Stufe 2.",
+        "durationSeconds": 600,
+        "cooldownSeconds": 0,
+        "activation": "immediate",
+        "stackingGroup": "tier-2",
+        "permanent": false,
+        "duplicatePolicy": "replace-weaker",
+        "requiresConfirmation": false,
+        "effectIntents": [
+          {
+            "kind": "check-bonus",
+            "domain": "insight",
+            "amount": 1
+          }
+        ]
+      },
+      "localizations": {
+        "de": {
+          "name": "Coldhammer Stärkender Fat-Sealed Kohl Rolle",
+          "description": "<h3>Überblick</h3><p>Die Speise verbindet Kohl, Dunkelbier, Kartoffel mit der für Coldhammer typischen Zubereitung „in Fett versiegelt“. Geschmack und Textur bleiben bodenständig und von den verfügbaren Vorräten geprägt.</p><h3>Herkunft</h3><p>Sie ist eng mit Coldhammer in der Region Northern Mineholds sowie mit der Kultur Minehold Communities verbunden.</p><h3>Verfügbarkeit</h3><p>Gewöhnlich ist sie in Arbeiterküchen, Begräbnissen, Sklaven- und Zwangsarbeitslagern zu finden. Ihre Seltenheit gilt als ungewöhnlich; die beste Verfügbarkeit besteht während Herbst.</p><h3>Typische Verbraucher</h3><p>Sie wird meist von Kindern, Bergleuten gegessen. Besonders geschätzt wird sie von älteren Menschen, regionalen Fraktionen, weil Preis, Haltbarkeit, Geschmack oder gesellschaftliche Bedeutung zu deren Alltag passen.</p><h3>Zubereitung</h3><p>Benötigt werden Kohl, Dunkelbier, Kartoffel. Die Zubereitung gilt als geübt, dauert 30 minutes und wird heiß serviert. Die erwartete Haltbarkeit beträgt 1 Woche.</p><h3>Kulturelle Bedeutung</h3><p>Innerhalb von Minehold Communities steht die Speise vor allem für eine arme Lebenslage. Außerhalb ihres üblichen Umfelds kann sie als Gastfreundschaft, Sparsamkeit, Erinnerung, Standeszeichen oder bewusste Kränkung verstanden werden.</p><h3>Mechanischer Effekt</h3><p>Für 10 Minuten erhältst du +1 auf Motiv erkennen. Es gilt nur der stärkste Effekt einer Speise der Stufe 2.</p><h3>Verzehr und Abklingzeit</h3><p>Eine Portion wird als Aktion oder im Rahmen einer Rast verzehrt. Effektdauer: 600 Sekunden. Abklingzeit: keine. Stapelung und Einschränkungen folgen den Welteinstellungen und den stabilen Effektkennungen.</p><h3>Imperialer Status</h3><p>Imperiale Einstufung: zugelassene medizinische Zubereitung. Kontrollen prüfen Herkunft, Wiederholbarkeit, Lizenzierung und mögliche Grenzüberschreitungen von Körper, Identität, Erinnerung, Tod, Traum, Blut oder Geist.</p><section class=\"secret\"><h3>SL-Hinweise</h3><p>Zutaten können durch regional gleichwertige Vorräte ersetzt werden. Fälschungen verwenden meist billigere Grundnahrung, gefärbte Garnitur oder Gewürze, die Verderb verbergen.</p></section>",
+          "mechanicalEffect": "Für 10 Minuten erhältst du +1 auf Motiv erkennen. Es gilt nur der stärkste Effekt einer Speise der Stufe 2."
+        }
+      },
+      "contentSchema": "system-neutral-food-v1"
+    }
+  }
+}

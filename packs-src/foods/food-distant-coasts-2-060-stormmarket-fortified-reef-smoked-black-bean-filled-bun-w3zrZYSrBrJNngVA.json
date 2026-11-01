@@ -1,0 +1,111 @@
+{
+  "_id": "w3zrZYSrBrJNngVA",
+  "name": "Stormmarket Fortified Reef-Smoked Black Bean Filled Bun",
+  "img": "modules/runyth-tables-of-sustenance/assets/food/distant-coasts-midday-meal.svg",
+  "description": "<h3>Overview</h3><p>A crisp, fresh filled bun built around black bean, lime, and the reef-smoked technique common near Stormmarket.</p><h3>Origin</h3><p>Associated with Stormmarket in Distant Coasts. Outer-coast dishes reach the Imperium through sailors and displaced families, then acquire new names, taxes, and suspicions at customs houses.</p><h3>Availability</h3><p>Usually encountered in travelling caravans; availability is uncommon and strongest during summer.</p><h3>Typical Consumers</h3><p>Most often eaten by travellers, while specific ancestries actively seek it out for its portability, familiarity, or social meaning.</p><h3>Preparation</h3><p>Prepared from black bean, lime, seaweed using ordinary cookware and 2 hours of work. Its expected shelf life is 1 week.</p><h3>Cultural Meaning</h3><p>It signals merchant circumstances in Outer Sea Traditions; serving it outside its normal context can read as hospitality, thrift, nostalgia, or quiet insult.</p><h3>Mechanical Effect</h3><p>For 60 minutes, gain a +1 bonus to Athletics checks. Only the strongest Tier 2 food effect applies.</p><h3>Consumption and Cooldown</h3><p>One serving is consumed as an action or as part of a rest. Duration: 3600 seconds. No cooldown. Effects of the same tier follow the configured stacking rule.</p><h3>Imperial Status</h3><p>Imperial classification: lawful culinary craft. Inspection focuses on provenance, repeatability, and whether the preparation is licensed.</p><section class=\"secret\"><h3>GM Notes</h3><p>Substitute another local filled bun if the ingredient is unavailable. Counterfeits usually replace black bean with cheaper grain or conceal spoilage with vinegar.</p></section>",
+  "unidentifiedDescription": "",
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "food.distant-coasts.2.060.stormmarket-fortified-reef-smoked-black-bean-filled-bun",
+      "sourceVersion": "1.0.0",
+      "kind": "food",
+      "meta": {
+        "tier": "2",
+        "tierLabel": "Fortifying Food",
+        "originRegion": "Distant Coasts",
+        "originSettlement": "Stormmarket",
+        "culture": "Outer Sea Traditions",
+        "factionAssociation": [
+          "Imperial Customs Inspectors"
+        ],
+        "typicalVenue": [
+          "travelling caravans"
+        ],
+        "usualConsumers": [
+          "travellers"
+        ],
+        "preferredConsumers": [
+          "specific ancestries"
+        ],
+        "avoidedBy": [
+          "labourers"
+        ],
+        "socialClass": [
+          "merchant"
+        ],
+        "professionAssociation": [
+          "travellers"
+        ],
+        "priceCategory": "moderate",
+        "rarity": "uncommon",
+        "legality": "lawful culinary craft",
+        "season": [
+          "summer"
+        ],
+        "mealType": [
+          "midday meal"
+        ],
+        "servingTemperature": "room temperature",
+        "preservationMethod": "wax-sealed",
+        "preparationDifficulty": "trained",
+        "preparationTime": "2 hours",
+        "shelfLife": "1 week",
+        "ingredients": [
+          "black bean",
+          "lime",
+          "seaweed"
+        ],
+        "dietaryProperties": [
+          "contains fish"
+        ],
+        "flavourProfile": [
+          "fresh",
+          "fresh"
+        ],
+        "texture": "crisp",
+        "alcoholic": false,
+        "nature": "mundane",
+        "effectDurationSeconds": 3600,
+        "cooldownSeconds": 0,
+        "servings": 1,
+        "weight": 1.0,
+        "purchasePrice": {
+          "value": 4,
+          "denomination": "sp"
+        },
+        "suggestedAvailability": "uncommon",
+        "identificationStatus": "identified",
+        "preparationMethod": "reef-smoked",
+        "activeEffect": true
+      },
+      "mechanics": {
+        "tier": "2",
+        "effectId": "effect.food.distant-coasts.2.060.stormmarket-fortified-reef-smoked-black-bean-filled-bun",
+        "summary": "For 60 minutes, gain a +1 bonus to Athletics checks. Only the strongest Tier 2 food effect applies.",
+        "summaryDe": "Für 60 Minuten erhältst du +1 auf Athletik. Es gilt nur der stärkste Effekt einer Speise der Stufe 2.",
+        "durationSeconds": 3600,
+        "cooldownSeconds": 0,
+        "activation": "immediate",
+        "stackingGroup": "tier-2",
+        "permanent": false,
+        "duplicatePolicy": "replace-weaker",
+        "requiresConfirmation": false,
+        "effectIntents": [
+          {
+            "kind": "check-bonus",
+            "domain": "athletics",
+            "amount": 1
+          }
+        ]
+      },
+      "localizations": {
+        "de": {
+          "name": "Stormmarket Stärkender Reef-Geräucherter Schwarzbohnen gefülltes Brötchen",
+          "description": "<h3>Überblick</h3><p>Die Speise verbindet schwarze Bohne, Limette, Seetang mit der für Stormmarket typischen Zubereitung „über Riffholz geräuchert“. Geschmack und Textur bleiben bodenständig und von den verfügbaren Vorräten geprägt.</p><h3>Herkunft</h3><p>Sie ist eng mit Stormmarket in der Region Distant Coasts sowie mit der Kultur Outer Sea Traditions verbunden.</p><h3>Verfügbarkeit</h3><p>Gewöhnlich ist sie in Reisekarawanen zu finden. Ihre Seltenheit gilt als ungewöhnlich; die beste Verfügbarkeit besteht während Sommer.</p><h3>Typische Verbraucher</h3><p>Sie wird meist von Reisenden gegessen. Besonders geschätzt wird sie von bestimmten Abstammungen, weil Preis, Haltbarkeit, Geschmack oder gesellschaftliche Bedeutung zu deren Alltag passen.</p><h3>Zubereitung</h3><p>Benötigt werden schwarze Bohne, Limette, Seetang. Die Zubereitung gilt als geübt, dauert 2 hours und wird bei Raumtemperatur serviert. Die erwartete Haltbarkeit beträgt 1 Woche.</p><h3>Kulturelle Bedeutung</h3><p>Innerhalb von Outer Sea Traditions steht die Speise vor allem für eine kaufmännische Lebenslage. Außerhalb ihres üblichen Umfelds kann sie als Gastfreundschaft, Sparsamkeit, Erinnerung, Standeszeichen oder bewusste Kränkung verstanden werden.</p><h3>Mechanischer Effekt</h3><p>Für 60 Minuten erhältst du +1 auf Athletik. Es gilt nur der stärkste Effekt einer Speise der Stufe 2.</p><h3>Verzehr und Abklingzeit</h3><p>Eine Portion wird als Aktion oder im Rahmen einer Rast verzehrt. Effektdauer: 3600 Sekunden. Abklingzeit: keine. Stapelung und Einschränkungen folgen den Welteinstellungen und den stabilen Effektkennungen.</p><h3>Imperialer Status</h3><p>Imperiale Einstufung: rechtmäßiges Kochhandwerk. Kontrollen prüfen Herkunft, Wiederholbarkeit, Lizenzierung und mögliche Grenzüberschreitungen von Körper, Identität, Erinnerung, Tod, Traum, Blut oder Geist.</p><section class=\"secret\"><h3>SL-Hinweise</h3><p>Zutaten können durch regional gleichwertige Vorräte ersetzt werden. Fälschungen verwenden meist billigere Grundnahrung, gefärbte Garnitur oder Gewürze, die Verderb verbergen.</p></section>",
+          "mechanicalEffect": "Für 60 Minuten erhältst du +1 auf Athletik. Es gilt nur der stärkste Effekt einer Speise der Stufe 2."
+        }
+      },
+      "contentSchema": "system-neutral-food-v1"
+    }
+  }
+}

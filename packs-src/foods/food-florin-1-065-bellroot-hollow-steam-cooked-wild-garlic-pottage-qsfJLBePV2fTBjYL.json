@@ -1,0 +1,107 @@
+{
+  "_id": "qsfJLBePV2fTBjYL",
+  "name": "Bellroot Hollow Steam-Cooked Wild Garlic Pottage",
+  "img": "modules/runyth-tables-of-sustenance/assets/food/florin-supper.svg",
+  "description": "<h3>Overview</h3><p>A crisp, fresh pottage built around wild garlic, mushroom, and the steam-cooked technique common near Bellroot Hollow.</p><h3>Origin</h3><p>Associated with Bellroot Hollow in Florin Herbal Vale. Florin draws no sharp line between supper and remedy, but careful cooks distinguish nourishment from medicine and dosage from appetite.</p><h3>Availability</h3><p>Usually encountered in markets; availability is common and strongest during autumn.</p><h3>Typical Consumers</h3><p>Most often eaten by elderly people, while hunters actively seek it out for its portability, familiarity, or social meaning.</p><h3>Preparation</h3><p>Prepared from wild garlic, mushroom, juniper using ordinary cookware and 30 minutes of work. Its expected shelf life is 2 days.</p><h3>Cultural Meaning</h3><p>It signals middling circumstances in Florin Herbalists; serving it outside its normal context can read as hospitality, thrift, nostalgia, or quiet insult.</p><h3>Mechanical Effect</h3><p>No direct statistical benefit. It counts as one nourishing serving for optional ration, hunger, thirst, or rest integrations.</p><h3>Consumption and Cooldown</h3><p>One serving is consumed as an action or as part of a rest. Duration: 0 seconds. No cooldown. Effects of the same tier follow the configured stacking rule.</p><h3>Imperial Status</h3><p>Imperial classification: ordinary provision. Inspection focuses on provenance, repeatability, and whether the preparation is licensed.</p><section class=\"secret\"><h3>GM Notes</h3><p>Substitute another local pottage if the ingredient is unavailable. Counterfeits usually replace wild garlic with cheaper grain or conceal spoilage with vinegar.</p></section>",
+  "unidentifiedDescription": "",
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "food.florin.1.065.bellroot-hollow-steam-cooked-wild-garlic-pottage",
+      "sourceVersion": "1.0.0",
+      "kind": "food",
+      "meta": {
+        "tier": "1",
+        "tierLabel": "Sustenance",
+        "originRegion": "Florin Herbal Vale",
+        "originSettlement": "Bellroot Hollow",
+        "culture": "Florin Herbalists",
+        "factionAssociation": [
+          "Licensed Apothecaries"
+        ],
+        "typicalVenue": [
+          "markets"
+        ],
+        "usualConsumers": [
+          "elderly people"
+        ],
+        "preferredConsumers": [
+          "hunters",
+          "regional factions"
+        ],
+        "avoidedBy": [
+          "religious communities"
+        ],
+        "socialClass": [
+          "middling"
+        ],
+        "professionAssociation": [
+          "elderly people"
+        ],
+        "priceCategory": "cheap",
+        "rarity": "common",
+        "legality": "ordinary provision",
+        "season": [
+          "autumn"
+        ],
+        "mealType": [
+          "supper"
+        ],
+        "servingTemperature": "hot",
+        "preservationMethod": "salted",
+        "preparationDifficulty": "simple",
+        "preparationTime": "30 minutes",
+        "shelfLife": "2 days",
+        "ingredients": [
+          "wild garlic",
+          "mushroom",
+          "juniper"
+        ],
+        "dietaryProperties": [
+          "medicinal herb",
+          "vegetarian"
+        ],
+        "flavourProfile": [
+          "fresh",
+          "earthy"
+        ],
+        "texture": "crisp",
+        "alcoholic": false,
+        "nature": "mundane",
+        "effectDurationSeconds": 0,
+        "cooldownSeconds": 0,
+        "servings": 1,
+        "weight": 0.75,
+        "purchasePrice": {
+          "value": 2,
+          "denomination": "cp"
+        },
+        "suggestedAvailability": "common",
+        "identificationStatus": "identified",
+        "preparationMethod": "steam-cooked",
+        "activeEffect": false
+      },
+      "mechanics": {
+        "tier": "1",
+        "effectId": "effect.food.florin.1.065.bellroot-hollow-steam-cooked-wild-garlic-pottage",
+        "summary": "No direct statistical benefit. It counts as one nourishing serving for optional ration, hunger, thirst, or rest integrations.",
+        "summaryDe": "Kein direkter statistischer Vorteil. Es zählt als eine nahrhafte Portion für optionale Rations-, Hunger-, Durst- oder Rastintegrationen.",
+        "durationSeconds": 0,
+        "cooldownSeconds": 0,
+        "activation": "immediate",
+        "stackingGroup": "tier-1",
+        "permanent": false,
+        "duplicatePolicy": "replace-weaker",
+        "requiresConfirmation": false,
+        "effectIntents": []
+      },
+      "localizations": {
+        "de": {
+          "name": "Bellroot Hollow Steam-Cooked Bärlauch Eintopf",
+          "description": "<h3>Überblick</h3><p>Die Speise verbindet Bärlauch, Pilz, Wacholder mit der für Bellroot Hollow typischen Zubereitung „dampfgegart“. Geschmack und Textur bleiben bodenständig und von den verfügbaren Vorräten geprägt.</p><h3>Herkunft</h3><p>Sie ist eng mit Bellroot Hollow in der Region Florin Herbal Vale sowie mit der Kultur Florin Herbalists verbunden.</p><h3>Verfügbarkeit</h3><p>Gewöhnlich ist sie in Märkten zu finden. Ihre Seltenheit gilt als häufig; die beste Verfügbarkeit besteht während Herbst.</p><h3>Typische Verbraucher</h3><p>Sie wird meist von älteren Menschen gegessen. Besonders geschätzt wird sie von Jägern, regionalen Fraktionen, weil Preis, Haltbarkeit, Geschmack oder gesellschaftliche Bedeutung zu deren Alltag passen.</p><h3>Zubereitung</h3><p>Benötigt werden Bärlauch, Pilz, Wacholder. Die Zubereitung gilt als einfach, dauert 30 minutes und wird heiß serviert. Die erwartete Haltbarkeit beträgt 2 Tage.</p><h3>Kulturelle Bedeutung</h3><p>Innerhalb von Florin Herbalists steht die Speise vor allem für eine middlinge Lebenslage. Außerhalb ihres üblichen Umfelds kann sie als Gastfreundschaft, Sparsamkeit, Erinnerung, Standeszeichen oder bewusste Kränkung verstanden werden.</p><h3>Mechanischer Effekt</h3><p>Kein direkter statistischer Vorteil. Es zählt als eine nahrhafte Portion für optionale Rations-, Hunger-, Durst- oder Rastintegrationen.</p><h3>Verzehr und Abklingzeit</h3><p>Eine Portion wird als Aktion oder im Rahmen einer Rast verzehrt. Effektdauer: 0 Sekunden. Abklingzeit: keine. Stapelung und Einschränkungen folgen den Welteinstellungen und den stabilen Effektkennungen.</p><h3>Imperialer Status</h3><p>Imperiale Einstufung: gewöhnlicher Proviant. Kontrollen prüfen Herkunft, Wiederholbarkeit, Lizenzierung und mögliche Grenzüberschreitungen von Körper, Identität, Erinnerung, Tod, Traum, Blut oder Geist.</p><section class=\"secret\"><h3>SL-Hinweise</h3><p>Zutaten können durch regional gleichwertige Vorräte ersetzt werden. Fälschungen verwenden meist billigere Grundnahrung, gefärbte Garnitur oder Gewürze, die Verderb verbergen.</p></section>",
+          "mechanicalEffect": "Kein direkter statistischer Vorteil. Es zählt als eine nahrhafte Portion für optionale Rations-, Hunger-, Durst- oder Rastintegrationen."
+        }
+      },
+      "contentSchema": "system-neutral-food-v1"
+    }
+  }
+}

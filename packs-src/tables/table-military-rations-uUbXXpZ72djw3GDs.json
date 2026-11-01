@@ -1,0 +1,410 @@
+{
+  "_id": "uUbXXpZ72djw3GDs",
+  "name": "Military Rations",
+  "description": "Food table: Military Rations.",
+  "results": [
+    {
+      "_id": "iyZFeXdSkb7zn9Zl",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "description": "Banner Road Salt-Cured Hardtack Pickle",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "gwCPdjYfuV8DMVUf",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "description": "Third Milestone Reconstituted Hardtack Pickle",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "NyDOCzSyxyRVExaT",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "description": "Ashen Post Kettle-Boiled Hardtack Pickle",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "ivN4NdWaH5c6xZ8s",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "description": "Banner Road Compressed Hardtack Pickle",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "avtgNKxS1ChhY8Tb",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "description": "Third Milestone Wax-Sealed Hardtack Pickle",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "8eJ7E6gVvy9Bim8v",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "description": "Ashen Post Double-Baked Hardtack Pickle",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "TzXa211ERK8YQXiS",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "description": "Banner Road Rationed Hardtack Pickle",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "TLHuNnC3HItXcrbt",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "description": "Third Milestone Salt-Cured Hardtack Pickle",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "jVbkiNEGuPevNbUB",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "description": "Ashen Post Reconstituted Hardtack Pickle",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "Lju5FBs4YGnG8ODd",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "description": "Banner Road Kettle-Boiled Hardtack Pickle",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "1DB5TIyCeXBvHar2",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "description": "Third Milestone Compressed Hardtack Pickle",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "D2oeONUjjuUvWMLh",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "description": "Ashen Post Wax-Sealed Hardtack Pickle",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "SAo0kr2FdUaJc32z",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "description": "Banner Road Double-Baked Hardtack Pickle",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "0C0FvckfRjLXdfPg",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "description": "Third Milestone Rationed Hardtack Pickle",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "QwoGtIBcrzcjZqzK",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "description": "Ashen Post Salt-Cured Hardtack Pickle",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "NnlzZeSsc2r0YxEQ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "description": "Banner Road Reconstituted Hardtack Pickle",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "8EzWPLz9uiYFMMP2",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "description": "Third Milestone Kettle-Boiled Hardtack Pickle",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "Y8JPsMa3nABoSWlY",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "description": "Ashen Post Compressed Hardtack Pickle",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "KV49ORDw4Td078Mn",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "description": "Banner Road Fortified Compressed Hardtack Pickle",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "F5fNOYHnVc1CTw11",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "description": "Third Milestone Fortified Wax-Sealed Hardtack Pickle",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    }
+  ],
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "table.military-rations",
+      "sourceVersion": "1.0.0",
+      "kind": "table",
+      "containsTierSFood": false,
+      "containsTierSClues": false,
+      "localizations": {
+        "de": {
+          "name": "Militärrationen",
+          "description": "Nahrungstabelle: Militärrationen."
+        }
+      }
+    }
+  }
+}

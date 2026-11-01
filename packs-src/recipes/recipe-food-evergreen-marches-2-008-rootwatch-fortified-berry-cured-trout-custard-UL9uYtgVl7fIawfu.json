@@ -1,0 +1,59 @@
+{
+  "_id": "UL9uYtgVl7fIawfu",
+  "name": "Recipe: Rootwatch Fortified Berry-Cured Trout Custard",
+  "pages": [
+    {
+      "_id": "ZhStqSN7k4L12MtT",
+      "name": "Recipe",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<h2>Rootwatch Fortified Berry-Cured Trout Custard</h2><p><strong>Ingredients:</strong> trout, venison, venison</p><p><strong>Tools:</strong> cook’s utensils and region-appropriate heat source.</p><p><strong>Time:</strong> 1 hour</p><p><strong>Difficulty:</strong> trained</p><p><strong>Batch:</strong> 1 serving(s).</p><p><strong>Failure:</strong> ingredients are consumed; the result becomes a spoiled Tier 1 ration with no benefit.</p><p><strong>Partial success:</strong> half yield, no mechanical effect, safe to eat.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {}
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "recipe.food.evergreen-marches.2.008.rootwatch-fortified-berry-cured-trout-custard",
+      "sourceVersion": "1.0.0",
+      "kind": "recipe",
+      "foodSourceId": "food.evergreen-marches.2.008.rootwatch-fortified-berry-cured-trout-custard",
+      "requirements": {
+        "ingredients": [
+          "trout",
+          "venison",
+          "venison"
+        ],
+        "tools": [
+          "cook’s utensils"
+        ],
+        "skill": "Cooking",
+        "difficulty": "trained",
+        "time": "1 hour",
+        "authorization": null
+      },
+      "gmOnly": false,
+      "localizations": {
+        "de": {
+          "name": "Rezept: Wurzelwatch Stärkender Berry-Cured Forellen Auflauf",
+          "pageName": "Rezept",
+          "content": "<h2>Wurzelwatch Stärkender Berry-Cured Forellen Auflauf</h2><p><strong>Zutaten:</strong> Forelle, Wildbret, Wildbret</p><p><strong>Werkzeuge:</strong> Kochutensilien und eine regional geeignete Hitzequelle.</p><p><strong>Zeit:</strong> 1 hour</p><p><strong>Schwierigkeit:</strong> geübt</p><p><strong>Fehlschlag:</strong> Die Zutaten werden verbraucht; das Ergebnis wird zu einer verdorbenen Tier-1-Ration ohne Vorteil.</p><p><strong>Teilerfolg:</strong> Halbe Ausbeute, kein mechanischer Effekt, aber sicher essbar.</p>"
+        }
+      }
+    }
+  }
+}

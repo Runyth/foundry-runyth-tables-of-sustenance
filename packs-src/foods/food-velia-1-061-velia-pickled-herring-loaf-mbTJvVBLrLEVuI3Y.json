@@ -1,0 +1,106 @@
+{
+  "_id": "mbTJvVBLrLEVuI3Y",
+  "name": "Velia Pickled Herring Loaf",
+  "img": "modules/runyth-tables-of-sustenance/assets/food/velia-snack.svg",
+  "description": "<h3>Overview</h3><p>A soft, salty loaf built around herring, mussel, and the pickled technique common near Velia.</p><h3>Origin</h3><p>Associated with Velia in Velia Coast. The coast wastes little: fish bones thicken broth, stale rye becomes dumplings, and salt is measured as carefully as coin.</p><h3>Availability</h3><p>Usually encountered in dockside kitchens; availability is common and strongest during late harvest.</p><h3>Typical Consumers</h3><p>Most often eaten by fishers, while sailors actively seek it out for its portability, familiarity, or social meaning.</p><h3>Preparation</h3><p>Prepared from herring, mussel, onion using ordinary cookware and 10 minutes of work. Its expected shelf life is 2 days.</p><h3>Cultural Meaning</h3><p>It signals working circumstances in Velian Littoral; serving it outside its normal context can read as hospitality, thrift, nostalgia, or quiet insult.</p><h3>Mechanical Effect</h3><p>No direct statistical benefit. It counts as one nourishing serving for optional ration, hunger, thirst, or rest integrations.</p><h3>Consumption and Cooldown</h3><p>One serving is consumed as an action or as part of a rest. Duration: 0 seconds. No cooldown. Effects of the same tier follow the configured stacking rule.</p><h3>Imperial Status</h3><p>Imperial classification: ordinary provision. Inspection focuses on provenance, repeatability, and whether the preparation is licensed.</p><section class=\"secret\"><h3>GM Notes</h3><p>Substitute another local loaf if the ingredient is unavailable. Counterfeits usually replace herring with cheaper grain or conceal spoilage with vinegar.</p></section>",
+  "unidentifiedDescription": "",
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "food.velia.1.061.velia-pickled-herring-loaf",
+      "sourceVersion": "1.0.0",
+      "kind": "food",
+      "meta": {
+        "tier": "1",
+        "tierLabel": "Sustenance",
+        "originRegion": "Velia Coast",
+        "originSettlement": "Velia",
+        "culture": "Velian Littoral",
+        "factionAssociation": [
+          "Velian Salt Hand"
+        ],
+        "typicalVenue": [
+          "dockside kitchens"
+        ],
+        "usualConsumers": [
+          "fishers"
+        ],
+        "preferredConsumers": [
+          "sailors",
+          "regional factions"
+        ],
+        "avoidedBy": [
+          "labourers"
+        ],
+        "socialClass": [
+          "working"
+        ],
+        "professionAssociation": [
+          "fishers"
+        ],
+        "priceCategory": "cheap",
+        "rarity": "common",
+        "legality": "ordinary provision",
+        "season": [
+          "late harvest"
+        ],
+        "mealType": [
+          "snack"
+        ],
+        "servingTemperature": "hot",
+        "preservationMethod": "fat-sealed",
+        "preparationDifficulty": "simple",
+        "preparationTime": "10 minutes",
+        "shelfLife": "2 days",
+        "ingredients": [
+          "herring",
+          "mussel",
+          "onion"
+        ],
+        "dietaryProperties": [
+          "contains fish"
+        ],
+        "flavourProfile": [
+          "salty",
+          "earthy"
+        ],
+        "texture": "soft",
+        "alcoholic": false,
+        "nature": "mundane",
+        "effectDurationSeconds": 0,
+        "cooldownSeconds": 0,
+        "servings": 2,
+        "weight": 0.75,
+        "purchasePrice": {
+          "value": 6,
+          "denomination": "cp"
+        },
+        "suggestedAvailability": "common",
+        "identificationStatus": "identified",
+        "preparationMethod": "pickled",
+        "activeEffect": false
+      },
+      "mechanics": {
+        "tier": "1",
+        "effectId": "effect.food.velia.1.061.velia-pickled-herring-loaf",
+        "summary": "No direct statistical benefit. It counts as one nourishing serving for optional ration, hunger, thirst, or rest integrations.",
+        "summaryDe": "Kein direkter statistischer Vorteil. Es zählt als eine nahrhafte Portion für optionale Rations-, Hunger-, Durst- oder Rastintegrationen.",
+        "durationSeconds": 0,
+        "cooldownSeconds": 0,
+        "activation": "immediate",
+        "stackingGroup": "tier-1",
+        "permanent": false,
+        "duplicatePolicy": "replace-weaker",
+        "requiresConfirmation": false,
+        "effectIntents": []
+      },
+      "localizations": {
+        "de": {
+          "name": "Velia Eingelegtesd Hering Laib",
+          "description": "<h3>Überblick</h3><p>Die Speise verbindet Hering, Muschel, Zwiebel mit der für Velia typischen Zubereitung „eingelegt“. Geschmack und Textur bleiben bodenständig und von den verfügbaren Vorräten geprägt.</p><h3>Herkunft</h3><p>Sie ist eng mit Velia in der Region Velia Coast sowie mit der Kultur Velian Littoral verbunden.</p><h3>Verfügbarkeit</h3><p>Gewöhnlich ist sie in Hafenküchen zu finden. Ihre Seltenheit gilt als häufig; die beste Verfügbarkeit besteht während late harvest.</p><h3>Typische Verbraucher</h3><p>Sie wird meist von Fischern gegessen. Besonders geschätzt wird sie von Seeleuten, regionalen Fraktionen, weil Preis, Haltbarkeit, Geschmack oder gesellschaftliche Bedeutung zu deren Alltag passen.</p><h3>Zubereitung</h3><p>Benötigt werden Hering, Muschel, Zwiebel. Die Zubereitung gilt als einfach, dauert 10 minutes und wird heiß serviert. Die erwartete Haltbarkeit beträgt 2 Tage.</p><h3>Kulturelle Bedeutung</h3><p>Innerhalb von Velian Littoral steht die Speise vor allem für eine arbeitende Lebenslage. Außerhalb ihres üblichen Umfelds kann sie als Gastfreundschaft, Sparsamkeit, Erinnerung, Standeszeichen oder bewusste Kränkung verstanden werden.</p><h3>Mechanischer Effekt</h3><p>Kein direkter statistischer Vorteil. Es zählt als eine nahrhafte Portion für optionale Rations-, Hunger-, Durst- oder Rastintegrationen.</p><h3>Verzehr und Abklingzeit</h3><p>Eine Portion wird als Aktion oder im Rahmen einer Rast verzehrt. Effektdauer: 0 Sekunden. Abklingzeit: keine. Stapelung und Einschränkungen folgen den Welteinstellungen und den stabilen Effektkennungen.</p><h3>Imperialer Status</h3><p>Imperiale Einstufung: gewöhnlicher Proviant. Kontrollen prüfen Herkunft, Wiederholbarkeit, Lizenzierung und mögliche Grenzüberschreitungen von Körper, Identität, Erinnerung, Tod, Traum, Blut oder Geist.</p><section class=\"secret\"><h3>SL-Hinweise</h3><p>Zutaten können durch regional gleichwertige Vorräte ersetzt werden. Fälschungen verwenden meist billigere Grundnahrung, gefärbte Garnitur oder Gewürze, die Verderb verbergen.</p></section>",
+          "mechanicalEffect": "Kein direkter statistischer Vorteil. Es zählt als eine nahrhafte Portion für optionale Rations-, Hunger-, Durst- oder Rastintegrationen."
+        }
+      },
+      "contentSchema": "system-neutral-food-v1"
+    }
+  }
+}

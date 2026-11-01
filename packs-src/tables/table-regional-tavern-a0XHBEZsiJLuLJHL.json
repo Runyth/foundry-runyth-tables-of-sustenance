@@ -1,0 +1,430 @@
+{
+  "_id": "a0XHBEZsiJLuLJHL",
+  "name": "Regional Tavern Meals",
+  "description": "Food table: Regional Tavern Meals.",
+  "results": [
+    {
+      "_id": "TavernResult0001",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "description": "Velia Salted Herring Loaf",
+      "name": "",
+      "img": "modules/runyth-tables-of-sustenance/assets/food/velia-breakfast.svg",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false,
+          "foodSourceId": "food.velia.1.001.velia-salted-herring-loaf"
+        }
+      }
+    },
+    {
+      "_id": "TavernResult0002",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "description": "Southbank Griddled Bean Dumpling",
+      "name": "",
+      "img": "modules/runyth-tables-of-sustenance/assets/food/heidel-drink.svg",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false,
+          "foodSourceId": "food.heidel.1.003.southbank-griddled-bean-dumpling"
+        }
+      }
+    },
+    {
+      "_id": "TavernResult0003",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "description": "Bellroot Hollow Dried Wild Garlic Pottage",
+      "name": "",
+      "img": "modules/runyth-tables-of-sustenance/assets/food/florin-medicinal-preparation.svg",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false,
+          "foodSourceId": "food.florin.1.005.bellroot-hollow-dried-wild-garlic-pottage"
+        }
+      }
+    },
+    {
+      "_id": "TavernResult0004",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "description": "Banner Road Salt-Cured Hardtack Pickle",
+      "name": "",
+      "img": "modules/runyth-tables-of-sustenance/assets/food/imperial-roads-midday-meal.svg",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false,
+          "foodSourceId": "food.imperial-roads.1.006.banner-road-salt-cured-hardtack-pickle"
+        }
+      }
+    },
+    {
+      "_id": "TavernResult0005",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "description": "Hainbund Farms Pressed Hazelnut Broth",
+      "name": "",
+      "img": "modules/runyth-tables-of-sustenance/assets/food/olvia-drink.svg",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false,
+          "foodSourceId": "food.olvia.1.012.hainbund-farms-pressed-hazelnut-broth"
+        }
+      }
+    },
+    {
+      "_id": "TavernResult0006",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "description": "Third Milestone Reconstituted Hardtack Pickle",
+      "name": "",
+      "img": "modules/runyth-tables-of-sustenance/assets/food/imperial-roads-snack.svg",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false,
+          "foodSourceId": "food.imperial-roads.1.016.third-milestone-reconstituted-hardtack-pickle"
+        }
+      }
+    },
+    {
+      "_id": "TavernResult0007",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "description": "Mühlenbach Smoked Herring Loaf",
+      "name": "",
+      "img": "modules/runyth-tables-of-sustenance/assets/food/velia-drink.svg",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false,
+          "foodSourceId": "food.velia.1.021.m-hlenbach-smoked-herring-loaf"
+        }
+      }
+    },
+    {
+      "_id": "TavernResult0008",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "description": "Ashen Post Kettle-Boiled Hardtack Pickle",
+      "name": "",
+      "img": "modules/runyth-tables-of-sustenance/assets/food/imperial-roads-dessert.svg",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false,
+          "foodSourceId": "food.imperial-roads.1.026.ashen-post-kettle-boiled-hardtack-pickle"
+        }
+      }
+    },
+    {
+      "_id": "TavernResult0009",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "description": "Velia Air-Dried Herring Loaf",
+      "name": "",
+      "img": "modules/runyth-tables-of-sustenance/assets/food/velia-ration.svg",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false,
+          "foodSourceId": "food.velia.1.031.velia-air-dried-herring-loaf"
+        }
+      }
+    },
+    {
+      "_id": "TavernResult0010",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "description": "Southbank River-Smoked Bean Dumpling",
+      "name": "",
+      "img": "modules/runyth-tables-of-sustenance/assets/food/heidel-midday-meal.svg",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false,
+          "foodSourceId": "food.heidel.1.033.southbank-river-smoked-bean-dumpling"
+        }
+      }
+    },
+    {
+      "_id": "TavernResult0011",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "description": "Bellroot Hollow Stone-Simmered Wild Garlic Pottage",
+      "name": "",
+      "img": "modules/runyth-tables-of-sustenance/assets/food/florin-dessert.svg",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false,
+          "foodSourceId": "food.florin.1.035.bellroot-hollow-stone-simmered-wild-garlic-pottage"
+        }
+      }
+    },
+    {
+      "_id": "TavernResult0012",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "description": "Banner Road Compressed Hardtack Pickle",
+      "name": "",
+      "img": "modules/runyth-tables-of-sustenance/assets/food/imperial-roads-ceremonial-dish.svg",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false,
+          "foodSourceId": "food.imperial-roads.1.036.banner-road-compressed-hardtack-pickle"
+        }
+      }
+    },
+    {
+      "_id": "TavernResult0013",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "description": "Hainbund Farms Cider-Braised Hazelnut Broth",
+      "name": "",
+      "img": "modules/runyth-tables-of-sustenance/assets/food/olvia-midday-meal.svg",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false,
+          "foodSourceId": "food.olvia.1.042.hainbund-farms-cider-braised-hazelnut-broth"
+        }
+      }
+    },
+    {
+      "_id": "TavernResult0014",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "description": "Third Milestone Wax-Sealed Hardtack Pickle",
+      "name": "",
+      "img": "modules/runyth-tables-of-sustenance/assets/food/imperial-roads-breakfast.svg",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false,
+          "foodSourceId": "food.imperial-roads.1.046.third-milestone-wax-sealed-hardtack-pickle"
+        }
+      }
+    },
+    {
+      "_id": "TavernResult0015",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "description": "Mühlenbach Baked Under Coals Herring Loaf",
+      "name": "",
+      "img": "modules/runyth-tables-of-sustenance/assets/food/velia-midday-meal.svg",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false,
+          "foodSourceId": "food.velia.1.051.m-hlenbach-baked-under-coals-herring-loaf"
+        }
+      }
+    },
+    {
+      "_id": "TavernResult0016",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "description": "Ashen Post Double-Baked Hardtack Pickle",
+      "name": "",
+      "img": "modules/runyth-tables-of-sustenance/assets/food/imperial-roads-supper.svg",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false,
+          "foodSourceId": "food.imperial-roads.1.056.ashen-post-double-baked-hardtack-pickle"
+        }
+      }
+    },
+    {
+      "_id": "TavernResult0017",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "description": "Velia Pickled Herring Loaf",
+      "name": "",
+      "img": "modules/runyth-tables-of-sustenance/assets/food/velia-snack.svg",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false,
+          "foodSourceId": "food.velia.1.061.velia-pickled-herring-loaf"
+        }
+      }
+    },
+    {
+      "_id": "TavernResult0018",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "description": "Southbank Boiled Bean Dumpling",
+      "name": "",
+      "img": "modules/runyth-tables-of-sustenance/assets/food/heidel-ceremonial-dish.svg",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false,
+          "foodSourceId": "food.heidel.1.063.southbank-boiled-bean-dumpling"
+        }
+      }
+    },
+    {
+      "_id": "TavernResult0019",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "description": "Bellroot Hollow Steam-Cooked Wild Garlic Pottage",
+      "name": "",
+      "img": "modules/runyth-tables-of-sustenance/assets/food/florin-supper.svg",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false,
+          "foodSourceId": "food.florin.1.065.bellroot-hollow-steam-cooked-wild-garlic-pottage"
+        }
+      }
+    },
+    {
+      "_id": "TavernResult0020",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "description": "Banner Road Rationed Hardtack Pickle",
+      "name": "",
+      "img": "modules/runyth-tables-of-sustenance/assets/food/imperial-roads-drink.svg",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false,
+          "foodSourceId": "food.imperial-roads.1.066.banner-road-rationed-hardtack-pickle"
+        }
+      }
+    }
+  ],
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "table.regional-tavern",
+      "sourceVersion": "1.0.0",
+      "kind": "table",
+      "containsTierSFood": false,
+      "containsTierSClues": false,
+      "localizations": {
+        "de": {
+          "name": "Regionale Tavernenmahlzeiten",
+          "description": "Nahrungstabelle: Regionale Tavernenmahlzeiten."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,410 @@
+{
+  "_id": "Kqzney3e5mEKyTwp",
+  "name": "Seasonal Dishes",
+  "description": "Food table: Seasonal Dishes.",
+  "results": [
+    {
+      "_id": "QxqPeTDPJqQSUoQC",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "description": "Knot Orchard Sun-Dried Hazelnut Broth",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "sFHzGRZUlO3Ildxb",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "description": "Southbank Griddled Bean Dumpling",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "2saTfYttkRVITkkq",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "description": "Calpheon Layered River Crab Bowl",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "Bd6WKiw0c0s98AyG",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "description": "Bellroot Hollow Dried Wild Garlic Pottage",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "aH2RDmxRfMUXDlhP",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "description": "Banner Road Salt-Cured Hardtack Pickle",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "HL6R9D7v4dtIfTqf",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "description": "Coldhammer Charred Cabbage Roll",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "5c9N97c3PbvfeqHI",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "description": "Copper Shade Fermented Goat Ale",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "Rrrz5WYTyXRfyHLB",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "description": "Farwake Salt-Fermented Black Bean Filled Bun",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "FT1xjS6eduQuH21C",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "description": "Westkai Stewed Herring Loaf",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "UnJyYrw00RZ6uTFs",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "description": "Hainbund Farms Pressed Hazelnut Broth",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "6SvboKE7M1c4omJy",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "description": "Heidel Mustard-Crusted Bean Dumpling",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "qct58Dcm932cJORf",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "description": "North Gate Wine-Poached River Crab Bowl",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "VkCubu8HmNZgt0iK",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "description": "Third Milestone Reconstituted Hardtack Pickle",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "4gyfhkqabU1Qtr4u",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "description": "Slate Cut Iron-Griddled Cabbage Roll",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "JJRs51In05HQFBYr",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "description": "Mosswater Stone-Griddled Trout Custard",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "qwrCPKtpwCRQGbLF",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "description": "Dustwell Water-Sparing Goat Ale",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "jzZTlyJhOnNoaOPW",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "description": "Copper Bay Reef-Smoked Black Bean Filled Bun",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "OV9oMlw0UqsfdV3u",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "description": "Mühlenbach Smoked Herring Loaf",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "9ECZ2bJE9J54Ba23",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "description": "Rivergate Malted Bean Dumpling",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "sboBrjAr0Z7U4Rrx",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "description": "Tax Quarter Stuffed River Crab Bowl",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    }
+  ],
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "table.seasonal",
+      "sourceVersion": "1.0.0",
+      "kind": "table",
+      "containsTierSFood": false,
+      "containsTierSClues": false,
+      "localizations": {
+        "de": {
+          "name": "Saisonale Speisen",
+          "description": "Nahrungstabelle: Saisonale Speisen."
+        }
+      }
+    }
+  }
+}

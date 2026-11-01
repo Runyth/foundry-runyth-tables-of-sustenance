@@ -1,0 +1,59 @@
+{
+  "_id": "mS8UBEn0UGuELLKo",
+  "name": "Recipe: Hainbund Farms Fortified Stone-Ground Hazelnut Broth",
+  "pages": [
+    {
+      "_id": "X9BDfIdkLA7GWjRa",
+      "name": "Recipe",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<h2>Hainbund Farms Fortified Stone-Ground Hazelnut Broth</h2><p><strong>Ingredients:</strong> hazelnut, elderberry, soft cheese</p><p><strong>Tools:</strong> cook’s utensils and region-appropriate heat source.</p><p><strong>Time:</strong> 2 hours</p><p><strong>Difficulty:</strong> trained</p><p><strong>Batch:</strong> 1 serving(s).</p><p><strong>Failure:</strong> ingredients are consumed; the result becomes a spoiled Tier 1 ration with no benefit.</p><p><strong>Partial success:</strong> half yield, no mechanical effect, safe to eat.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {}
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "recipe.food.olvia.2.072.hainbund-farms-fortified-stone-ground-hazelnut-broth",
+      "sourceVersion": "1.0.0",
+      "kind": "recipe",
+      "foodSourceId": "food.olvia.2.072.hainbund-farms-fortified-stone-ground-hazelnut-broth",
+      "requirements": {
+        "ingredients": [
+          "hazelnut",
+          "elderberry",
+          "soft cheese"
+        ],
+        "tools": [
+          "cook’s utensils"
+        ],
+        "skill": "Cooking",
+        "difficulty": "trained",
+        "time": "2 hours",
+        "authorization": null
+      },
+      "gmOnly": false,
+      "localizations": {
+        "de": {
+          "name": "Rezept: Hainbund Farms Stärkender Stone-Ground Haselnuss Brühe",
+          "pageName": "Rezept",
+          "content": "<h2>Hainbund Farms Stärkender Stone-Ground Haselnuss Brühe</h2><p><strong>Zutaten:</strong> Haselnuss, Holunderbeere, Weichkäse</p><p><strong>Werkzeuge:</strong> Kochutensilien und eine regional geeignete Hitzequelle.</p><p><strong>Zeit:</strong> 2 hours</p><p><strong>Schwierigkeit:</strong> geübt</p><p><strong>Fehlschlag:</strong> Die Zutaten werden verbraucht; das Ergebnis wird zu einer verdorbenen Tier-1-Ration ohne Vorteil.</p><p><strong>Teilerfolg:</strong> Halbe Ausbeute, kein mechanischer Effekt, aber sicher essbar.</p>"
+        }
+      }
+    }
+  }
+}

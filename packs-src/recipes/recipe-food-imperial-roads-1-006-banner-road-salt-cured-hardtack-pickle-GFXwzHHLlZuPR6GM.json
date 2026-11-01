@@ -1,0 +1,59 @@
+{
+  "_id": "GFXwzHHLlZuPR6GM",
+  "name": "Recipe: Banner Road Salt-Cured Hardtack Pickle",
+  "pages": [
+    {
+      "_id": "Ach34fvIsW1l6HMo",
+      "name": "Recipe",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<h2>Banner Road Salt-Cured Hardtack Pickle</h2><p><strong>Ingredients:</strong> hardtack, rendered fat, mustard seed</p><p><strong>Tools:</strong> cook’s utensils and region-appropriate heat source.</p><p><strong>Time:</strong> 1 hour</p><p><strong>Difficulty:</strong> simple</p><p><strong>Batch:</strong> 1 serving(s).</p><p><strong>Failure:</strong> ingredients are consumed; the result becomes a spoiled Tier 1 ration with no benefit.</p><p><strong>Partial success:</strong> half yield, no mechanical effect, safe to eat.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {}
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "recipe.food.imperial-roads.1.006.banner-road-salt-cured-hardtack-pickle",
+      "sourceVersion": "1.0.0",
+      "kind": "recipe",
+      "foodSourceId": "food.imperial-roads.1.006.banner-road-salt-cured-hardtack-pickle",
+      "requirements": {
+        "ingredients": [
+          "hardtack",
+          "rendered fat",
+          "mustard seed"
+        ],
+        "tools": [
+          "cook’s utensils"
+        ],
+        "skill": "Cooking",
+        "difficulty": "simple",
+        "time": "1 hour",
+        "authorization": null
+      },
+      "gmOnly": false,
+      "localizations": {
+        "de": {
+          "name": "Rezept: Banner Road Salt-Cured Hartkeks Eingelegtes",
+          "pageName": "Rezept",
+          "content": "<h2>Banner Road Salt-Cured Hartkeks Eingelegtes</h2><p><strong>Zutaten:</strong> Hartkeks, ausgelassenes Fett, Senfsaat</p><p><strong>Werkzeuge:</strong> Kochutensilien und eine regional geeignete Hitzequelle.</p><p><strong>Zeit:</strong> 1 hour</p><p><strong>Schwierigkeit:</strong> einfach</p><p><strong>Fehlschlag:</strong> Die Zutaten werden verbraucht; das Ergebnis wird zu einer verdorbenen Tier-1-Ration ohne Vorteil.</p><p><strong>Teilerfolg:</strong> Halbe Ausbeute, kein mechanischer Effekt, aber sicher essbar.</p>"
+        }
+      }
+    }
+  }
+}

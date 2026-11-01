@@ -1,0 +1,4619 @@
+[
+  {
+    "_id": "a0XHBEZsiJLuLJHL",
+    "name": "Regional Tavern Meals",
+    "description": "Food table: Regional Tavern Meals.",
+    "results": [
+      {
+        "_id": "TavernResult0001",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          1,
+          1
+        ],
+        "drawn": false,
+        "description": "Velia Salted Herring Loaf",
+        "name": "",
+        "img": "modules/runyth-tables-of-sustenance/assets/food/velia-breakfast.svg",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false,
+            "foodSourceId": "food.velia.1.001.velia-salted-herring-loaf"
+          }
+        }
+      },
+      {
+        "_id": "TavernResult0002",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          2,
+          2
+        ],
+        "drawn": false,
+        "description": "Southbank Griddled Bean Dumpling",
+        "name": "",
+        "img": "modules/runyth-tables-of-sustenance/assets/food/heidel-drink.svg",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false,
+            "foodSourceId": "food.heidel.1.003.southbank-griddled-bean-dumpling"
+          }
+        }
+      },
+      {
+        "_id": "TavernResult0003",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          3,
+          3
+        ],
+        "drawn": false,
+        "description": "Bellroot Hollow Dried Wild Garlic Pottage",
+        "name": "",
+        "img": "modules/runyth-tables-of-sustenance/assets/food/florin-medicinal-preparation.svg",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false,
+            "foodSourceId": "food.florin.1.005.bellroot-hollow-dried-wild-garlic-pottage"
+          }
+        }
+      },
+      {
+        "_id": "TavernResult0004",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          4,
+          4
+        ],
+        "drawn": false,
+        "description": "Banner Road Salt-Cured Hardtack Pickle",
+        "name": "",
+        "img": "modules/runyth-tables-of-sustenance/assets/food/imperial-roads-midday-meal.svg",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false,
+            "foodSourceId": "food.imperial-roads.1.006.banner-road-salt-cured-hardtack-pickle"
+          }
+        }
+      },
+      {
+        "_id": "TavernResult0005",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          5,
+          5
+        ],
+        "drawn": false,
+        "description": "Hainbund Farms Pressed Hazelnut Broth",
+        "name": "",
+        "img": "modules/runyth-tables-of-sustenance/assets/food/olvia-drink.svg",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false,
+            "foodSourceId": "food.olvia.1.012.hainbund-farms-pressed-hazelnut-broth"
+          }
+        }
+      },
+      {
+        "_id": "TavernResult0006",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          6,
+          6
+        ],
+        "drawn": false,
+        "description": "Third Milestone Reconstituted Hardtack Pickle",
+        "name": "",
+        "img": "modules/runyth-tables-of-sustenance/assets/food/imperial-roads-snack.svg",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false,
+            "foodSourceId": "food.imperial-roads.1.016.third-milestone-reconstituted-hardtack-pickle"
+          }
+        }
+      },
+      {
+        "_id": "TavernResult0007",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          7,
+          7
+        ],
+        "drawn": false,
+        "description": "Mühlenbach Smoked Herring Loaf",
+        "name": "",
+        "img": "modules/runyth-tables-of-sustenance/assets/food/velia-drink.svg",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false,
+            "foodSourceId": "food.velia.1.021.m-hlenbach-smoked-herring-loaf"
+          }
+        }
+      },
+      {
+        "_id": "TavernResult0008",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          8,
+          8
+        ],
+        "drawn": false,
+        "description": "Ashen Post Kettle-Boiled Hardtack Pickle",
+        "name": "",
+        "img": "modules/runyth-tables-of-sustenance/assets/food/imperial-roads-dessert.svg",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false,
+            "foodSourceId": "food.imperial-roads.1.026.ashen-post-kettle-boiled-hardtack-pickle"
+          }
+        }
+      },
+      {
+        "_id": "TavernResult0009",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          9,
+          9
+        ],
+        "drawn": false,
+        "description": "Velia Air-Dried Herring Loaf",
+        "name": "",
+        "img": "modules/runyth-tables-of-sustenance/assets/food/velia-ration.svg",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false,
+            "foodSourceId": "food.velia.1.031.velia-air-dried-herring-loaf"
+          }
+        }
+      },
+      {
+        "_id": "TavernResult0010",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          10,
+          10
+        ],
+        "drawn": false,
+        "description": "Southbank River-Smoked Bean Dumpling",
+        "name": "",
+        "img": "modules/runyth-tables-of-sustenance/assets/food/heidel-midday-meal.svg",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false,
+            "foodSourceId": "food.heidel.1.033.southbank-river-smoked-bean-dumpling"
+          }
+        }
+      },
+      {
+        "_id": "TavernResult0011",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          11,
+          11
+        ],
+        "drawn": false,
+        "description": "Bellroot Hollow Stone-Simmered Wild Garlic Pottage",
+        "name": "",
+        "img": "modules/runyth-tables-of-sustenance/assets/food/florin-dessert.svg",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false,
+            "foodSourceId": "food.florin.1.035.bellroot-hollow-stone-simmered-wild-garlic-pottage"
+          }
+        }
+      },
+      {
+        "_id": "TavernResult0012",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          12,
+          12
+        ],
+        "drawn": false,
+        "description": "Banner Road Compressed Hardtack Pickle",
+        "name": "",
+        "img": "modules/runyth-tables-of-sustenance/assets/food/imperial-roads-ceremonial-dish.svg",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false,
+            "foodSourceId": "food.imperial-roads.1.036.banner-road-compressed-hardtack-pickle"
+          }
+        }
+      },
+      {
+        "_id": "TavernResult0013",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          13,
+          13
+        ],
+        "drawn": false,
+        "description": "Hainbund Farms Cider-Braised Hazelnut Broth",
+        "name": "",
+        "img": "modules/runyth-tables-of-sustenance/assets/food/olvia-midday-meal.svg",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false,
+            "foodSourceId": "food.olvia.1.042.hainbund-farms-cider-braised-hazelnut-broth"
+          }
+        }
+      },
+      {
+        "_id": "TavernResult0014",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          14,
+          14
+        ],
+        "drawn": false,
+        "description": "Third Milestone Wax-Sealed Hardtack Pickle",
+        "name": "",
+        "img": "modules/runyth-tables-of-sustenance/assets/food/imperial-roads-breakfast.svg",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false,
+            "foodSourceId": "food.imperial-roads.1.046.third-milestone-wax-sealed-hardtack-pickle"
+          }
+        }
+      },
+      {
+        "_id": "TavernResult0015",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          15,
+          15
+        ],
+        "drawn": false,
+        "description": "Mühlenbach Baked Under Coals Herring Loaf",
+        "name": "",
+        "img": "modules/runyth-tables-of-sustenance/assets/food/velia-midday-meal.svg",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false,
+            "foodSourceId": "food.velia.1.051.m-hlenbach-baked-under-coals-herring-loaf"
+          }
+        }
+      },
+      {
+        "_id": "TavernResult0016",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          16,
+          16
+        ],
+        "drawn": false,
+        "description": "Ashen Post Double-Baked Hardtack Pickle",
+        "name": "",
+        "img": "modules/runyth-tables-of-sustenance/assets/food/imperial-roads-supper.svg",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false,
+            "foodSourceId": "food.imperial-roads.1.056.ashen-post-double-baked-hardtack-pickle"
+          }
+        }
+      },
+      {
+        "_id": "TavernResult0017",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          17,
+          17
+        ],
+        "drawn": false,
+        "description": "Velia Pickled Herring Loaf",
+        "name": "",
+        "img": "modules/runyth-tables-of-sustenance/assets/food/velia-snack.svg",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false,
+            "foodSourceId": "food.velia.1.061.velia-pickled-herring-loaf"
+          }
+        }
+      },
+      {
+        "_id": "TavernResult0018",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          18,
+          18
+        ],
+        "drawn": false,
+        "description": "Southbank Boiled Bean Dumpling",
+        "name": "",
+        "img": "modules/runyth-tables-of-sustenance/assets/food/heidel-ceremonial-dish.svg",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false,
+            "foodSourceId": "food.heidel.1.063.southbank-boiled-bean-dumpling"
+          }
+        }
+      },
+      {
+        "_id": "TavernResult0019",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          19,
+          19
+        ],
+        "drawn": false,
+        "description": "Bellroot Hollow Steam-Cooked Wild Garlic Pottage",
+        "name": "",
+        "img": "modules/runyth-tables-of-sustenance/assets/food/florin-supper.svg",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false,
+            "foodSourceId": "food.florin.1.065.bellroot-hollow-steam-cooked-wild-garlic-pottage"
+          }
+        }
+      },
+      {
+        "_id": "TavernResult0020",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          20,
+          20
+        ],
+        "drawn": false,
+        "description": "Banner Road Rationed Hardtack Pickle",
+        "name": "",
+        "img": "modules/runyth-tables-of-sustenance/assets/food/imperial-roads-drink.svg",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false,
+            "foodSourceId": "food.imperial-roads.1.066.banner-road-rationed-hardtack-pickle"
+          }
+        }
+      }
+    ],
+    "formula": "1d20",
+    "replacement": true,
+    "displayRoll": true,
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "runyth-tables-of-sustenance": {
+        "sourceId": "table.regional-tavern",
+        "sourceVersion": "1.0.0",
+        "kind": "table",
+        "containsTierSFood": false,
+        "containsTierSClues": false,
+        "localizations": {
+          "de": {
+            "name": "Regionale Tavernenmahlzeiten",
+            "description": "Nahrungstabelle: Regionale Tavernenmahlzeiten."
+          }
+        }
+      }
+    }
+  },
+  {
+    "_id": "ASOHIA3ARz3LVr1T",
+    "name": "Poor Household Meals",
+    "description": "Food table: Poor Household Meals.",
+    "results": [
+      {
+        "_id": "ohoI1m00DV6Dj6hl",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          1,
+          1
+        ],
+        "drawn": false,
+        "description": "Velia Salted Herring Loaf",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "iX2zx7XZ2GeOApI6",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          2,
+          2
+        ],
+        "drawn": false,
+        "description": "Rootwatch Leaf-Baked Trout Custard",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "24R9LINhTJrqXstu",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          3,
+          3
+        ],
+        "drawn": false,
+        "description": "Mist Garden Infused Wild Garlic Pottage",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "oysCXqLoEA7qP4AR",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          4,
+          4
+        ],
+        "drawn": false,
+        "description": "Olvia Slow-Baked Hazelnut Broth",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "yMSziyXKyyz0KDSj",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          5,
+          5
+        ],
+        "drawn": false,
+        "description": "Black Road Sun-Dried Goat Ale",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "AgGzswoBJJwHOMq8",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          6,
+          6
+        ],
+        "drawn": false,
+        "description": "Banner Road Compressed Hardtack Pickle",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "yJXgTRYfRFakFFCt",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          7,
+          7
+        ],
+        "drawn": false,
+        "description": "Heidel Braised Bean Dumpling",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "dqAaQwTXINcqFy6z",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          8,
+          8
+        ],
+        "drawn": false,
+        "description": "Copper Bay Lime-Cured Black Bean Filled Bun",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "9Cb0x0eRMlXcGLx7",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          9,
+          9
+        ],
+        "drawn": false,
+        "description": "Deep Lantern Pit-Baked Cabbage Roll",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "5SR1Bhqt8ASLRcON",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          10,
+          10
+        ],
+        "drawn": false,
+        "description": "Calpheon Butter-Basted River Crab Bowl",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "xXA79K2IBcU1FaRf",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          11,
+          11
+        ],
+        "drawn": false,
+        "description": "Westkai Salted Herring Loaf",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "aTlSqPgLHS4GugS6",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          12,
+          12
+        ],
+        "drawn": false,
+        "description": "Mosswater Leaf-Baked Trout Custard",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "5qU7Df8rZPXv7Z2k",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          13,
+          13
+        ],
+        "drawn": false,
+        "description": "Florin Infused Wild Garlic Pottage",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "MnUoQZGnaznaYyDY",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          14,
+          14
+        ],
+        "drawn": false,
+        "description": "Knot Orchard Slow-Baked Hazelnut Broth",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "jiSWKOOOrQV6rEBJ",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          15,
+          15
+        ],
+        "drawn": false,
+        "description": "Copper Shade Sun-Dried Goat Ale",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "Znzy8zhZlhj4w6R0",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          16,
+          16
+        ],
+        "drawn": false,
+        "description": "Third Milestone Compressed Hardtack Pickle",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "BsxQ3GxYahGZZffX",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          17,
+          17
+        ],
+        "drawn": false,
+        "description": "Rivergate Braised Bean Dumpling",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "amPsoeuUkc5qV1Ac",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          18,
+          18
+        ],
+        "drawn": false,
+        "description": "Stormmarket Lime-Cured Black Bean Filled Bun",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "q4Y39yVnTEtFnd2t",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          19,
+          19
+        ],
+        "drawn": false,
+        "description": "Coldhammer Pit-Baked Cabbage Roll",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "L7WWjJQCCj3ewt1J",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          20,
+          20
+        ],
+        "drawn": false,
+        "description": "North Gate Butter-Basted River Crab Bowl",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      }
+    ],
+    "formula": "1d20",
+    "replacement": true,
+    "displayRoll": true,
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "runyth-tables-of-sustenance": {
+        "sourceId": "table.poor-household",
+        "sourceVersion": "1.0.0",
+        "kind": "table",
+        "containsTierSFood": false,
+        "containsTierSClues": false,
+        "localizations": {
+          "de": {
+            "name": "Mahlzeiten armer Haushalte",
+            "description": "Nahrungstabelle: Mahlzeiten armer Haushalte."
+          }
+        }
+      }
+    }
+  },
+  {
+    "_id": "HUb6z0eUwwUmVylg",
+    "name": "Common Travelling Provisions",
+    "description": "Food table: Common Travelling Provisions.",
+    "results": [
+      {
+        "_id": "JKXEeik7EW4JaOOq",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          1,
+          1
+        ],
+        "drawn": false,
+        "description": "Rootwatch Leaf-Baked Trout Custard",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "Yx2FO7vNK3r0eC0N",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          2,
+          2
+        ],
+        "drawn": false,
+        "description": "Farwake Salt-Fermented Black Bean Filled Bun",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "wGD7rm3Kbcb1gTO7",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          3,
+          3
+        ],
+        "drawn": false,
+        "description": "Mosswater Stone-Griddled Trout Custard",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "2bS2baOqtx27E87I",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          4,
+          4
+        ],
+        "drawn": false,
+        "description": "Copper Bay Reef-Smoked Black Bean Filled Bun",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "qeV7FIbrGIhBTPH0",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          5,
+          5
+        ],
+        "drawn": false,
+        "description": "Unbroken Green Earth-Oven Cooked Trout Custard",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "VbCGkyJaM0LtCHPo",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          6,
+          6
+        ],
+        "drawn": false,
+        "description": "Stormmarket Syrup-Preserved Black Bean Filled Bun",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "T1psv1lDRXA7FrEm",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          7,
+          7
+        ],
+        "drawn": false,
+        "description": "Rootwatch Berry-Cured Trout Custard",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "dUR0Fkf0EwvmgMwb",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          8,
+          8
+        ],
+        "drawn": false,
+        "description": "Farwake Coconut-Braised Black Bean Filled Bun",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "yR8EH0Nr8cjxgbSc",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          9,
+          9
+        ],
+        "drawn": false,
+        "description": "Mosswater Resin-Smoked Trout Custard",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "SVhX7nWY2VTCwdo0",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          10,
+          10
+        ],
+        "drawn": false,
+        "description": "Copper Bay Lime-Cured Black Bean Filled Bun",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "fbyZQNKbDxH5wgdh",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          11,
+          11
+        ],
+        "drawn": false,
+        "description": "Unbroken Green Dew-Steeped Trout Custard",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "3i7SAPo7MxKuHr3r",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          12,
+          12
+        ],
+        "drawn": false,
+        "description": "Stormmarket Char-Grilled Black Bean Filled Bun",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "cMF0chnm4UxALFle",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          13,
+          13
+        ],
+        "drawn": false,
+        "description": "Rootwatch Foraged Trout Custard",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "MWeGbALhmu0Kj4ca",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          14,
+          14
+        ],
+        "drawn": false,
+        "description": "Farwake Steam-Wrapped Black Bean Filled Bun",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "7NdfptQyZMR6Ay1Y",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          15,
+          15
+        ],
+        "drawn": false,
+        "description": "Mosswater Leaf-Baked Trout Custard",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "HcOPMjiUmUE3RnoD",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          16,
+          16
+        ],
+        "drawn": false,
+        "description": "Copper Bay Salt-Fermented Black Bean Filled Bun",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "Geslfg9ADGuibOk8",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          17,
+          17
+        ],
+        "drawn": false,
+        "description": "Unbroken Green Stone-Griddled Trout Custard",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "OyBNg092yk2Ewpet",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          18,
+          18
+        ],
+        "drawn": false,
+        "description": "Stormmarket Reef-Smoked Black Bean Filled Bun",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "bdt0LqBTXo4ORaEX",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          19,
+          19
+        ],
+        "drawn": false,
+        "description": "Rootwatch Earth-Oven Cooked Trout Custard",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "ukQTFXnpQlCUH6o1",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          20,
+          20
+        ],
+        "drawn": false,
+        "description": "Farwake Syrup-Preserved Black Bean Filled Bun",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      }
+    ],
+    "formula": "1d20",
+    "replacement": true,
+    "displayRoll": true,
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "runyth-tables-of-sustenance": {
+        "sourceId": "table.travelling-provisions",
+        "sourceVersion": "1.0.0",
+        "kind": "table",
+        "containsTierSFood": false,
+        "containsTierSClues": false,
+        "localizations": {
+          "de": {
+            "name": "Gewöhnlicher Reiseproviant",
+            "description": "Nahrungstabelle: Gewöhnlicher Reiseproviant."
+          }
+        }
+      }
+    }
+  },
+  {
+    "_id": "4RSai2Z7cxwIgIcT",
+    "name": "Market Food",
+    "description": "Food table: Market Food.",
+    "results": [
+      {
+        "_id": "H2riYrii0u1NeLfh",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          1,
+          1
+        ],
+        "drawn": false,
+        "description": "Southbank Griddled Bean Dumpling",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "7T6YB7z8KrbmFMb0",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          2,
+          2
+        ],
+        "drawn": false,
+        "description": "Bellroot Hollow Dried Wild Garlic Pottage",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "dl7Nrkj4yf1JUSee",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          3,
+          3
+        ],
+        "drawn": false,
+        "description": "Mühlenbach Smoked Herring Loaf",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "4KwdTHw0dq3GxlvD",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          4,
+          4
+        ],
+        "drawn": false,
+        "description": "Southbank River-Smoked Bean Dumpling",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "lhffmxev5rK3dg7K",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          5,
+          5
+        ],
+        "drawn": false,
+        "description": "Bellroot Hollow Stone-Simmered Wild Garlic Pottage",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "h0VEwJXzDNn2L6W1",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          6,
+          6
+        ],
+        "drawn": false,
+        "description": "Mühlenbach Baked Under Coals Herring Loaf",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "kakKk6yZtp0udZ6H",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          7,
+          7
+        ],
+        "drawn": false,
+        "description": "Southbank Boiled Bean Dumpling",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "DEoFf1xAuLNwgAoK",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          8,
+          8
+        ],
+        "drawn": false,
+        "description": "Bellroot Hollow Steam-Cooked Wild Garlic Pottage",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "DbmYlKcWxmJ8PrVT",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          9,
+          9
+        ],
+        "drawn": false,
+        "description": "Mühlenbach Stewed Herring Loaf",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "HVnU3ZR2wVHG8yBY",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          10,
+          10
+        ],
+        "drawn": false,
+        "description": "Southbank Malted Bean Dumpling",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "whkdfkdsQXeOI922",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          11,
+          11
+        ],
+        "drawn": false,
+        "description": "Bellroot Hollow Cultured Wild Garlic Pottage",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "ALYPHlt0xuY2mW2N",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          12,
+          12
+        ],
+        "drawn": false,
+        "description": "Mühlenbach Pan-Seared Herring Loaf",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "xJSeGPQVcKp17rXn",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          13,
+          13
+        ],
+        "drawn": false,
+        "description": "Southbank Pot-Roasted Bean Dumpling",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "Lf1Edtzc1LJZwuCh",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          14,
+          14
+        ],
+        "drawn": false,
+        "description": "Bellroot Hollow Herb-Wrapped Wild Garlic Pottage",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "XTEWd9iSX1OClLns",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          15,
+          15
+        ],
+        "drawn": false,
+        "description": "Mühlenbach Salted Herring Loaf",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "ifqG00IKT1YZapRS",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          16,
+          16
+        ],
+        "drawn": false,
+        "description": "Southbank Mustard-Crusted Bean Dumpling",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "t5Y3GKEIXfYfgVDf",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          17,
+          17
+        ],
+        "drawn": false,
+        "description": "Bellroot Hollow Infused Wild Garlic Pottage",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "9LpXTJ4F050UCjp5",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          18,
+          18
+        ],
+        "drawn": false,
+        "description": "Mühlenbach Air-Dried Herring Loaf",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "l8oulpukh12txDDw",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          19,
+          19
+        ],
+        "drawn": false,
+        "description": "Southbank Fortified River-Smoked Bean Dumpling",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "g7xmtDzTImslE4ze",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          20,
+          20
+        ],
+        "drawn": false,
+        "description": "Bellroot Hollow Fortified Stone-Simmered Wild Garlic Pottage",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      }
+    ],
+    "formula": "1d20",
+    "replacement": true,
+    "displayRoll": true,
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "runyth-tables-of-sustenance": {
+        "sourceId": "table.market-food",
+        "sourceVersion": "1.0.0",
+        "kind": "table",
+        "containsTierSFood": false,
+        "containsTierSClues": false,
+        "localizations": {
+          "de": {
+            "name": "Marktspeisen",
+            "description": "Nahrungstabelle: Marktspeisen."
+          }
+        }
+      }
+    }
+  },
+  {
+    "_id": "uUbXXpZ72djw3GDs",
+    "name": "Military Rations",
+    "description": "Food table: Military Rations.",
+    "results": [
+      {
+        "_id": "iyZFeXdSkb7zn9Zl",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          1,
+          1
+        ],
+        "drawn": false,
+        "description": "Banner Road Salt-Cured Hardtack Pickle",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "gwCPdjYfuV8DMVUf",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          2,
+          2
+        ],
+        "drawn": false,
+        "description": "Third Milestone Reconstituted Hardtack Pickle",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "NyDOCzSyxyRVExaT",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          3,
+          3
+        ],
+        "drawn": false,
+        "description": "Ashen Post Kettle-Boiled Hardtack Pickle",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "ivN4NdWaH5c6xZ8s",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          4,
+          4
+        ],
+        "drawn": false,
+        "description": "Banner Road Compressed Hardtack Pickle",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "avtgNKxS1ChhY8Tb",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          5,
+          5
+        ],
+        "drawn": false,
+        "description": "Third Milestone Wax-Sealed Hardtack Pickle",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "8eJ7E6gVvy9Bim8v",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          6,
+          6
+        ],
+        "drawn": false,
+        "description": "Ashen Post Double-Baked Hardtack Pickle",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "TzXa211ERK8YQXiS",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          7,
+          7
+        ],
+        "drawn": false,
+        "description": "Banner Road Rationed Hardtack Pickle",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "TLHuNnC3HItXcrbt",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          8,
+          8
+        ],
+        "drawn": false,
+        "description": "Third Milestone Salt-Cured Hardtack Pickle",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "jVbkiNEGuPevNbUB",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          9,
+          9
+        ],
+        "drawn": false,
+        "description": "Ashen Post Reconstituted Hardtack Pickle",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "Lju5FBs4YGnG8ODd",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          10,
+          10
+        ],
+        "drawn": false,
+        "description": "Banner Road Kettle-Boiled Hardtack Pickle",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "1DB5TIyCeXBvHar2",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          11,
+          11
+        ],
+        "drawn": false,
+        "description": "Third Milestone Compressed Hardtack Pickle",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "D2oeONUjjuUvWMLh",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          12,
+          12
+        ],
+        "drawn": false,
+        "description": "Ashen Post Wax-Sealed Hardtack Pickle",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "SAo0kr2FdUaJc32z",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          13,
+          13
+        ],
+        "drawn": false,
+        "description": "Banner Road Double-Baked Hardtack Pickle",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "0C0FvckfRjLXdfPg",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          14,
+          14
+        ],
+        "drawn": false,
+        "description": "Third Milestone Rationed Hardtack Pickle",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "QwoGtIBcrzcjZqzK",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          15,
+          15
+        ],
+        "drawn": false,
+        "description": "Ashen Post Salt-Cured Hardtack Pickle",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "NnlzZeSsc2r0YxEQ",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          16,
+          16
+        ],
+        "drawn": false,
+        "description": "Banner Road Reconstituted Hardtack Pickle",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "8EzWPLz9uiYFMMP2",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          17,
+          17
+        ],
+        "drawn": false,
+        "description": "Third Milestone Kettle-Boiled Hardtack Pickle",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "Y8JPsMa3nABoSWlY",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          18,
+          18
+        ],
+        "drawn": false,
+        "description": "Ashen Post Compressed Hardtack Pickle",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "KV49ORDw4Td078Mn",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          19,
+          19
+        ],
+        "drawn": false,
+        "description": "Banner Road Fortified Compressed Hardtack Pickle",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "F5fNOYHnVc1CTw11",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          20,
+          20
+        ],
+        "drawn": false,
+        "description": "Third Milestone Fortified Wax-Sealed Hardtack Pickle",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      }
+    ],
+    "formula": "1d20",
+    "replacement": true,
+    "displayRoll": true,
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "runyth-tables-of-sustenance": {
+        "sourceId": "table.military-rations",
+        "sourceVersion": "1.0.0",
+        "kind": "table",
+        "containsTierSFood": false,
+        "containsTierSClues": false,
+        "localizations": {
+          "de": {
+            "name": "Militärrationen",
+            "description": "Nahrungstabelle: Militärrationen."
+          }
+        }
+      }
+    }
+  },
+  {
+    "_id": "Kqzney3e5mEKyTwp",
+    "name": "Seasonal Dishes",
+    "description": "Food table: Seasonal Dishes.",
+    "results": [
+      {
+        "_id": "QxqPeTDPJqQSUoQC",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          1,
+          1
+        ],
+        "drawn": false,
+        "description": "Knot Orchard Sun-Dried Hazelnut Broth",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "sFHzGRZUlO3Ildxb",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          2,
+          2
+        ],
+        "drawn": false,
+        "description": "Southbank Griddled Bean Dumpling",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "2saTfYttkRVITkkq",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          3,
+          3
+        ],
+        "drawn": false,
+        "description": "Calpheon Layered River Crab Bowl",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "Bd6WKiw0c0s98AyG",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          4,
+          4
+        ],
+        "drawn": false,
+        "description": "Bellroot Hollow Dried Wild Garlic Pottage",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "aH2RDmxRfMUXDlhP",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          5,
+          5
+        ],
+        "drawn": false,
+        "description": "Banner Road Salt-Cured Hardtack Pickle",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "HL6R9D7v4dtIfTqf",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          6,
+          6
+        ],
+        "drawn": false,
+        "description": "Coldhammer Charred Cabbage Roll",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "5c9N97c3PbvfeqHI",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          7,
+          7
+        ],
+        "drawn": false,
+        "description": "Copper Shade Fermented Goat Ale",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "Rrrz5WYTyXRfyHLB",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          8,
+          8
+        ],
+        "drawn": false,
+        "description": "Farwake Salt-Fermented Black Bean Filled Bun",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "FT1xjS6eduQuH21C",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          9,
+          9
+        ],
+        "drawn": false,
+        "description": "Westkai Stewed Herring Loaf",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "UnJyYrw00RZ6uTFs",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          10,
+          10
+        ],
+        "drawn": false,
+        "description": "Hainbund Farms Pressed Hazelnut Broth",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "6SvboKE7M1c4omJy",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          11,
+          11
+        ],
+        "drawn": false,
+        "description": "Heidel Mustard-Crusted Bean Dumpling",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "qct58Dcm932cJORf",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          12,
+          12
+        ],
+        "drawn": false,
+        "description": "North Gate Wine-Poached River Crab Bowl",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "VkCubu8HmNZgt0iK",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          13,
+          13
+        ],
+        "drawn": false,
+        "description": "Third Milestone Reconstituted Hardtack Pickle",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "4gyfhkqabU1Qtr4u",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          14,
+          14
+        ],
+        "drawn": false,
+        "description": "Slate Cut Iron-Griddled Cabbage Roll",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "JJRs51In05HQFBYr",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          15,
+          15
+        ],
+        "drawn": false,
+        "description": "Mosswater Stone-Griddled Trout Custard",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "qwrCPKtpwCRQGbLF",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          16,
+          16
+        ],
+        "drawn": false,
+        "description": "Dustwell Water-Sparing Goat Ale",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "jzZTlyJhOnNoaOPW",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          17,
+          17
+        ],
+        "drawn": false,
+        "description": "Copper Bay Reef-Smoked Black Bean Filled Bun",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "OV9oMlw0UqsfdV3u",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          18,
+          18
+        ],
+        "drawn": false,
+        "description": "Mühlenbach Smoked Herring Loaf",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "9ECZ2bJE9J54Ba23",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          19,
+          19
+        ],
+        "drawn": false,
+        "description": "Rivergate Malted Bean Dumpling",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "sboBrjAr0Z7U4Rrx",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          20,
+          20
+        ],
+        "drawn": false,
+        "description": "Tax Quarter Stuffed River Crab Bowl",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      }
+    ],
+    "formula": "1d20",
+    "replacement": true,
+    "displayRoll": true,
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "runyth-tables-of-sustenance": {
+        "sourceId": "table.seasonal",
+        "sourceVersion": "1.0.0",
+        "kind": "table",
+        "containsTierSFood": false,
+        "containsTierSClues": false,
+        "localizations": {
+          "de": {
+            "name": "Saisonale Speisen",
+            "description": "Nahrungstabelle: Saisonale Speisen."
+          }
+        }
+      }
+    }
+  },
+  {
+    "_id": "DoaJS9UhzpYZON5I",
+    "name": "Spoiled Food",
+    "description": "Food table: Spoiled Food.",
+    "results": [
+      {
+        "_id": "iiTzP4vzvCBaDTaF",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          1,
+          1
+        ],
+        "drawn": false,
+        "description": "Spoiled Velia Salted Herring Loaf: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "HtpfO5dB23dRlwbD",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          2,
+          2
+        ],
+        "drawn": false,
+        "description": "Spoiled Knot Orchard Sun-Dried Hazelnut Broth: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "XZ61fXWkuxSQHAgr",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          3,
+          3
+        ],
+        "drawn": false,
+        "description": "Spoiled Southbank Griddled Bean Dumpling: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "1Q4GoZLff32Zz6TU",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          4,
+          4
+        ],
+        "drawn": false,
+        "description": "Spoiled Calpheon Layered River Crab Bowl: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "Ij7zaZx9CJw7fAsY",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          5,
+          5
+        ],
+        "drawn": false,
+        "description": "Spoiled Bellroot Hollow Dried Wild Garlic Pottage: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "36n0klckiHd6cqQF",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          6,
+          6
+        ],
+        "drawn": false,
+        "description": "Spoiled Banner Road Salt-Cured Hardtack Pickle: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "q30fswKHbZReMbns",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          7,
+          7
+        ],
+        "drawn": false,
+        "description": "Spoiled Coldhammer Charred Cabbage Roll: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "z00TOldL7hwkVi0D",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          8,
+          8
+        ],
+        "drawn": false,
+        "description": "Spoiled Rootwatch Leaf-Baked Trout Custard: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "k1Ngop2TcIjC06AI",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          9,
+          9
+        ],
+        "drawn": false,
+        "description": "Spoiled Copper Shade Fermented Goat Ale: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "oYeYzC2lYF5s7kd2",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          10,
+          10
+        ],
+        "drawn": false,
+        "description": "Spoiled Farwake Salt-Fermented Black Bean Filled Bun: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "oVvf6BbFbQIyu6xN",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          11,
+          11
+        ],
+        "drawn": false,
+        "description": "Spoiled Westkai Stewed Herring Loaf: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "3Cm56FqUdlul5e3y",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          12,
+          12
+        ],
+        "drawn": false,
+        "description": "Spoiled Hainbund Farms Pressed Hazelnut Broth: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "XYaPfWfIxjk17RJS",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          13,
+          13
+        ],
+        "drawn": false,
+        "description": "Spoiled Heidel Mustard-Crusted Bean Dumpling: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "xGtY5b0hGIWiKHSp",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          14,
+          14
+        ],
+        "drawn": false,
+        "description": "Spoiled North Gate Wine-Poached River Crab Bowl: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "Avmwz5BWhCM8FM1V",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          15,
+          15
+        ],
+        "drawn": false,
+        "description": "Spoiled Mist Garden Infused Wild Garlic Pottage: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "vkUiqbk0vtDDBlVs",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          16,
+          16
+        ],
+        "drawn": false,
+        "description": "Spoiled Third Milestone Reconstituted Hardtack Pickle: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "z3V9EkV16EAlDAcn",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          17,
+          17
+        ],
+        "drawn": false,
+        "description": "Spoiled Slate Cut Iron-Griddled Cabbage Roll: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "CWJE5ie1Ke6UjI1l",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          18,
+          18
+        ],
+        "drawn": false,
+        "description": "Spoiled Mosswater Stone-Griddled Trout Custard: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "DwKpnOdOKYugTqpT",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          19,
+          19
+        ],
+        "drawn": false,
+        "description": "Spoiled Dustwell Water-Sparing Goat Ale: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "n38px54pwoHiBrEl",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          20,
+          20
+        ],
+        "drawn": false,
+        "description": "Spoiled Copper Bay Reef-Smoked Black Bean Filled Bun: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      }
+    ],
+    "formula": "1d20",
+    "replacement": true,
+    "displayRoll": true,
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "runyth-tables-of-sustenance": {
+        "sourceId": "table.spoiled",
+        "sourceVersion": "1.0.0",
+        "kind": "table",
+        "containsTierSFood": false,
+        "containsTierSClues": false,
+        "localizations": {
+          "de": {
+            "name": "Verdorbene Nahrung",
+            "description": "Nahrungstabelle: Verdorbene Nahrung."
+          }
+        }
+      }
+    }
+  },
+  {
+    "_id": "o1neaSfXXxiZL2TX",
+    "name": "Counterfeit Luxury Food",
+    "description": "Food table: Counterfeit Luxury Food.",
+    "results": [
+      {
+        "_id": "2Pljc0CPdTvHbyJV",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          1,
+          1
+        ],
+        "drawn": false,
+        "description": "Counterfeit Velia Fortified Air-Dried Herring Loaf: cheaper staple, dyed garnish, and no mechanical effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "HlpuyoLERsYOeKgL",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          2,
+          2
+        ],
+        "drawn": false,
+        "description": "Counterfeit Knot Orchard Fortified Stone-Ground Hazelnut Broth: cheaper staple, dyed garnish, and no mechanical effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "cryMtkXE1L5kgpg5",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          3,
+          3
+        ],
+        "drawn": false,
+        "description": "Counterfeit Southbank Fortified River-Smoked Bean Dumpling: cheaper staple, dyed garnish, and no mechanical effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "kV2VOthIAaEhJ77q",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          4,
+          4
+        ],
+        "drawn": false,
+        "description": "Counterfeit Calpheon Fortified Fine-Milled River Crab Bowl: cheaper staple, dyed garnish, and no mechanical effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "TC1yW94cxntbojwJ",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          5,
+          5
+        ],
+        "drawn": false,
+        "description": "Counterfeit Bellroot Hollow Fortified Stone-Simmered Wild Garlic Pottage: cheaper staple, dyed garnish, and no mechanical effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "LIelUtufnidM0wBW",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          6,
+          6
+        ],
+        "drawn": false,
+        "description": "Counterfeit Banner Road Fortified Compressed Hardtack Pickle: cheaper staple, dyed garnish, and no mechanical effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "z1SuAD3Hz2CIczEp",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          7,
+          7
+        ],
+        "drawn": false,
+        "description": "Counterfeit Coldhammer Fortified Cellar-Cured Cabbage Roll: cheaper staple, dyed garnish, and no mechanical effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "4eGV36PluQnGTIGr",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          8,
+          8
+        ],
+        "drawn": false,
+        "description": "Counterfeit Rootwatch Fortified Berry-Cured Trout Custard: cheaper staple, dyed garnish, and no mechanical effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "pL0U7vrwNz3nqg1z",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          9,
+          9
+        ],
+        "drawn": false,
+        "description": "Counterfeit Copper Shade Fortified Clay-Pot Cooked Goat Ale: cheaper staple, dyed garnish, and no mechanical effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "NyP41sPPmY1zQpBQ",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          10,
+          10
+        ],
+        "drawn": false,
+        "description": "Counterfeit Farwake Fortified Coconut-Braised Black Bean Filled Bun: cheaper staple, dyed garnish, and no mechanical effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "t4INDrhbeDKPnEtw",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          11,
+          11
+        ],
+        "drawn": false,
+        "description": "Counterfeit Westkai Fortified Pan-Seared Herring Loaf: cheaper staple, dyed garnish, and no mechanical effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "97tQzVGFTDVSZYoq",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          12,
+          12
+        ],
+        "drawn": false,
+        "description": "Counterfeit Hainbund Farms Fortified Cider-Braised Hazelnut Broth: cheaper staple, dyed garnish, and no mechanical effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "KuRpheQmNkLKniS3",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          13,
+          13
+        ],
+        "drawn": false,
+        "description": "Counterfeit Heidel Fortified Braised Bean Dumpling: cheaper staple, dyed garnish, and no mechanical effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "wksHP6FMEerCQlxA",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          14,
+          14
+        ],
+        "drawn": false,
+        "description": "Counterfeit North Gate Fortified Clarified River Crab Bowl: cheaper staple, dyed garnish, and no mechanical effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "WYhdWHKvZfJtyRSZ",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          15,
+          15
+        ],
+        "drawn": false,
+        "description": "Counterfeit Mist Garden Fortified Mortar-Ground Wild Garlic Pottage: cheaper staple, dyed garnish, and no mechanical effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "IpN2iHkhtHSrlLpd",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          16,
+          16
+        ],
+        "drawn": false,
+        "description": "Counterfeit Third Milestone Fortified Wax-Sealed Hardtack Pickle: cheaper staple, dyed garnish, and no mechanical effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "tdsB1L4PlyPWzxZG",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          17,
+          17
+        ],
+        "drawn": false,
+        "description": "Counterfeit Slate Cut Fortified Pickled Cabbage Roll: cheaper staple, dyed garnish, and no mechanical effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "Cem2ov1h9ABDAiLL",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          18,
+          18
+        ],
+        "drawn": false,
+        "description": "Counterfeit Mosswater Fortified Resin-Smoked Trout Custard: cheaper staple, dyed garnish, and no mechanical effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "B0Xi0kV25hCMubsU",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          19,
+          19
+        ],
+        "drawn": false,
+        "description": "Counterfeit Dustwell Fortified Sand-Baked Goat Ale: cheaper staple, dyed garnish, and no mechanical effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "wBVA1OMEJPohR9x7",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          20,
+          20
+        ],
+        "drawn": false,
+        "description": "Counterfeit Copper Bay Fortified Lime-Cured Black Bean Filled Bun: cheaper staple, dyed garnish, and no mechanical effect.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      }
+    ],
+    "formula": "1d20",
+    "replacement": true,
+    "displayRoll": true,
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "runyth-tables-of-sustenance": {
+        "sourceId": "table.counterfeit-luxury",
+        "sourceVersion": "1.0.0",
+        "kind": "table",
+        "containsTierSFood": false,
+        "containsTierSClues": false,
+        "localizations": {
+          "de": {
+            "name": "Gefälschte Luxusspeisen",
+            "description": "Nahrungstabelle: Gefälschte Luxusspeisen."
+          }
+        }
+      }
+    }
+  },
+  {
+    "_id": "Oyi0blXQEXtWic5S",
+    "name": "Unusual Ingredients",
+    "description": "Food table: Unusual Ingredients.",
+    "results": [
+      {
+        "_id": "MxplCnoGj3uxYIEf",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          1,
+          1
+        ],
+        "drawn": false,
+        "description": "herring, mussel, onion",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "RKzvnfR4hmV9VWU5",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          2,
+          2
+        ],
+        "drawn": false,
+        "description": "hazelnut, elderberry, soft cheese",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "glt16NzepNVYuFG8",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          3,
+          3
+        ],
+        "drawn": false,
+        "description": "bean, brown bread, brown bread",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "I0v3fwqjoUK9LRpU",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          4,
+          4
+        ],
+        "drawn": false,
+        "description": "river crab, almond, butter",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "jVRjJKQKWyzBwuJA",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          5,
+          5
+        ],
+        "drawn": false,
+        "description": "wild garlic, mushroom, juniper",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "NkKl0CXs2WrCYhPs",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          6,
+          6
+        ],
+        "drawn": false,
+        "description": "hardtack, rendered fat, mustard seed",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "NE1woRdZCxUPN6Wv",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          7,
+          7
+        ],
+        "drawn": false,
+        "description": "cabbage, dark ale, potato",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "wnL13KPOzKgneRNC",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          8,
+          8
+        ],
+        "drawn": false,
+        "description": "trout, venison, venison",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "Mqa4VZqqiNvZeDQb",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          9,
+          9
+        ],
+        "drawn": false,
+        "description": "goat, flatbread, goat",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "VjKgYvWOVk2vJjrd",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          10,
+          10
+        ],
+        "drawn": false,
+        "description": "black bean, lime, seaweed",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "QNrHe3sHUnPwYzs9",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          11,
+          11
+        ],
+        "drawn": false,
+        "description": "herring, mussel, onion",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "xJdiqtYPs4xMF2yx",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          12,
+          12
+        ],
+        "drawn": false,
+        "description": "hazelnut, elderberry, soft cheese",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "ezaMyxyDMnArEYNx",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          13,
+          13
+        ],
+        "drawn": false,
+        "description": "bean, brown bread, brown bread",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "UMxo1jra4TM1368e",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          14,
+          14
+        ],
+        "drawn": false,
+        "description": "river crab, almond, butter",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "2JgEkh7DxfBfrL4X",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          15,
+          15
+        ],
+        "drawn": false,
+        "description": "wild garlic, mushroom, juniper",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "zfHFGjDsTITkJbUA",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          16,
+          16
+        ],
+        "drawn": false,
+        "description": "hardtack, rendered fat, mustard seed",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "3qNfvcIIj2rWDb94",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          17,
+          17
+        ],
+        "drawn": false,
+        "description": "cabbage, dark ale, potato",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "SQtdSKVLK4pu3awj",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          18,
+          18
+        ],
+        "drawn": false,
+        "description": "trout, venison, venison",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "TtBvIdlT4S6X4JdA",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          19,
+          19
+        ],
+        "drawn": false,
+        "description": "goat, flatbread, goat",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "ZFMLxztyrGfIiOut",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          20,
+          20
+        ],
+        "drawn": false,
+        "description": "black bean, lime, seaweed",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      }
+    ],
+    "formula": "1d20",
+    "replacement": true,
+    "displayRoll": true,
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "runyth-tables-of-sustenance": {
+        "sourceId": "table.unusual-ingredients",
+        "sourceVersion": "1.0.0",
+        "kind": "table",
+        "containsTierSFood": false,
+        "containsTierSClues": false,
+        "localizations": {
+          "de": {
+            "name": "Ungewöhnliche Zutaten",
+            "description": "Nahrungstabelle: Ungewöhnliche Zutaten."
+          }
+        }
+      }
+    }
+  },
+  {
+    "_id": "7QI15yyYG7ZA5B2O",
+    "name": "Illicit Cuisine",
+    "description": "Food table: Illicit Cuisine.",
+    "results": [
+      {
+        "_id": "37jUvQgQ9cCq8aJ3",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          1,
+          1
+        ],
+        "drawn": false,
+        "description": "Coldhammer Deep-Fire Supper",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "zLjbyHfbEjj2qmyl",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          2,
+          2
+        ],
+        "drawn": false,
+        "description": "Florin Clear-Breath Banquet",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "bH6wIXNOE2X3mqCd",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          3,
+          3
+        ],
+        "drawn": false,
+        "description": "Calpheon Twelve-Layer Vigil",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "66ujgUFDQ5tI9SXs",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          4,
+          4
+        ],
+        "drawn": false,
+        "description": "Rootwatch Hunter’s Concord",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "Ebh1Z1n4E3Tfj5HS",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          5,
+          5
+        ],
+        "drawn": false,
+        "description": "Farwake Reef-Captain Feast",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "rbkatEqlOTZt1kKZ",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          6,
+          6
+        ],
+        "drawn": false,
+        "description": "Olvian First-Press Wedding Table",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "0ZJ7nrW1YiCwAIjG",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          7,
+          7
+        ],
+        "drawn": false,
+        "description": "Salt-Hand Founders’ Kettle",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "9yhyNg35vsCHZSMj",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          8,
+          8
+        ],
+        "drawn": false,
+        "description": "Grove League Autumn Reckoning",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "5LA5JjPqJhVu1ZJj",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          9,
+          9
+        ],
+        "drawn": false,
+        "description": "Revenue Hall Unbroken Course",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "XijlNDSWSjDMEUgy",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          10,
+          10
+        ],
+        "drawn": false,
+        "description": "Bellroot Red-Thread Supper",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "G8a7YmtJ25AOEnvT",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          11,
+          11
+        ],
+        "drawn": false,
+        "description": "Deep Lantern Rescue Table",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "UQqgXyQ9w6J3lwDl",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          12,
+          12
+        ],
+        "drawn": false,
+        "description": "Mosswater Boundary Supper",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "ui1RoWWRo9NqrkhH",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          13,
+          13
+        ],
+        "drawn": false,
+        "description": "Stormmarket Customs Banquet",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      }
+    ],
+    "formula": "1d13",
+    "replacement": true,
+    "displayRoll": true,
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "runyth-tables-of-sustenance": {
+        "sourceId": "table.illicit",
+        "sourceVersion": "1.0.0",
+        "kind": "table",
+        "containsTierSFood": false,
+        "containsTierSClues": false,
+        "localizations": {
+          "de": {
+            "name": "Illegale Küche",
+            "description": "Nahrungstabelle: Illegale Küche."
+          }
+        }
+      }
+    }
+  },
+  {
+    "_id": "QRAtMpN9uSMnDKsc",
+    "name": "Culinary Rumours",
+    "description": "Food table: Culinary Rumours.",
+    "results": [
+      {
+        "_id": "Y83lSURKZvQXrb5X",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          1,
+          1
+        ],
+        "drawn": false,
+        "description": "A cook claims the true version of Velia Master-Cook’s Smoked Herring Salad requires an ingredient omitted from all licensed copies.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "vM1weSc2qff3kCFp",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          2,
+          2
+        ],
+        "drawn": false,
+        "description": "A cook claims the true version of Knot Orchard Master-Cook’s Slow-Baked Hazelnut Tea requires an ingredient omitted from all licensed copies.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "UmHtd1ZmVzmQsFWY",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          3,
+          3
+        ],
+        "drawn": false,
+        "description": "A cook claims the true version of Southbank Master-Cook’s Malted Bean Ration Brick requires an ingredient omitted from all licensed copies.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "bsg7T1Hdr4wPJzO5",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          4,
+          4
+        ],
+        "drawn": false,
+        "description": "A cook claims the true version of Calpheon Master-Cook’s Stuffed River Crab Griddle Cake requires an ingredient omitted from all licensed copies.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "zH7mwsQVbHqDSJMj",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          5,
+          5
+        ],
+        "drawn": false,
+        "description": "A cook claims the true version of Bellroot Hollow Master-Cook’s Cultured Wild Garlic Stew requires an ingredient omitted from all licensed copies.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "1wQpkL9xkqhXHxbi",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          6,
+          6
+        ],
+        "drawn": false,
+        "description": "A cook claims the true version of Banner Road Master-Cook’s Kettle-Boiled Hardtack Cake requires an ingredient omitted from all licensed copies.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "e0jXPLgw3oqNsQU7",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          7,
+          7
+        ],
+        "drawn": false,
+        "description": "A cook claims the true version of Coldhammer Master-Cook’s Pressure-Stewed Cabbage Hash requires an ingredient omitted from all licensed copies.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "zj1FcGzzWwIpHDSg",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          8,
+          8
+        ],
+        "drawn": false,
+        "description": "A cook claims the true version of Rootwatch Master-Cook’s Earth-Oven Cooked Trout Flatbread requires an ingredient omitted from all licensed copies.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "ZDhxn2HwxpmRJeU5",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          9,
+          9
+        ],
+        "drawn": false,
+        "description": "A cook claims the true version of Copper Shade Master-Cook’s Sun-Dried Goat Relish requires an ingredient omitted from all licensed copies.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "4oPHGdoieVjukvXt",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          10,
+          10
+        ],
+        "drawn": false,
+        "description": "A cook claims the true version of Farwake Master-Cook’s Syrup-Preserved Black Bean Mash requires an ingredient omitted from all licensed copies.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "tUUCM1YvUHtqxfE7",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          11,
+          11
+        ],
+        "drawn": false,
+        "description": "A cook claims the true version of Westkai Master-Cook’s Air-Dried Herring Salad requires an ingredient omitted from all licensed copies.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "MLy4OMoUpLiU3v5X",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          12,
+          12
+        ],
+        "drawn": false,
+        "description": "A cook claims the true version of Hainbund Farms Master-Cook’s Stone-Ground Hazelnut Tea requires an ingredient omitted from all licensed copies.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "aK1rnVGXON1egffs",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          13,
+          13
+        ],
+        "drawn": false,
+        "description": "A cook claims the true version of Heidel Master-Cook’s River-Smoked Bean Ration Brick requires an ingredient omitted from all licensed copies.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "MYLiuB46cTEErb32",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          14,
+          14
+        ],
+        "drawn": false,
+        "description": "A cook claims the true version of North Gate Master-Cook’s Fine-Milled River Crab Griddle Cake requires an ingredient omitted from all licensed copies.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "3RzOo4zvwcv3YECs",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          15,
+          15
+        ],
+        "drawn": false,
+        "description": "A cook claims the true version of Mist Garden Master-Cook’s Stone-Simmered Wild Garlic Stew requires an ingredient omitted from all licensed copies.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "GZuF3vJPJQhcoI0m",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          16,
+          16
+        ],
+        "drawn": false,
+        "description": "A cook claims the true version of Third Milestone Master-Cook’s Compressed Hardtack Cake requires an ingredient omitted from all licensed copies.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "6wfYIMjIpOKPUp9Y",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          17,
+          17
+        ],
+        "drawn": false,
+        "description": "A cook claims the true version of Slate Cut Master-Cook’s Cellar-Cured Cabbage Hash requires an ingredient omitted from all licensed copies.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "puzReVfn7V4Xougj",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          18,
+          18
+        ],
+        "drawn": false,
+        "description": "A cook claims the true version of Mosswater Master-Cook’s Berry-Cured Trout Flatbread requires an ingredient omitted from all licensed copies.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "xsbP0Ltfp6eoK2d3",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          19,
+          19
+        ],
+        "drawn": false,
+        "description": "A cook claims the true version of Dustwell Master-Cook’s Clay-Pot Cooked Goat Relish requires an ingredient omitted from all licensed copies.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "3gUgvp5o3XT8GZjr",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          20,
+          20
+        ],
+        "drawn": false,
+        "description": "A cook claims the true version of Copper Bay Master-Cook’s Coconut-Braised Black Bean Mash requires an ingredient omitted from all licensed copies.",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      }
+    ],
+    "formula": "1d20",
+    "replacement": true,
+    "displayRoll": true,
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "runyth-tables-of-sustenance": {
+        "sourceId": "table.rumours",
+        "sourceVersion": "1.0.0",
+        "kind": "table",
+        "containsTierSFood": false,
+        "containsTierSClues": false,
+        "localizations": {
+          "de": {
+            "name": "Kulinarische Gerüchte",
+            "description": "Nahrungstabelle: Kulinarische Gerüchte."
+          }
+        }
+      }
+    }
+  },
+  {
+    "_id": "S7b6ywg7Ie6F5uRh",
+    "name": "Legendary Food Clues",
+    "description": "Food table: Legendary Food Clues.",
+    "results": [
+      {
+        "_id": "sZMCMWxXM3yQJO4L",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          1,
+          1
+        ],
+        "drawn": false,
+        "description": "A rumour points toward Unbroken Green: Said to ripen only where a forest boundary has remained unbroken for thirty-three generations..",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "uUPgGObfiNEMAieW",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          2,
+          2
+        ],
+        "drawn": false,
+        "description": "A rumour points toward Knot Orchard: A single silver-skinned pear appears after an orchard survives a moonless frost without fire..",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "QOtjgdUkMbG7j4yN",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          3,
+          3
+        ],
+        "drawn": false,
+        "description": "A rumour points toward Westkai: The oyster forms around a coin lost during the first storm of a new imperial year..",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "U2EMC7qUGbSjlepS",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          4,
+          4
+        ],
+        "drawn": false,
+        "description": "A rumour points toward Florin: A physician who refused an Imperial title cultivated one flawless root and left no written recipe..",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "uMzpoGj6TLT6VwKL",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          5,
+          5
+        ],
+        "drawn": false,
+        "description": "A rumour points toward Black Road: Thirty-three black kernels were found fused into glass after a silent light crossed the desert..",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "0Uo6nZIH0b6U51GU",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          6,
+          6
+        ],
+        "drawn": false,
+        "description": "A rumour points toward Ashen Post: Imperial doctrine calls it a symbolic replica; three sealed archives disagree on which loaf was copied..",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "Z1xGD6D20YNAQMYm",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          7,
+          7
+        ],
+        "drawn": false,
+        "description": "A rumour points toward Deep Lantern: It is said to form in an ancient horned beast that sleeps beneath a mine until every lamp goes dark at once..",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "8OABPfAKTINJstz2",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          8,
+          8
+        ],
+        "drawn": false,
+        "description": "A rumour points toward Calpheon: Every jar bears a date from before its orchard existed, and no two witnesses remember the cook’s face..",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "B96mSG3foUQ45eSx",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          9,
+          9
+        ],
+        "drawn": false,
+        "description": "A rumour points toward Stormmarket: Brewed from leaves gathered during a winter when an entire coastal cemetery flowered green..",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      },
+      {
+        "_id": "t0FXsBBDTpCwy2ms",
+        "type": "text",
+        "weight": 1,
+        "range": [
+          10,
+          10
+        ],
+        "drawn": false,
+        "description": "A rumour points toward Southbank: The honey is found in a hive built inside river glass created by a lightning strike..",
+        "name": "",
+        "img": "",
+        "documentUuid": null,
+        "flags": {
+          "runyth-tables-of-sustenance": {
+            "tierSDirectResult": false
+          }
+        }
+      }
+    ],
+    "formula": "1d10",
+    "replacement": true,
+    "displayRoll": true,
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "runyth-tables-of-sustenance": {
+        "sourceId": "table.legendary-clues",
+        "sourceVersion": "1.0.0",
+        "kind": "table",
+        "containsTierSFood": false,
+        "containsTierSClues": true,
+        "localizations": {
+          "de": {
+            "name": "Hinweise auf legendäre Nahrung",
+            "description": "Nahrungstabelle: Hinweise auf legendäre Nahrung."
+          }
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,113 @@
+{
+  "_id": "3BOWNaOC5aWPTZNG",
+  "name": "Deep Lantern Master-Cook’s Pickled Cabbage Hash",
+  "img": "modules/runyth-tables-of-sustenance/assets/food/northern-mines-ration.svg",
+  "description": "<h3>Overview</h3><p>A sticky, smoky hash built around cabbage, dark ale, and the pickled technique common near Deep Lantern.</p><h3>Origin</h3><p>Associated with Deep Lantern in Northern Mineholds. Minehold food favours dense calories, strong salt, and meals that can be eaten with blackened hands during a short bell break.</p><h3>Availability</h3><p>Usually encountered in worker kitchens; availability is rare and strongest during spring.</p><h3>Typical Consumers</h3><p>Most often eaten by children, while elderly people actively seek it out for its portability, familiarity, or social meaning.</p><h3>Preparation</h3><p>Prepared from cabbage, dark ale, potato using ordinary cookware and 4 hours of work. Its expected shelf life is 2 days.</p><h3>Cultural Meaning</h3><p>It signals merchant circumstances in Minehold Communities; serving it outside its normal context can read as hospitality, thrift, nostalgia, or quiet insult.</p><h3>Mechanical Effect</h3><p>For 8 hours, gain a +2 bonus to Perception checks. Only one Tier 3 food effect can be active at a time.</p><h3>Consumption and Cooldown</h3><p>One serving is consumed as an action or as part of a rest. Duration: 28800 seconds. No cooldown. Effects of the same tier follow the configured stacking rule.</p><h3>Imperial Status</h3><p>Imperial classification: lawful culinary craft. Inspection focuses on provenance, repeatability, and whether the preparation is licensed.</p><section class=\"secret\"><h3>GM Notes</h3><p>Substitute another local hash if the ingredient is unavailable. Counterfeits usually replace cabbage with cheaper grain or conceal spoilage with vinegar.</p></section>",
+  "unidentifiedDescription": "",
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "food.northern-mines.3.027.deep-lantern-master-cooks-pickled-cabbage-hash",
+      "sourceVersion": "1.0.0",
+      "kind": "food",
+      "meta": {
+        "tier": "3",
+        "tierLabel": "Exceptional Cuisine",
+        "originRegion": "Northern Mineholds",
+        "originSettlement": "Deep Lantern",
+        "culture": "Minehold Communities",
+        "factionAssociation": [
+          "Pit Kitchens"
+        ],
+        "typicalVenue": [
+          "worker kitchens",
+          "mines",
+          "funerals"
+        ],
+        "usualConsumers": [
+          "children"
+        ],
+        "preferredConsumers": [
+          "elderly people"
+        ],
+        "avoidedBy": [
+          "miners"
+        ],
+        "socialClass": [
+          "merchant"
+        ],
+        "professionAssociation": [
+          "children"
+        ],
+        "priceCategory": "moderate",
+        "rarity": "rare",
+        "legality": "lawful culinary craft",
+        "season": [
+          "spring"
+        ],
+        "mealType": [
+          "ration"
+        ],
+        "servingTemperature": "hot",
+        "preservationMethod": "salted",
+        "preparationDifficulty": "expert",
+        "preparationTime": "4 hours",
+        "shelfLife": "2 days",
+        "ingredients": [
+          "cabbage",
+          "dark ale",
+          "potato"
+        ],
+        "dietaryProperties": [
+          "vegetarian"
+        ],
+        "flavourProfile": [
+          "smoky",
+          "earthy"
+        ],
+        "texture": "sticky",
+        "alcoholic": false,
+        "nature": "mundane",
+        "effectDurationSeconds": 28800,
+        "cooldownSeconds": 0,
+        "servings": 1,
+        "weight": 1.0,
+        "purchasePrice": {
+          "value": 5,
+          "denomination": "gp"
+        },
+        "suggestedAvailability": "rare",
+        "identificationStatus": "identified",
+        "preparationMethod": "pickled",
+        "activeEffect": true
+      },
+      "mechanics": {
+        "tier": "3",
+        "effectId": "effect.food.northern-mines.3.027.deep-lantern-master-cooks-pickled-cabbage-hash",
+        "summary": "For 8 hours, gain a +2 bonus to Perception checks. Only one Tier 3 food effect can be active at a time.",
+        "summaryDe": "Für 8 Stunden erhältst du +2 auf Wahrnehmung. Es kann nur ein Effekt einer Speise der Stufe 3 gleichzeitig aktiv sein.",
+        "durationSeconds": 28800,
+        "cooldownSeconds": 0,
+        "activation": "immediate",
+        "stackingGroup": "tier-3",
+        "permanent": false,
+        "duplicatePolicy": "replace-weaker",
+        "requiresConfirmation": true,
+        "effectIntents": [
+          {
+            "kind": "check-bonus",
+            "domain": "perception",
+            "amount": 2
+          }
+        ]
+      },
+      "localizations": {
+        "de": {
+          "name": "Deep Lantern Meisterkoch- Eingelegtesd Kohl Hash",
+          "description": "<h3>Überblick</h3><p>Die Speise verbindet Kohl, Dunkelbier, Kartoffel mit der für Deep Lantern typischen Zubereitung „eingelegt“. Geschmack und Textur bleiben bodenständig und von den verfügbaren Vorräten geprägt.</p><h3>Herkunft</h3><p>Sie ist eng mit Deep Lantern in der Region Northern Mineholds sowie mit der Kultur Minehold Communities verbunden.</p><h3>Verfügbarkeit</h3><p>Gewöhnlich ist sie in Arbeiterküchen, Minen, Begräbnissen zu finden. Ihre Seltenheit gilt als selten; die beste Verfügbarkeit besteht während Frühling.</p><h3>Typische Verbraucher</h3><p>Sie wird meist von Kindern gegessen. Besonders geschätzt wird sie von älteren Menschen, weil Preis, Haltbarkeit, Geschmack oder gesellschaftliche Bedeutung zu deren Alltag passen.</p><h3>Zubereitung</h3><p>Benötigt werden Kohl, Dunkelbier, Kartoffel. Die Zubereitung gilt als fachkundig, dauert 4 hours und wird heiß serviert. Die erwartete Haltbarkeit beträgt 2 Tage.</p><h3>Kulturelle Bedeutung</h3><p>Innerhalb von Minehold Communities steht die Speise vor allem für eine kaufmännische Lebenslage. Außerhalb ihres üblichen Umfelds kann sie als Gastfreundschaft, Sparsamkeit, Erinnerung, Standeszeichen oder bewusste Kränkung verstanden werden.</p><h3>Mechanischer Effekt</h3><p>Für 8 Stunden erhältst du +2 auf Wahrnehmung. Es kann nur ein Effekt einer Speise der Stufe 3 gleichzeitig aktiv sein.</p><h3>Verzehr und Abklingzeit</h3><p>Eine Portion wird als Aktion oder im Rahmen einer Rast verzehrt. Effektdauer: 28800 Sekunden. Abklingzeit: keine. Stapelung und Einschränkungen folgen den Welteinstellungen und den stabilen Effektkennungen.</p><h3>Imperialer Status</h3><p>Imperiale Einstufung: rechtmäßiges Kochhandwerk. Kontrollen prüfen Herkunft, Wiederholbarkeit, Lizenzierung und mögliche Grenzüberschreitungen von Körper, Identität, Erinnerung, Tod, Traum, Blut oder Geist.</p><section class=\"secret\"><h3>SL-Hinweise</h3><p>Zutaten können durch regional gleichwertige Vorräte ersetzt werden. Fälschungen verwenden meist billigere Grundnahrung, gefärbte Garnitur oder Gewürze, die Verderb verbergen.</p></section>",
+          "mechanicalEffect": "Für 8 Stunden erhältst du +2 auf Wahrnehmung. Es kann nur ein Effekt einer Speise der Stufe 3 gleichzeitig aktiv sein."
+        }
+      },
+      "contentSchema": "system-neutral-food-v1"
+    }
+  }
+}

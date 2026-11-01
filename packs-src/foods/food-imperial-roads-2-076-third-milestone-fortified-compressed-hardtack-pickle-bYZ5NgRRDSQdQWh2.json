@@ -1,0 +1,112 @@
+{
+  "_id": "bYZ5NgRRDSQdQWh2",
+  "name": "Third Milestone Fortified Compressed Hardtack Pickle",
+  "img": "modules/runyth-tables-of-sustenance/assets/food/imperial-roads-ration.svg",
+  "description": "<h3>Overview</h3><p>A soft, salty pickle built around hardtack, rendered fat, and the compressed technique common near Third Milestone.</p><h3>Origin</h3><p>Associated with Third Milestone in Imperial Roads. Road food is judged by whether it survives rain, inspection, theft, and three days in a saddlebag rather than by elegance.</p><h3>Availability</h3><p>Usually encountered in roadside inns; availability is uncommon and strongest during spring.</p><h3>Typical Consumers</h3><p>Most often eaten by soldiers, while travellers actively seek it out for its portability, familiarity, or social meaning.</p><h3>Preparation</h3><p>Prepared from hardtack, rendered fat, mustard seed using ordinary cookware and 30 minutes of work. Its expected shelf life is same day.</p><h3>Cultural Meaning</h3><p>It signals working circumstances in Imperial Road Communities; serving it outside its normal context can read as hospitality, thrift, nostalgia, or quiet insult.</p><h3>Mechanical Effect</h3><p>For 10 minutes, gain a +1 bonus to Athletics checks. Only the strongest Tier 2 food effect applies.</p><h3>Consumption and Cooldown</h3><p>One serving is consumed as an action or as part of a rest. Duration: 600 seconds. No cooldown. Effects of the same tier follow the configured stacking rule.</p><h3>Imperial Status</h3><p>Imperial classification: lawful culinary craft. Inspection focuses on provenance, repeatability, and whether the preparation is licensed.</p><section class=\"secret\"><h3>GM Notes</h3><p>Substitute another local pickle if the ingredient is unavailable. Counterfeits usually replace hardtack with cheaper grain or conceal spoilage with vinegar.</p></section>",
+  "unidentifiedDescription": "",
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "food.imperial-roads.2.076.third-milestone-fortified-compressed-hardtack-pickle",
+      "sourceVersion": "1.0.0",
+      "kind": "food",
+      "meta": {
+        "tier": "2",
+        "tierLabel": "Fortifying Food",
+        "originRegion": "Imperial Roads",
+        "originSettlement": "Third Milestone",
+        "culture": "Imperial Road Communities",
+        "factionAssociation": [
+          "Imperial Logistics Corps"
+        ],
+        "typicalVenue": [
+          "roadside inns"
+        ],
+        "usualConsumers": [
+          "soldiers"
+        ],
+        "preferredConsumers": [
+          "travellers"
+        ],
+        "avoidedBy": [
+          "Imperial officials"
+        ],
+        "socialClass": [
+          "working"
+        ],
+        "professionAssociation": [
+          "soldiers"
+        ],
+        "priceCategory": "moderate",
+        "rarity": "uncommon",
+        "legality": "lawful culinary craft",
+        "season": [
+          "spring"
+        ],
+        "mealType": [
+          "ration"
+        ],
+        "servingTemperature": "room temperature",
+        "preservationMethod": "fermented",
+        "preparationDifficulty": "trained",
+        "preparationTime": "30 minutes",
+        "shelfLife": "same day",
+        "ingredients": [
+          "hardtack",
+          "rendered fat",
+          "mustard seed"
+        ],
+        "dietaryProperties": [
+          "gluten",
+          "vegetarian"
+        ],
+        "flavourProfile": [
+          "salty",
+          "fresh"
+        ],
+        "texture": "soft",
+        "alcoholic": false,
+        "nature": "mundane",
+        "effectDurationSeconds": 600,
+        "cooldownSeconds": 0,
+        "servings": 1,
+        "weight": 0.5,
+        "purchasePrice": {
+          "value": 4,
+          "denomination": "sp"
+        },
+        "suggestedAvailability": "uncommon",
+        "identificationStatus": "identified",
+        "preparationMethod": "compressed",
+        "activeEffect": true
+      },
+      "mechanics": {
+        "tier": "2",
+        "effectId": "effect.food.imperial-roads.2.076.third-milestone-fortified-compressed-hardtack-pickle",
+        "summary": "For 10 minutes, gain a +1 bonus to Athletics checks. Only the strongest Tier 2 food effect applies.",
+        "summaryDe": "Für 10 Minuten erhältst du +1 auf Athletik. Es gilt nur der stärkste Effekt einer Speise der Stufe 2.",
+        "durationSeconds": 600,
+        "cooldownSeconds": 0,
+        "activation": "immediate",
+        "stackingGroup": "tier-2",
+        "permanent": false,
+        "duplicatePolicy": "replace-weaker",
+        "requiresConfirmation": false,
+        "effectIntents": [
+          {
+            "kind": "check-bonus",
+            "domain": "athletics",
+            "amount": 1
+          }
+        ]
+      },
+      "localizations": {
+        "de": {
+          "name": "Third Milestone Stärkender Compressed Hartkeks Eingelegtes",
+          "description": "<h3>Überblick</h3><p>Die Speise verbindet Hartkeks, ausgelassenes Fett, Senfsaat mit der für Third Milestone typischen Zubereitung „gepresst“. Geschmack und Textur bleiben bodenständig und von den verfügbaren Vorräten geprägt.</p><h3>Herkunft</h3><p>Sie ist eng mit Third Milestone in der Region Imperial Roads sowie mit der Kultur Imperial Road Communities verbunden.</p><h3>Verfügbarkeit</h3><p>Gewöhnlich ist sie in Straßenherbergen zu finden. Ihre Seltenheit gilt als ungewöhnlich; die beste Verfügbarkeit besteht während Frühling.</p><h3>Typische Verbraucher</h3><p>Sie wird meist von Soldaten gegessen. Besonders geschätzt wird sie von Reisenden, weil Preis, Haltbarkeit, Geschmack oder gesellschaftliche Bedeutung zu deren Alltag passen.</p><h3>Zubereitung</h3><p>Benötigt werden Hartkeks, ausgelassenes Fett, Senfsaat. Die Zubereitung gilt als geübt, dauert 30 minutes und wird bei Raumtemperatur serviert. Die erwartete Haltbarkeit beträgt am selben Tag.</p><h3>Kulturelle Bedeutung</h3><p>Innerhalb von Imperial Road Communities steht die Speise vor allem für eine arbeitende Lebenslage. Außerhalb ihres üblichen Umfelds kann sie als Gastfreundschaft, Sparsamkeit, Erinnerung, Standeszeichen oder bewusste Kränkung verstanden werden.</p><h3>Mechanischer Effekt</h3><p>Für 10 Minuten erhältst du +1 auf Athletik. Es gilt nur der stärkste Effekt einer Speise der Stufe 2.</p><h3>Verzehr und Abklingzeit</h3><p>Eine Portion wird als Aktion oder im Rahmen einer Rast verzehrt. Effektdauer: 600 Sekunden. Abklingzeit: keine. Stapelung und Einschränkungen folgen den Welteinstellungen und den stabilen Effektkennungen.</p><h3>Imperialer Status</h3><p>Imperiale Einstufung: rechtmäßiges Kochhandwerk. Kontrollen prüfen Herkunft, Wiederholbarkeit, Lizenzierung und mögliche Grenzüberschreitungen von Körper, Identität, Erinnerung, Tod, Traum, Blut oder Geist.</p><section class=\"secret\"><h3>SL-Hinweise</h3><p>Zutaten können durch regional gleichwertige Vorräte ersetzt werden. Fälschungen verwenden meist billigere Grundnahrung, gefärbte Garnitur oder Gewürze, die Verderb verbergen.</p></section>",
+          "mechanicalEffect": "Für 10 Minuten erhältst du +1 auf Athletik. Es gilt nur der stärkste Effekt einer Speise der Stufe 2."
+        }
+      },
+      "contentSchema": "system-neutral-food-v1"
+    }
+  }
+}

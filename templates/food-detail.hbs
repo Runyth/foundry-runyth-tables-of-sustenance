@@ -1,0 +1,25 @@
+<div class="obts-food-detail-scroll">
+  {{#if missing}}
+    <p class="notification error">{{localize "runyth-tables-of-sustenance.Detail.Missing"}}</p>
+  {{else}}
+    <header class="obts-food-detail-header">
+      <img src="{{img}}" alt="{{name}}">
+      <div><div class="obts-food-title"><h1>{{name}}</h1><span class="obts-tier">{{tier}}</span></div><p>{{settlement}} · {{region}}</p><small>{{sourceId}}</small></div>
+    </header>
+    <dl class="obts-definition-grid">
+      <dt>{{localize "runyth-tables-of-sustenance.Browser.Culture"}}</dt><dd>{{culture}}</dd>
+      <dt>{{localize "runyth-tables-of-sustenance.Browser.Venue"}}</dt><dd>{{venue}}</dd>
+      <dt>{{localize "runyth-tables-of-sustenance.Browser.Consumer"}}</dt><dd>{{consumers}}</dd>
+      <dt>{{localize "runyth-tables-of-sustenance.Browser.Rarity"}}</dt><dd>{{rarity}}</dd>
+      <dt>{{localize "runyth-tables-of-sustenance.Browser.Price"}}</dt><dd>{{price}}</dd>
+      <dt>{{localize "runyth-tables-of-sustenance.Browser.Legality"}}</dt><dd>{{legality}}</dd>
+      <dt>{{localize "runyth-tables-of-sustenance.Detail.Ingredients"}}</dt><dd>{{ingredients}}</dd>
+      <dt>{{localize "runyth-tables-of-sustenance.Detail.Dietary"}}</dt><dd>{{dietary}}</dd>
+      <dt>{{localize "runyth-tables-of-sustenance.Browser.PreparationTime"}}</dt><dd>{{preparationTime}}</dd>
+      <dt>{{localize "runyth-tables-of-sustenance.Detail.ShelfLife"}}</dt><dd>{{shelfLife}}</dd>
+      <dt>{{localize "runyth-tables-of-sustenance.Browser.Servings"}}</dt><dd>{{servings}}</dd>
+    </dl>
+    {{#unless adapterAvailable}}<p class="notification warning">{{localize "runyth-tables-of-sustenance.Detail.NoAdapter"}}</p>{{/unless}}
+    <article class="obts-food-detail-description">{{{description}}}</article>
+  {{/if}}
+</div>

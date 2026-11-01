@@ -1,0 +1,114 @@
+{
+  "_id": "FNp6XgTlF7CBziAI",
+  "name": "Black Road Master-Cook’s Sand-Baked Goat Relish",
+  "img": "modules/runyth-tables-of-sustenance/assets/food/black-desert-frontier-midday-meal.svg",
+  "description": "<h3>Overview</h3><p>A dense, spiced relish built around goat, flatbread, and the sand-baked technique common near Black Road.</p><h3>Origin</h3><p>Associated with Black Road in Black Desert Frontier. Frontier cuisine is built around water discipline, portable fat, shade, and ingredients that survive heat without inviting waste.</p><h3>Availability</h3><p>Usually encountered in remote settlements; availability is rare and strongest during all year.</p><h3>Typical Consumers</h3><p>Most often eaten by specific settlements, while travellers actively seek it out for its portability, familiarity, or social meaning.</p><h3>Preparation</h3><p>Prepared from goat, flatbread, goat using ordinary cookware and 2 hours of work. Its expected shelf life is 1 month.</p><h3>Cultural Meaning</h3><p>It signals working circumstances in Desert Caravan Communities; serving it outside its normal context can read as hospitality, thrift, nostalgia, or quiet insult.</p><h3>Mechanical Effect</h3><p>For 8 hours, gain a +2 bonus to Insight checks. Only one Tier 3 food effect can be active at a time.</p><h3>Consumption and Cooldown</h3><p>One serving is consumed as an action or as part of a rest. Duration: 28800 seconds. No cooldown. Effects of the same tier follow the configured stacking rule.</p><h3>Imperial Status</h3><p>Imperial classification: approved medicinal preparation. Inspection focuses on provenance, repeatability, and whether the preparation is licensed.</p><section class=\"secret\"><h3>GM Notes</h3><p>Substitute another local relish if the ingredient is unavailable. Counterfeits usually replace goat with cheaper grain or conceal spoilage with vinegar.</p></section>",
+  "unidentifiedDescription": "",
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "food.black-desert-frontier.3.029.black-road-master-cooks-sand-baked-goat-relish",
+      "sourceVersion": "1.0.0",
+      "kind": "food",
+      "meta": {
+        "tier": "3",
+        "tierLabel": "Exceptional Cuisine",
+        "originRegion": "Black Desert Frontier",
+        "originSettlement": "Black Road",
+        "culture": "Desert Caravan Communities",
+        "factionAssociation": [
+          "Water Clerks"
+        ],
+        "typicalVenue": [
+          "remote settlements"
+        ],
+        "usualConsumers": [
+          "specific settlements"
+        ],
+        "preferredConsumers": [
+          "travellers",
+          "regional factions"
+        ],
+        "avoidedBy": [
+          "merchants"
+        ],
+        "socialClass": [
+          "working"
+        ],
+        "professionAssociation": [
+          "specific settlements"
+        ],
+        "priceCategory": "moderate",
+        "rarity": "rare",
+        "legality": "approved medicinal preparation",
+        "season": [
+          "all year"
+        ],
+        "mealType": [
+          "midday meal"
+        ],
+        "servingTemperature": "hot",
+        "preservationMethod": "pickled",
+        "preparationDifficulty": "expert",
+        "preparationTime": "2 hours",
+        "shelfLife": "1 month",
+        "ingredients": [
+          "goat",
+          "flatbread",
+          "goat"
+        ],
+        "dietaryProperties": [
+          "contains meat",
+          "gluten",
+          "medicinal herb"
+        ],
+        "flavourProfile": [
+          "spiced",
+          "earthy"
+        ],
+        "texture": "dense",
+        "alcoholic": false,
+        "nature": "medicinal",
+        "effectDurationSeconds": 28800,
+        "cooldownSeconds": 0,
+        "servings": 1,
+        "weight": 0.75,
+        "purchasePrice": {
+          "value": 7,
+          "denomination": "gp"
+        },
+        "suggestedAvailability": "rare",
+        "identificationStatus": "identified",
+        "preparationMethod": "sand-baked",
+        "activeEffect": true
+      },
+      "mechanics": {
+        "tier": "3",
+        "effectId": "effect.food.black-desert-frontier.3.029.black-road-master-cooks-sand-baked-goat-relish",
+        "summary": "For 8 hours, gain a +2 bonus to Insight checks. Only one Tier 3 food effect can be active at a time.",
+        "summaryDe": "Für 8 Stunden erhältst du +2 auf Motiv erkennen. Es kann nur ein Effekt einer Speise der Stufe 3 gleichzeitig aktiv sein.",
+        "durationSeconds": 28800,
+        "cooldownSeconds": 0,
+        "activation": "immediate",
+        "stackingGroup": "tier-3",
+        "permanent": false,
+        "duplicatePolicy": "replace-weaker",
+        "requiresConfirmation": true,
+        "effectIntents": [
+          {
+            "kind": "check-bonus",
+            "domain": "insight",
+            "amount": 2
+          }
+        ]
+      },
+      "localizations": {
+        "de": {
+          "name": "Black Road Meisterkoch- Sand-Gebackener Ziegen Relish",
+          "description": "<h3>Überblick</h3><p>Die Speise verbindet Ziegenfleisch, Fladenbrot, Ziegenfleisch mit der für Black Road typischen Zubereitung „im Sand gebacken“. Geschmack und Textur bleiben bodenständig und von den verfügbaren Vorräten geprägt.</p><h3>Herkunft</h3><p>Sie ist eng mit Black Road in der Region Black Desert Frontier sowie mit der Kultur Desert Caravan Communities verbunden.</p><h3>Verfügbarkeit</h3><p>Gewöhnlich ist sie in abgelegenen Siedlungen zu finden. Ihre Seltenheit gilt als selten; die beste Verfügbarkeit besteht während ganzjährig.</p><h3>Typische Verbraucher</h3><p>Sie wird meist von bestimmten Siedlungen gegessen. Besonders geschätzt wird sie von Reisenden, regionalen Fraktionen, weil Preis, Haltbarkeit, Geschmack oder gesellschaftliche Bedeutung zu deren Alltag passen.</p><h3>Zubereitung</h3><p>Benötigt werden Ziegenfleisch, Fladenbrot, Ziegenfleisch. Die Zubereitung gilt als fachkundig, dauert 2 hours und wird heiß serviert. Die erwartete Haltbarkeit beträgt 1 Monat.</p><h3>Kulturelle Bedeutung</h3><p>Innerhalb von Desert Caravan Communities steht die Speise vor allem für eine arbeitende Lebenslage. Außerhalb ihres üblichen Umfelds kann sie als Gastfreundschaft, Sparsamkeit, Erinnerung, Standeszeichen oder bewusste Kränkung verstanden werden.</p><h3>Mechanischer Effekt</h3><p>Für 8 Stunden erhältst du +2 auf Motiv erkennen. Es kann nur ein Effekt einer Speise der Stufe 3 gleichzeitig aktiv sein.</p><h3>Verzehr und Abklingzeit</h3><p>Eine Portion wird als Aktion oder im Rahmen einer Rast verzehrt. Effektdauer: 28800 Sekunden. Abklingzeit: keine. Stapelung und Einschränkungen folgen den Welteinstellungen und den stabilen Effektkennungen.</p><h3>Imperialer Status</h3><p>Imperiale Einstufung: zugelassene medizinische Zubereitung. Kontrollen prüfen Herkunft, Wiederholbarkeit, Lizenzierung und mögliche Grenzüberschreitungen von Körper, Identität, Erinnerung, Tod, Traum, Blut oder Geist.</p><section class=\"secret\"><h3>SL-Hinweise</h3><p>Zutaten können durch regional gleichwertige Vorräte ersetzt werden. Fälschungen verwenden meist billigere Grundnahrung, gefärbte Garnitur oder Gewürze, die Verderb verbergen.</p></section>",
+          "mechanicalEffect": "Für 8 Stunden erhältst du +2 auf Motiv erkennen. Es kann nur ein Effekt einer Speise der Stufe 3 gleichzeitig aktiv sein."
+        }
+      },
+      "contentSchema": "system-neutral-food-v1"
+    }
+  }
+}

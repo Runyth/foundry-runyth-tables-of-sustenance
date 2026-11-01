@@ -1,0 +1,59 @@
+{
+  "_id": "zPLhJIWPXkq08gWT",
+  "name": "Recipe: Ashen Post Night Convoy Meal",
+  "pages": [
+    {
+      "_id": "BvXNF3VSWHKj3iSM",
+      "name": "Recipe",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<h2>Ashen Post Night Convoy Meal</h2><p><strong>Ingredients:</strong> mustard seed, dried pea, restricted finishing stock</p><p><strong>Tools:</strong> cook’s utensils and region-appropriate heat source.</p><p><strong>Time:</strong> 8 hours</p><p><strong>Difficulty:</strong> masterwork</p><p><strong>Batch:</strong> 4 serving(s).</p><p><strong>Failure:</strong> ingredients are consumed; the result becomes a spoiled Tier 1 ration with no benefit.</p><p><strong>Partial success:</strong> half yield, no mechanical effect, safe to eat.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {}
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "recipe.food.imperial-roads.4.010.ashen-post-night-convoy-meal",
+      "sourceVersion": "1.0.0",
+      "kind": "recipe",
+      "foodSourceId": "food.imperial-roads.4.010.ashen-post-night-convoy-meal",
+      "requirements": {
+        "ingredients": [
+          "mustard seed",
+          "dried pea",
+          "restricted finishing stock"
+        ],
+        "tools": [
+          "cook’s utensils"
+        ],
+        "skill": "Cooking",
+        "difficulty": "masterwork",
+        "time": "8 hours",
+        "authorization": "restricted military ration"
+      },
+      "gmOnly": true,
+      "localizations": {
+        "de": {
+          "name": "Rezept: Ashen Post Night Convoy Meal",
+          "pageName": "Rezept",
+          "content": "<h2>Ashen Post Night Convoy Meal</h2><p><strong>Zutaten:</strong> Senfsaat, getrocknete Erbse, beschränkter Abschlusssud</p><p><strong>Werkzeuge:</strong> Kochutensilien und eine regional geeignete Hitzequelle.</p><p><strong>Zeit:</strong> 8 hours</p><p><strong>Schwierigkeit:</strong> meisterlich</p><p><strong>Fehlschlag:</strong> Die Zutaten werden verbraucht; das Ergebnis wird zu einer verdorbenen Tier-1-Ration ohne Vorteil.</p><p><strong>Teilerfolg:</strong> Halbe Ausbeute, kein mechanischer Effekt, aber sicher essbar.</p>"
+        }
+      }
+    }
+  }
+}

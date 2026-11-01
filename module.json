@@ -1,0 +1,40 @@
+{
+  "id": "runyth-tables-of-sustenance",
+  "title": "Runyth Tables of Sustenance",
+  "description": "A system-neutral food, recipe, menu, serving, cooldown, and legendary-sustenance framework for Foundry VTT v13.",
+  "version": "1.1.1",
+  "authors": [
+    {
+      "name": "Runyth"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13.347",
+    "verified": "13.351",
+    "maximum": "13"
+  },
+  "esmodules": [
+    "scripts/main.mjs"
+  ],
+  "styles": [
+    "styles/obts.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json"
+    }
+  ],
+  "socket": true,
+  "manifest": "",
+  "download": "",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "bugs": ""
+}

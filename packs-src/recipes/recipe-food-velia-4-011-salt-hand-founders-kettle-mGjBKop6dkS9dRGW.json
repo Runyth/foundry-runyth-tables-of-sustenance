@@ -1,0 +1,59 @@
+{
+  "_id": "mGjBKop6dkS9dRGW",
+  "name": "Recipe: Salt-Hand Founders’ Kettle",
+  "pages": [
+    {
+      "_id": "VymDgseqfuI3f7cO",
+      "name": "Recipe",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<h2>Salt-Hand Founders’ Kettle</h2><p><strong>Ingredients:</strong> herring, rye, restricted finishing stock</p><p><strong>Tools:</strong> cook’s utensils and region-appropriate heat source.</p><p><strong>Time:</strong> 8 hours</p><p><strong>Difficulty:</strong> masterwork</p><p><strong>Batch:</strong> 4 serving(s).</p><p><strong>Failure:</strong> ingredients are consumed; the result becomes a spoiled Tier 1 ration with no benefit.</p><p><strong>Partial success:</strong> half yield, no mechanical effect, safe to eat.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {}
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "recipe.food.velia.4.011.salt-hand-founders-kettle",
+      "sourceVersion": "1.0.0",
+      "kind": "recipe",
+      "foodSourceId": "food.velia.4.011.salt-hand-founders-kettle",
+      "requirements": {
+        "ingredients": [
+          "herring",
+          "rye",
+          "restricted finishing stock"
+        ],
+        "tools": [
+          "cook’s utensils"
+        ],
+        "skill": "Cooking",
+        "difficulty": "masterwork",
+        "time": "8 hours",
+        "authorization": "licensed alchemical food"
+      },
+      "gmOnly": true,
+      "localizations": {
+        "de": {
+          "name": "Rezept: Salt-Hand Founders’ Kettle",
+          "pageName": "Rezept",
+          "content": "<h2>Salt-Hand Founders’ Kettle</h2><p><strong>Zutaten:</strong> Hering, Roggen, beschränkter Abschlusssud</p><p><strong>Werkzeuge:</strong> Kochutensilien und eine regional geeignete Hitzequelle.</p><p><strong>Zeit:</strong> 8 hours</p><p><strong>Schwierigkeit:</strong> meisterlich</p><p><strong>Fehlschlag:</strong> Die Zutaten werden verbraucht; das Ergebnis wird zu einer verdorbenen Tier-1-Ration ohne Vorteil.</p><p><strong>Teilerfolg:</strong> Halbe Ausbeute, kein mechanischer Effekt, aber sicher essbar.</p>"
+        }
+      }
+    }
+  }
+}

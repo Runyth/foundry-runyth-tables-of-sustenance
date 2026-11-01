@@ -1,0 +1,410 @@
+{
+  "_id": "DoaJS9UhzpYZON5I",
+  "name": "Spoiled Food",
+  "description": "Food table: Spoiled Food.",
+  "results": [
+    {
+      "_id": "iiTzP4vzvCBaDTaF",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "description": "Spoiled Velia Salted Herring Loaf: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "HtpfO5dB23dRlwbD",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "description": "Spoiled Knot Orchard Sun-Dried Hazelnut Broth: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "XZ61fXWkuxSQHAgr",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "description": "Spoiled Southbank Griddled Bean Dumpling: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "1Q4GoZLff32Zz6TU",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "description": "Spoiled Calpheon Layered River Crab Bowl: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "Ij7zaZx9CJw7fAsY",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "description": "Spoiled Bellroot Hollow Dried Wild Garlic Pottage: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "36n0klckiHd6cqQF",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "description": "Spoiled Banner Road Salt-Cured Hardtack Pickle: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "q30fswKHbZReMbns",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "description": "Spoiled Coldhammer Charred Cabbage Roll: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "z00TOldL7hwkVi0D",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "description": "Spoiled Rootwatch Leaf-Baked Trout Custard: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "k1Ngop2TcIjC06AI",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "description": "Spoiled Copper Shade Fermented Goat Ale: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "oYeYzC2lYF5s7kd2",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "description": "Spoiled Farwake Salt-Fermented Black Bean Filled Bun: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "oVvf6BbFbQIyu6xN",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "description": "Spoiled Westkai Stewed Herring Loaf: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "3Cm56FqUdlul5e3y",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "description": "Spoiled Hainbund Farms Pressed Hazelnut Broth: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "XYaPfWfIxjk17RJS",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "description": "Spoiled Heidel Mustard-Crusted Bean Dumpling: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "xGtY5b0hGIWiKHSp",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "description": "Spoiled North Gate Wine-Poached River Crab Bowl: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "Avmwz5BWhCM8FM1V",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "description": "Spoiled Mist Garden Infused Wild Garlic Pottage: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "vkUiqbk0vtDDBlVs",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "description": "Spoiled Third Milestone Reconstituted Hardtack Pickle: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "z3V9EkV16EAlDAcn",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "description": "Spoiled Slate Cut Iron-Griddled Cabbage Roll: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "CWJE5ie1Ke6UjI1l",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "description": "Spoiled Mosswater Stone-Griddled Trout Custard: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "DwKpnOdOKYugTqpT",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "description": "Spoiled Dustwell Water-Sparing Goat Ale: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "n38px54pwoHiBrEl",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "description": "Spoiled Copper Bay Reef-Smoked Black Bean Filled Bun: sour odour, swollen wrapping, or hidden mould. No beneficial effect.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    }
+  ],
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "table.spoiled",
+      "sourceVersion": "1.0.0",
+      "kind": "table",
+      "containsTierSFood": false,
+      "containsTierSClues": false,
+      "localizations": {
+        "de": {
+          "name": "Verdorbene Nahrung",
+          "description": "Nahrungstabelle: Verdorbene Nahrung."
+        }
+      }
+    }
+  }
+}

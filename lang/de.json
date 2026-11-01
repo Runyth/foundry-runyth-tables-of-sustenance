@@ -1,0 +1,410 @@
+{
+  "runyth-tables-of-sustenance": {
+    "Common": {
+      "All": "Alle",
+      "Any": "Beliebig",
+      "None": "Keine",
+      "Yes": "Ja",
+      "No": "Nein",
+      "Permanent": "Dauerhaft",
+      "Preview": "Vorschau",
+      "Add": "Hinzufügen",
+      "Consume": "Verzehren",
+      "Cancel": "Abbrechen",
+      "Save": "Speichern",
+      "Remove": "Entfernen",
+      "Clear": "Leeren",
+      "ServeSelected": "Ausgewählte bedienen",
+      "Hidden": "Verborgen",
+      "Actions": "Aktionen",
+      "Previous": "Zurück",
+      "Next": "Weiter",
+      "ResetSize": "Größe zurücksetzen",
+      "ResetPosition": "Position zurücksetzen"
+    },
+    "Time": {
+      "Days": "{count} Tage",
+      "Hours": "{count} Stunden",
+      "Minutes": "{count} Minuten",
+      "Seconds": "{count} Sekunden"
+    },
+    "Tier": {
+      "1": "Tier 1 — Grundnahrung",
+      "2": "Tier 2 — Stärkende Nahrung",
+      "3": "Tier 3 — Außergewöhnliche Küche",
+      "4": "Tier 4 — Meistermahl",
+      "S": "Tier S — Legendäre Nahrung"
+    },
+    "Dashboard": {
+      "Title": "Tables of Sustenance: Tafeln der Nahrung",
+      "Intro": "Durchsuche 335 bodenständige Speisen, stelle Mahlzeiten zusammen, erzeuge stimmige Menüs und verwalte Paketinhalte.",
+      "BrowserHint": "Suche nach Region, Ort, Verbraucher, Stufe, Rechtsstatus, Zutaten und Effekten.",
+      "GeneratorHint": "Erzeuge regional stimmige Menüs für Tavernen, Märkte, Militär, Haushalte, Gefängnisse, Schiffe und Zeremonien.",
+      "ComposerHint": "Stelle erzählerische Mahlzeiten mit konfigurierbaren Stapelregeln zusammen.",
+      "ManagerHint": "Importiere stabile, versionierte Weltkompendiumskopien, ohne geschützte Bearbeitungen zu überschreiben.",
+      "Version": "Modulversion {version}",
+      "LibraryStatus": "Status von Inhalten und Erweiterungen",
+      "Providers": "Anbieter",
+      "ExtensionFoods": "Erweiterungsspeisen",
+      "PlayTools": "Spielwerkzeuge",
+      "GMTools": "SL-Werkzeuge",
+      "TransferHint": "Exportiert eine übertragbare Weltkonfiguration oder importiert Einstellungen, Bildanpassungen und modulverwaltete Inhalte sicher.",
+      "DiagnosticsHint": "Prüft Kompatibilität, Paketinhalte, Weltkompendien, Bildanpassungen, doppelte IDs und ergänzende Anbieter.",
+      "System": "Spielsystem {version}",
+      "MechanicsReady": "Mechanik-Adapter bereit",
+      "NoAdapter": "Kein Adapter",
+      "MechanicsUnavailable": "Browser und erzählerische Werkzeuge bleiben verfügbar; Inventar/Effekte sind deaktiviert."
+    },
+    "Sidebar": {
+      "Browser": "Speisen",
+      "Dashboard": "Nahrung"
+    },
+    "Browser": {
+      "Title": "Nahrungsbrowser",
+      "Search": "Volltextsuche",
+      "SearchPlaceholder": "Name, Zutat, Herkunft, Kultur, Verbraucher …",
+      "Tier": "Stufe",
+      "Region": "Region",
+      "Venue": "Ort",
+      "Consumer": "Verbraucher",
+      "Culture": "Kultur",
+      "Faction": "Fraktion",
+      "SocialClass": "Gesellschaftsschicht",
+      "Rarity": "Seltenheit",
+      "Price": "Preis",
+      "Legality": "Imperialer Status",
+      "Nature": "Art",
+      "Dietary": "Ernährungseigenschaften",
+      "ActiveEffect": "Mechanischer Effekt",
+      "Cooldown": "Abklingzeit",
+      "Sort": "Sortierung",
+      "Name": "Name",
+      "Origin": "Herkunft",
+      "PreparationTime": "Zubereitungszeit",
+      "Duration": "Effektdauer",
+      "Reset": "Filter zurücksetzen",
+      "SavePreset": "Voreinstellung speichern",
+      "PresetName": "Name der Voreinstellung",
+      "Presets": "Gespeicherte Voreinstellungen",
+      "ResultCount": "{count} passende Speisen",
+      "CardView": "Kartenansicht",
+      "TableView": "Tabellenansicht",
+      "Servings": "Portionen",
+      "Page": "Seite {page} von {pages}",
+      "AddedToActor": "{food} wurde {actor} hinzugefügt.",
+      "ChangeImage": "Bild ändern",
+      "ResetImage": "Paketbild wiederherstellen"
+    },
+    "Generator": {
+      "Title": "Laden- und Menüerzeuger",
+      "Context": "Umgebung",
+      "Settlement": "Siedlung",
+      "SocialClass": "Gesellschaftsschicht",
+      "CulturalInfluence": "Kultureller Einfluss",
+      "Prosperity": "Wohlstand",
+      "Poor": "Arm",
+      "Ordinary": "Gewöhnlich",
+      "Wealthy": "Wohlhabend",
+      "Scarcity": "Knappheit",
+      "Normal": "Normal",
+      "Severe": "Schwer",
+      "MilitaryPresence": "Militärpräsenz",
+      "Heavy": "Stark",
+      "Output": "Ausgaberegeln",
+      "Count": "Anzahl der Speisen",
+      "MaxTier": "Höchste Stufe",
+      "PriceMultiplier": "Preisfaktor",
+      "IncludeDrinks": "Getränke einschließen",
+      "IncludeIllicit": "Illegale Speisen einschließen",
+      "IncludeLegendary": "Tier S einschließen (separate Warn-Einstellung erforderlich)",
+      "Generate": "Menü erzeugen",
+      "GeneratedMenu": "Erzeugtes Menü",
+      "CreateJournal": "Journal erstellen",
+      "MenuPage": "Menü",
+      "Empty": "Wähle einen Kontext und erzeuge ein Menü."
+    },
+    "Manager": {
+      "Title": "Inhaltsverwaltung",
+      "ContentTypes": "Inhaltsarten",
+      "Foods": "Speisen",
+      "Recipes": "Rezepte",
+      "Tables": "Würfeltabellen",
+      "Categories": "Mahlzeitenkategorien",
+      "EmptyMeansAll": "Keine Auswahl bedeutet alle.",
+      "PreserveEdited": "Bearbeitete importierte Einträge erhalten",
+      "LocalizedImport": "Namen und Beschreibungen in der aktiven Sprache importieren",
+      "Import": "Importieren oder aktualisieren",
+      "ImportComplete": "Inhaltsimport abgeschlossen.",
+      "RemoveTitle": "Importierte Modulinhalte entfernen",
+      "RemoveWarning": "Entfernt ausgewählte modulverwaltete Einträge aus ihren Weltkompendien. Paketquellen bleiben erhalten.",
+      "PreviewTitle": "Änderungsvorschau",
+      "Create": "Erstellen",
+      "Update": "Aktualisieren",
+      "Preserve": "Bearbeitungen erhalten",
+      "Unchanged": "Unverändert",
+      "Report": "Vorgangsbericht",
+      "ForceRestore": "Erzwingt die Wiederherstellung aus Paketquellen und überschreibt passende importierte Bearbeitungen.",
+      "AdapterRequiredForFoods": "Der Import von Speisen-Items erfordert einen kompatiblen Spielsystem-Adapter. Rezepte und Würfeltabellen bleiben importierbar."
+    },
+    "Composer": {
+      "Title": "Mahlzeitenbaukasten",
+      "Intro": "Wähle bis zu sechs Bestandteile. Beilagen bleiben standardmäßig erzählerisch, sofern die Stapelregel keinen weiteren Effekt erlaubt.",
+      "Slot": {
+        "main": "Hauptgericht",
+        "side": "Beilage",
+        "staple": "Brot oder Grundnahrung",
+        "drink": "Getränk",
+        "dessert": "Nachspeise",
+        "supplement": "Würze oder Ergänzung"
+      },
+      "StackingRule": "Stapelregel der Mahlzeit",
+      "OnePerTier": "Ein Effekt je Stufe",
+      "AllEffects": "Alle kompatiblen Effekte",
+      "NarrativeOnly": "Nur erzählerisch",
+      "EffectPreview": "Gewählte Bestandteile",
+      "AppliedEffects": "Angewendete Effekte",
+      "NoFood": "Keine Bestandteile gewählt.",
+      "NoMechanicalEffects": "Diese Mahlzeit wendet keinen mechanischen Nahrungseffekt an."
+    },
+    "Consume": {
+      "ConfirmTitle": "Verzehr bestätigen",
+      "CooldownRemaining": "Abklingzeit noch {duration}",
+      "Available": "Verfügbar",
+      "LegendaryWarning": "Diese legendäre Speise vermerkt einen dauerhaften Vorteil am Akteur. Sie ist als seltene erzählerische Belohnung gedacht, nicht als gewöhnlicher Fortschritt.",
+      "OverrideEnabled": "Die SL-Übersteuerung ist für diesen Vorgang aktiviert.",
+      "Duration": "Effektdauer: {duration}",
+      "DietaryTitle": "Ernährungskonflikt",
+      "DietaryWarning": "Für {actor} ist eine passende Einschränkung vermerkt: {conflicts}.",
+      "ContinueAnyway": "Trotzdem verzehren"
+    },
+    "Chat": {
+      "ConsumedTerse": "{actor} verzehrt {food}.",
+      "ConsumedBy": "Verzehrt von {actor}",
+      "PermanentRecorded": "Ein stabiler dauerhafter legendärer Vorteil wurde am Akteur vermerkt.",
+      "RestActivation": "Aktivierungszeitpunkt: Rast {rest}",
+      "RestHealingApplied": "{actor} erhält durch legendäre Nahrung {amount} zusätzlichen Trefferpunkt zurück."
+    },
+    "Errors": {
+      "GMOnly": "Nur die Spielleitung kann diesen Vorgang ausführen.",
+      "NotFood": "Das gewählte Dokument ist keine Nahrung aus Tafeln der Nahrung.",
+      "NoActorPermission": "Du kontrollierst den Zielakteur nicht.",
+      "PlayerConsumptionDisabled": "Selbstverzehr durch Spieler ist deaktiviert.",
+      "ServingOthersDisabled": "Spieler dürfen nicht eigene Akteure nicht bedienen.",
+      "NotEnoughServings": "Nur {available} Portionen verbleiben; {requested} werden benötigt.",
+      "CooldownActive": "Dieser Akteur befindet sich noch in einer Tier-4-Abklingzeit.",
+      "DuplicateLegendary": "Dieser Akteur besitzt diesen dauerhaften legendären Vorteil bereits.",
+      "NoTargets": "Wähle mindestens einen Token oder weise dem Benutzer einen Charakter zu.",
+      "LegendaryGenerationDisabled": "Legendäre Erzeugung ist in den Welteinstellungen deaktiviert. Tier-S-Nahrung wird nie standardmäßig eingeschlossen.",
+      "InvalidRecipeImport": "Die Rezeptimportdatei ist ungültig.",
+      "SocketTimeout": "Keine aktive Spielleitung hat die Bedienungsanfrage abgeschlossen.",
+      "InvalidSocketUser": "Der anfragende Benutzer ist nicht aktiv.",
+      "UnsupportedSystem": "Es ist kein kompatibler Systemadapter aktiv. Suche und Weltenbau bleiben verfügbar; Inventarmaterialisierung und mechanische Effekte benötigen einen Adapter für das aktuelle Spielsystem.",
+      "SystemAdapterMissing": "Für {system} ist kein Systemadapter aktiv. Nahrungssuche, Menüs, Rezepte, Hintergrundinformationen und erzählerischer Verzehr bleiben verfügbar; Inventar-Materialisierung und mechanische Nahrungseffekte benötigen ein ergänzendes Systemmodul.",
+      "SystemAdapterCapabilityMissing": "Der aktive Adapter für {system} implementiert die erforderliche Fähigkeit nicht: {capability}.",
+      "MechanicalConsumptionUnavailable": "Diese Speise besitzt einen mechanischen Vorteil, der in der aktuellen Systemkonfiguration nicht sicher angewendet werden kann. Daher wurde keine Portion verbraucht.",
+      "InventoryFoodRequired": "Spieler können nur Speisen-Items verzehren oder servieren, die sich in einem Akteursinventar befinden. Der Katalog selbst erzeugt keine kostenlosen Portionen."
+    },
+    "Settings": {
+      "mechanicsEnabled": {
+        "Name": "Mechanische Nahrungseffekte",
+        "Hint": "Wendet Mechaniken über den aktiven Spielsystemadapter an und verwaltet stabile Datensätze dauerhafter Vorteile im Kernmodul."
+      },
+      "hungerThirstCompatibility": {
+        "Name": "Hunger- und Durst-Kompatibilität",
+        "Hint": "Stellt Nährwert- und Flüssigkeitskennzeichen für kompatible Module bereit."
+      },
+      "tierSPermanentEffects": {
+        "Name": "Dauerhafte Tier-S-Effekte",
+        "Hint": "Erlaubt legendären Speisen, kleine dauerhafte Vorteile zu vermerken."
+      },
+      "playerSelfConsumption": {
+        "Name": "Selbstverzehr durch Spieler",
+        "Hint": "Erlaubt Spielern, Nahrung für eigene Akteure zu verzehren."
+      },
+      "playerServingOthers": {
+        "Name": "Spieler dürfen andere bedienen",
+        "Hint": "Leitet Verzehranfragen für nicht eigene Akteure an einen aktiven SL weiter."
+      },
+      "legendaryConfirmation": {
+        "Name": "Bestätigung für legendäre Nahrung",
+        "Hint": "Verlangt vor Tier-S-Verzehr eine deutliche Bestätigung."
+      },
+      "automaticServingReduction": {
+        "Name": "Portionen automatisch reduzieren",
+        "Hint": "Verringert nach erfolgreichem Verzehr die verbleibenden Portionen."
+      },
+      "deleteEmptyItems": {
+        "Name": "Leere Einweggegenstände löschen",
+        "Hint": "Löscht Nahrungsgegenstände nach der letzten Portion vom Akteur."
+      },
+      "hideImperialClassifications": {
+        "Name": "Imperiale Einstufungen verbergen",
+        "Hint": "Verbirgt regulierte Einstufungen in Spieleransichten."
+      },
+      "legendaryGeneration": {
+        "Name": "Legendäre Menüerzeugung aktivieren",
+        "Hint": "Gefahr: Erlaubt Tier-S-Nahrung in ausdrücklich aktivierten erzeugten Menüs."
+      },
+      "recipesEnabled": {
+        "Name": "Rezeptsystem",
+        "Hint": "Aktiviert Lernen, Prüfen, Import und Export von Rezepten."
+      },
+      "spoilageEnabled": {
+        "Name": "Verderb",
+        "Hint": "Aktiviert Verderbsmetadaten und Kompatibilitäts-Hooks."
+      },
+      "dietaryRestrictions": {
+        "Name": "Ernährungseinschränkungen",
+        "Hint": "Warnt bei Konflikten zwischen Akteur- und Nahrungsmetadaten."
+      },
+      "preserveEditedImports": {
+        "Name": "Bearbeitete Importe erhalten",
+        "Hint": "Überschreibt nach dem Import bearbeitete Weltkompendiumseinträge nicht."
+      },
+      "priceScale": {
+        "Name": "Weltweiter Preisfaktor",
+        "Hint": "Skaliert erzeugte Menüpreise ohne die Paketquellen zu ändern."
+      },
+      "tier2Stacking": {
+        "Name": "Stapelung von Tier 2",
+        "Hint": "Bestimmt das Zusammenwirken mehrerer Tier-2-Effekte."
+      },
+      "tier3Stacking": {
+        "Name": "Stapelung von Tier 3",
+        "Hint": "Bestimmt das Zusammenwirken mehrerer Tier-3-Effekte."
+      },
+      "tier4CooldownRule": {
+        "Name": "Abklingregel für Tier 4",
+        "Hint": "Bestimmt, ob alle Tier-4-Mahlzeiten oder nur dieselbe Speise gesperrt werden."
+      },
+      "chatDetail": {
+        "Name": "Chat-Detailgrad",
+        "Hint": "Bestimmt die Menge der Verzehrinformationen im Chat."
+      },
+      "weightUnits": {
+        "Name": "Gewichtsanzeige",
+        "Hint": "Wählt imperiale oder metrische Anzeige in Moduloberflächen."
+      },
+      "Stacking": {
+        "Strongest": "Nur der stärkste",
+        "One": "Jeweils ein Effekt",
+        "Allow": "Kompatible Effekte erlauben"
+      },
+      "Cooldown": {
+        "Strict": "Ein Tier 4 je Langer Rast plus Speisenabklingzeit",
+        "SameDish": "Nur die Abklingzeit derselben Speise",
+        "Advisory": "Warnen, aber erlauben"
+      },
+      "Chat": {
+        "Terse": "Knapp",
+        "Standard": "Standard",
+        "Detailed": "Ausführlich"
+      },
+      "Weight": {
+        "Imperial": "Imperial",
+        "Metric": "Metrisch"
+      },
+      "Dashboard": {
+        "Name": "Dashboard der Tafeln der Nahrung",
+        "Label": "Dashboard öffnen",
+        "Hint": "Öffnet Nahrungsbrowser, Menüerzeuger, Mahlzeitenbaukasten und Inhaltsverwaltung."
+      },
+      "ContentManager": {
+        "Name": "Inhalte der Tafeln der Nahrung",
+        "Label": "Inhalte verwalten",
+        "Hint": "Modulinhalte prüfen, importieren, aktualisieren, wiederherstellen und entfernen."
+      },
+      "ImportExport": {
+        "Name": "Tables of Sustenance Import / Export",
+        "Label": "Import / Export öffnen",
+        "Hint": "Exportiert oder importiert Welteinstellungen, Bildanpassungen und eindeutig modulverwaltete Inhalte."
+      },
+      "Diagnostics": {
+        "Name": "Tables of Sustenance Diagnose",
+        "Label": "Diagnose öffnen",
+        "Hint": "Prüft Laufzeitkompatibilität, Inhaltsintegrität, importierte Daten, Bildanpassungen und ergänzende Anbieter."
+      },
+      "WindowGeometry": {
+        "Name": "Tables of Sustenance Fenstergeometrie",
+        "Label": "Fenstergeometrie zurücksetzen",
+        "Hint": "Setzt clientspezifisch gespeicherte Größen und Positionen der Modulfenster zurück."
+      }
+    },
+    "Benefits": {
+      "Title": "Nahrungsvorteile und Abklingzeiten",
+      "Intro": "Prüft dauerhafte legendäre Vorteile und Tier-4-Abklingzeiten. Kontextabhängige Boni müssen vor dem passenden Wurf vorgemerkt werden; das Modul fügt den Bonus hinzu und löscht ihn anschließend.",
+      "Primed": "Für den nächsten passenden Wurf vorgemerkt:",
+      "Unprime": "Abbrechen",
+      "Permanent": "Dauerhafte legendäre Vorteile",
+      "Prime": "Nächsten Wurf vormerken",
+      "None": "Keine dauerhaften legendären Vorteile vermerkt.",
+      "Cooldowns": "Aktive Tier-4-Abklingzeiten",
+      "NoCooldowns": "Keine aktiven Tier-4-Abklingzeiten.",
+      "ClearCooldowns": "Alle Abklingzeiten löschen",
+      "Applied": "+{bonus} aus {name} wurde dem Wurf hinzugefügt."
+    },
+    "Transfer": {
+      "Title": "Import / Export",
+      "Intro": "Überträgt Modulkonfiguration, Bildanpassungen und eindeutig modulverwaltete Inhalte zwischen Welten, ohne fremde Dokumente als Moduldaten zu behandeln.",
+      "ExportTitle": "Export",
+      "ExportHint": "Erstellt eine übertragbare JSON-Sicherung. Clientspezifische Fenstergeometrie wird absichtlich nicht exportiert.",
+      "Settings": "Welteinstellungen",
+      "Images": "Bildanpassungen",
+      "ManagedContent": "Verwaltete Kompendiumsinhalte",
+      "Export": "JSON exportieren",
+      "ImportTitle": "Import",
+      "ImportHint": "Wähle einen von diesem Modul erzeugten Export. Die Vorschau verändert nichts, bis der Import ausdrücklich angewendet wird.",
+      "ChooseFile": "JSON-Datei wählen",
+      "Preview": "Importvorschau",
+      "SourceVersion": "Quell-Modulversion",
+      "OverwriteContent": "Passende modulverwaltete Einträge überschreiben",
+      "Apply": "Import anwenden",
+      "ImportWarning": "Der Import schreibt ausschließlich Einstellungen, Bildanpassungen und Dokumente mit eindeutiger Herkunft von Tables of Sustenance. Bestehende passende Inhalte bleiben erhalten, sofern Überschreiben nicht gewählt ist.",
+      "ImportComplete": "Import abgeschlossen.",
+      "InvalidFile": "Die ausgewählte Datei ist kein gültiger Tables-of-Sustenance-Export.",
+      "UnsupportedSchema": "Dieser Export verwendet eine nicht unterstützte Schemaversion."
+    },
+    "Diagnostics": {
+      "Title": "Diagnose",
+      "Intro": "Prüft Laufzeit, Inhaltsbibliothek, Weltkompendien, Bildanpassungen und registrierte ergänzende Anbieter.",
+      "Run": "Diagnose ausführen",
+      "Export": "Bericht exportieren",
+      "Errors": "Fehler",
+      "Warnings": "Warnungen",
+      "ImageOverrides": "Bildanpassungen",
+      "Environment": "Umgebung",
+      "Generated": "Erstellt",
+      "Findings": "Befunde",
+      "NoFindings": "Es wurden keine Diagnoseprobleme gefunden.",
+      "NotRun": "Die Diagnose wurde noch nicht ausgeführt.",
+      "FoundryVersion": "Foundry {version} liegt außerhalb der unterstützten v13-Reihe.",
+      "SystemAdapter": "Für {system} ist kein ergänzender Systemadapter aktiv; die systemneutralen Kernfunktionen sind verfügbar, Inventar-Materialisierung und Mechaniken jedoch nicht.",
+      "FoodCount": "Es sind nur {count} Speisen verfügbar; mindestens 335 paketierte oder registrierte Speisen wurden erwartet.",
+      "LegendaryCount": "Es sind nur {count} Tier-S-Speisen verfügbar.",
+      "DuplicateSourceId": "{kind} enthält doppelte stabile Quell-IDs.",
+      "ProviderMissing": "Der registrierte Anbieter {provider} besitzt kein installiertes Modul {module}.",
+      "ContentLoad": "Das Laden der Inhalte ist fehlgeschlagen: {message}",
+      "PackIndex": "{kind} konnte nicht indiziert werden: {message}",
+      "ImageInvalid": "Die Bildanpassung {sourceId} ist unvollständig.",
+      "ImageExtension": "Die Bildanpassung {sourceId} verwendet einen Pfad, dessen Dateiendung keinem erkannten Webbildformat entspricht.",
+      "FoodPackSystemMismatch": "Importierte Nahrungs-Items wurden für {systems} materialisiert, das aktuelle Weltsystem ist jedoch {system}. Importiere die gepackten Speisen erneut über den aktiven Adapter."
+    },
+    "WindowGeometry": {
+      "Title": "Fenstergeometrie",
+      "Intro": "Setzt gespeicherte clientspezifische Fenstergrößen oder -positionen zurück, ohne Weltinhalte oder Moduleinstellungen zu verändern.",
+      "Saved": "Für {count} Modulfenster ist Geometrie gespeichert.",
+      "ResetAll": "Größe und Position zurücksetzen",
+      "SizeReset": "Gespeicherte Größen der Modulfenster wurden zurückgesetzt.",
+      "PositionReset": "Gespeicherte Positionen der Modulfenster wurden zurückgesetzt.",
+      "AllReset": "Die gesamte gespeicherte Modulfenstergeometrie wurde zurückgesetzt."
+    },
+    "Detail": {
+      "Title": "Speisedetails",
+      "Missing": "Die angeforderte Speisedefinition wurde nicht gefunden.",
+      "Ingredients": "Zutaten",
+      "Dietary": "Ernährungseigenschaften",
+      "ShelfLife": "Haltbarkeit",
+      "NoAdapter": "Es ist kein kompatibler Spielsystem-Adapter aktiv. Hintergrund und Metadaten sind vollständig verfügbar; Inventar und Mechanikanwendung erfordern einen Adapter."
+    }
+  }
+}

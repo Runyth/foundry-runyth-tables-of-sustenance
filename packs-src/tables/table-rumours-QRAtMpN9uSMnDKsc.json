@@ -1,0 +1,410 @@
+{
+  "_id": "QRAtMpN9uSMnDKsc",
+  "name": "Culinary Rumours",
+  "description": "Food table: Culinary Rumours.",
+  "results": [
+    {
+      "_id": "Y83lSURKZvQXrb5X",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "description": "A cook claims the true version of Velia Master-Cook’s Smoked Herring Salad requires an ingredient omitted from all licensed copies.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "vM1weSc2qff3kCFp",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "description": "A cook claims the true version of Knot Orchard Master-Cook’s Slow-Baked Hazelnut Tea requires an ingredient omitted from all licensed copies.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "UmHtd1ZmVzmQsFWY",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "description": "A cook claims the true version of Southbank Master-Cook’s Malted Bean Ration Brick requires an ingredient omitted from all licensed copies.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "bsg7T1Hdr4wPJzO5",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "description": "A cook claims the true version of Calpheon Master-Cook’s Stuffed River Crab Griddle Cake requires an ingredient omitted from all licensed copies.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "zH7mwsQVbHqDSJMj",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "description": "A cook claims the true version of Bellroot Hollow Master-Cook’s Cultured Wild Garlic Stew requires an ingredient omitted from all licensed copies.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "1wQpkL9xkqhXHxbi",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "description": "A cook claims the true version of Banner Road Master-Cook’s Kettle-Boiled Hardtack Cake requires an ingredient omitted from all licensed copies.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "e0jXPLgw3oqNsQU7",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "description": "A cook claims the true version of Coldhammer Master-Cook’s Pressure-Stewed Cabbage Hash requires an ingredient omitted from all licensed copies.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "zj1FcGzzWwIpHDSg",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "description": "A cook claims the true version of Rootwatch Master-Cook’s Earth-Oven Cooked Trout Flatbread requires an ingredient omitted from all licensed copies.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "ZDhxn2HwxpmRJeU5",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "description": "A cook claims the true version of Copper Shade Master-Cook’s Sun-Dried Goat Relish requires an ingredient omitted from all licensed copies.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "4oPHGdoieVjukvXt",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "description": "A cook claims the true version of Farwake Master-Cook’s Syrup-Preserved Black Bean Mash requires an ingredient omitted from all licensed copies.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "tUUCM1YvUHtqxfE7",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "description": "A cook claims the true version of Westkai Master-Cook’s Air-Dried Herring Salad requires an ingredient omitted from all licensed copies.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "MLy4OMoUpLiU3v5X",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "description": "A cook claims the true version of Hainbund Farms Master-Cook’s Stone-Ground Hazelnut Tea requires an ingredient omitted from all licensed copies.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "aK1rnVGXON1egffs",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "description": "A cook claims the true version of Heidel Master-Cook’s River-Smoked Bean Ration Brick requires an ingredient omitted from all licensed copies.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "MYLiuB46cTEErb32",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "description": "A cook claims the true version of North Gate Master-Cook’s Fine-Milled River Crab Griddle Cake requires an ingredient omitted from all licensed copies.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "3RzOo4zvwcv3YECs",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "description": "A cook claims the true version of Mist Garden Master-Cook’s Stone-Simmered Wild Garlic Stew requires an ingredient omitted from all licensed copies.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "GZuF3vJPJQhcoI0m",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "description": "A cook claims the true version of Third Milestone Master-Cook’s Compressed Hardtack Cake requires an ingredient omitted from all licensed copies.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "6wfYIMjIpOKPUp9Y",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "description": "A cook claims the true version of Slate Cut Master-Cook’s Cellar-Cured Cabbage Hash requires an ingredient omitted from all licensed copies.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "puzReVfn7V4Xougj",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "description": "A cook claims the true version of Mosswater Master-Cook’s Berry-Cured Trout Flatbread requires an ingredient omitted from all licensed copies.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "xsbP0Ltfp6eoK2d3",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "description": "A cook claims the true version of Dustwell Master-Cook’s Clay-Pot Cooked Goat Relish requires an ingredient omitted from all licensed copies.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    },
+    {
+      "_id": "3gUgvp5o3XT8GZjr",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "description": "A cook claims the true version of Copper Bay Master-Cook’s Coconut-Braised Black Bean Mash requires an ingredient omitted from all licensed copies.",
+      "name": "",
+      "img": "",
+      "documentUuid": null,
+      "flags": {
+        "runyth-tables-of-sustenance": {
+          "tierSDirectResult": false
+        }
+      }
+    }
+  ],
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "table.rumours",
+      "sourceVersion": "1.0.0",
+      "kind": "table",
+      "containsTierSFood": false,
+      "containsTierSClues": false,
+      "localizations": {
+        "de": {
+          "name": "Kulinarische Gerüchte",
+          "description": "Nahrungstabelle: Kulinarische Gerüchte."
+        }
+      }
+    }
+  }
+}

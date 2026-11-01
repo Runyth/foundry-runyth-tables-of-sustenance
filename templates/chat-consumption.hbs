@@ -1,0 +1,7 @@
+<div class="obts-chat-card">
+  <header><img src="{{img}}" alt=""><div><h3>{{foodName}}</h3><p>{{localize "runyth-tables-of-sustenance.Chat.ConsumedBy" actor=actorName}}</p></div><span class="obts-tier">{{tier}}</span></header>
+  <p>{{summary}}</p>
+  {{#if permanent}}<p class="notification warning">{{localize "runyth-tables-of-sustenance.Chat.PermanentRecorded"}}</p>{{/if}}
+  {{#if rest}}<p>{{localize "runyth-tables-of-sustenance.Chat.RestActivation" rest=rest}}</p>{{/if}}
+  {{#if detailed}}<dl><dt>{{localize "runyth-tables-of-sustenance.Browser.Origin"}}</dt><dd>{{origin}}</dd><dt>{{localize "runyth-tables-of-sustenance.Browser.Legality"}}</dt><dd>{{imperialStatus}}</dd></dl>{{/if}}
+</div>

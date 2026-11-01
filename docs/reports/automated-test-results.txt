@@ -1,0 +1,243 @@
+
+> runyth-tables-of-sustenance@1.1.1 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: the compendium has the required tier distribution
+ok 1 - the compendium has the required tier distribution
+  ---
+  duration_ms: 1.215789
+  type: 'test'
+  ...
+# Subtest: Tier 1 entries are narrative sustenance
+ok 2 - Tier 1 entries are narrative sustenance
+  ---
+  duration_ms: 0.482048
+  type: 'test'
+  ...
+# Subtest: Tier 4 entries enforce strong anti-spam rules
+ok 3 - Tier 4 entries enforce strong anti-spam rules
+  ---
+  duration_ms: 0.263502
+  type: 'test'
+  ...
+# Subtest: feature version and current Foundry v13 verification are coherent
+ok 4 - feature version and current Foundry v13 verification are coherent
+  ---
+  duration_ms: 9.356657
+  type: 'test'
+  ...
+# Subtest: dashboard cards use content-sized responsive geometry
+ok 5 - dashboard cards use content-sized responsive geometry
+  ---
+  duration_ms: 1.091545
+  type: 'test'
+  ...
+# Subtest: browser keeps the search input stable through partial results rendering
+ok 6 - browser keeps the search input stable through partial results rendering
+  ---
+  duration_ms: 3.057291
+  type: 'test'
+  ...
+# Subtest: food cards expose GM image overrides and reset controls
+ok 7 - food cards expose GM image overrides and reset controls
+  ---
+  duration_ms: 2.12348
+  type: 'test'
+  ...
+# Subtest: window geometry is client scoped, clamped and separately resettable
+ok 8 - window geometry is client scoped, clamped and separately resettable
+  ---
+  duration_ms: 2.544157
+  type: 'test'
+  ...
+# Subtest: import export and diagnostics are first-class ApplicationV2 tools
+ok 9 - import export and diagnostics are first-class ApplicationV2 tools
+  ---
+  duration_ms: 2.383567
+  type: 'test'
+  ...
+# Subtest: import export uses strict module-managed provenance
+ok 10 - import export uses strict module-managed provenance
+  ---
+  duration_ms: 1.843664
+  type: 'test'
+  ...
+# Subtest: complementary provider API is additive and namespaced
+ok 11 - complementary provider API is additive and namespaced
+  ---
+  duration_ms: 1.064945
+  type: 'test'
+  ...
+# Subtest: complementary foods flow into browser queries and content importing
+ok 12 - complementary foods flow into browser queries and content importing
+  ---
+  duration_ms: 1.503167
+  type: 'test'
+  ...
+# Subtest: diagnostics cover extensions, duplicate IDs and image overrides
+ok 13 - diagnostics cover extensions, duplicate IDs and image overrides
+  ---
+  duration_ms: 4.583462
+  type: 'test'
+  ...
+# Subtest: new module interfaces have scoped responsive accessibility styling
+ok 14 - new module interfaces have scoped responsive accessibility styling
+  ---
+  duration_ms: 3.601681
+  type: 'test'
+  ...
+# Subtest: transfer format is system-aware for materialized food Items
+ok 15 - transfer format is system-aware for materialized food Items
+  ---
+  duration_ms: 0.711679
+  type: 'test'
+  ...
+# Subtest: document sheet controls use the public v13 ApplicationV2 header-control contract
+ok 16 - document sheet controls use the public v13 ApplicationV2 header-control contract
+  ---
+  duration_ms: 0.809855
+  type: 'test'
+  ...
+# Subtest: system-neutral dashboards expose adapter readiness without blocking narrative tools
+ok 17 - system-neutral dashboards expose adapter readiness without blocking narrative tools
+  ---
+  duration_ms: 2.021258
+  type: 'test'
+  ...
+# Subtest: system adapter ownership cannot be silently replaced by another module
+ok 18 - system adapter ownership cannot be silently replaced by another module
+  ---
+  duration_ms: 1.161358
+  type: 'test'
+  ...
+# Subtest: food browsing and preview remain useful without a game-system adapter
+ok 19 - food browsing and preview remain useful without a game-system adapter
+  ---
+  duration_ms: 1.736494
+  type: 'test'
+  ...
+# Subtest: sidebar discovery uses the documented generic ApplicationV2 render hook
+ok 20 - sidebar discovery uses the documented generic ApplicationV2 render hook
+  ---
+  duration_ms: 4.45445
+  type: 'test'
+  ...
+# Subtest: catalogue definitions cannot be forged into player inventory or free player servings
+ok 21 - catalogue definitions cannot be forged into player inventory or free player servings
+  ---
+  duration_ms: 2.037382
+  type: 'test'
+  ...
+# Subtest: content imports use stable IDs, batching, and edit preservation
+ok 22 - content imports use stable IDs, batching, and edit preservation
+  ---
+  duration_ms: 0.986989
+  type: 'test'
+  ...
+# Subtest: cooldowns and permanent benefits are actor-scoped flags
+ok 23 - cooldowns and permanent benefits are actor-scoped flags
+  ---
+  duration_ms: 0.170624
+  type: 'test'
+  ...
+# Subtest: hooks are registered once in the module entrypoint
+ok 24 - hooks are registered once in the module entrypoint
+  ---
+  duration_ms: 0.198816
+  type: 'test'
+  ...
+# Subtest: legendary foods are unique, permanent, and duplicate-safe
+ok 25 - legendary foods are unique, permanent, and duplicate-safe
+  ---
+  duration_ms: 0.602387
+  type: 'test'
+  ...
+# Subtest: ordinary random tables never directly distribute Tier S food
+ok 26 - ordinary random tables never directly distribute Tier S food
+  ---
+  duration_ms: 0.352395
+  type: 'test'
+  ...
+# Subtest: English and German UI localization have exact recursive key parity
+ok 27 - English and German UI localization have exact recursive key parity
+  ---
+  duration_ms: 1.893088
+  type: 'test'
+  ...
+# Subtest: every food includes a complete German description
+ok 28 - every food includes a complete German description
+  ---
+  duration_ms: 0.922483
+  type: 'test'
+  ...
+# Subtest: manifest targets Foundry v13 without binding the core to a game system
+ok 29 - manifest targets Foundry v13 without binding the core to a game system
+  ---
+  duration_ms: 3.542162
+  type: 'test'
+  ...
+# Subtest: food detail no longer adds a startup-critical standalone ES module
+ok 30 - food detail no longer adds a startup-critical standalone ES module
+  ---
+  duration_ms: 5.189464
+  type: 'test'
+  ...
+# Subtest: the built installable tree has a closed runtime asset graph
+ok 31 - the built installable tree has a closed runtime asset graph
+  ---
+  duration_ms: 110.39371
+  type: 'test'
+  ...
+# runyth-tables-of-sustenance | Initialised v1.1.1 as a system-neutral core.
+# Subtest: the Foundry entrypoint imports and registers one init and one ready hook
+ok 32 - the Foundry entrypoint imports and registers one init and one ready hook
+  ---
+  duration_ms: 19.7601
+  type: 'test'
+  ...
+# Subtest: the init hook exposes the core API before the ready hook
+ok 33 - the init hook exposes the core API before the ready hook
+  ---
+  duration_ms: 0.61122
+  type: 'test'
+  ...
+# Subtest: all packaged foods are canonical system-neutral definitions
+ok 34 - all packaged foods are canonical system-neutral definitions
+  ---
+  duration_ms: 0.949073
+  type: 'test'
+  ...
+# Subtest: core runtime contains no D&D hook or D&D actor data path
+ok 35 - core runtime contains no D&D hook or D&D actor data path
+  ---
+  duration_ms: 0.307678
+  type: 'test'
+  ...
+# Subtest: core exposes a capability-gated system adapter contract
+ok 36 - core exposes a capability-gated system adapter contract
+  ---
+  duration_ms: 3.624475
+  type: 'test'
+  ...
+# Subtest: complementary core food registration rejects game-system document payloads
+ok 37 - complementary core food registration rejects game-system document payloads
+  ---
+  duration_ms: 0.671179
+  type: 'test'
+  ...
+# Subtest: legacy custom effect handler API delegates to the active system adapter
+ok 38 - legacy custom effect handler API delegates to the active system adapter
+  ---
+  duration_ms: 0.820892
+  type: 'test'
+  ...
+1..38
+# tests 38
+# suites 0
+# pass 38
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 318.894713

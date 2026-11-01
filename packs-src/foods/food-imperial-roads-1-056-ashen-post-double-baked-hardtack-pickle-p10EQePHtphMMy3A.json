@@ -1,0 +1,106 @@
+{
+  "_id": "p10EQePHtphMMy3A",
+  "name": "Ashen Post Double-Baked Hardtack Pickle",
+  "img": "modules/runyth-tables-of-sustenance/assets/food/imperial-roads-supper.svg",
+  "description": "<h3>Overview</h3><p>A soft, salty pickle built around hardtack, rendered fat, and the double-baked technique common near Ashen Post.</p><h3>Origin</h3><p>Associated with Ashen Post in Imperial Roads. Road food is judged by whether it survives rain, inspection, theft, and three days in a saddlebag rather than by elegance.</p><h3>Availability</h3><p>Usually encountered in roadside inns; availability is common and strongest during winter.</p><h3>Typical Consumers</h3><p>Most often eaten by soldiers, while travellers actively seek it out for its portability, familiarity, or social meaning.</p><h3>Preparation</h3><p>Prepared from hardtack, rendered fat, mustard seed using ordinary cookware and 30 minutes of work. Its expected shelf life is 2 days.</p><h3>Cultural Meaning</h3><p>It signals noble circumstances in Imperial Road Communities; serving it outside its normal context can read as hospitality, thrift, nostalgia, or quiet insult.</p><h3>Mechanical Effect</h3><p>No direct statistical benefit. It counts as one nourishing serving for optional ration, hunger, thirst, or rest integrations.</p><h3>Consumption and Cooldown</h3><p>One serving is consumed as an action or as part of a rest. Duration: 0 seconds. No cooldown. Effects of the same tier follow the configured stacking rule.</p><h3>Imperial Status</h3><p>Imperial classification: ordinary provision. Inspection focuses on provenance, repeatability, and whether the preparation is licensed.</p><section class=\"secret\"><h3>GM Notes</h3><p>Substitute another local pickle if the ingredient is unavailable. Counterfeits usually replace hardtack with cheaper grain or conceal spoilage with vinegar.</p></section>",
+  "unidentifiedDescription": "",
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "food.imperial-roads.1.056.ashen-post-double-baked-hardtack-pickle",
+      "sourceVersion": "1.0.0",
+      "kind": "food",
+      "meta": {
+        "tier": "1",
+        "tierLabel": "Sustenance",
+        "originRegion": "Imperial Roads",
+        "originSettlement": "Ashen Post",
+        "culture": "Imperial Road Communities",
+        "factionAssociation": [
+          "Road Wardens"
+        ],
+        "typicalVenue": [
+          "roadside inns"
+        ],
+        "usualConsumers": [
+          "soldiers"
+        ],
+        "preferredConsumers": [
+          "travellers"
+        ],
+        "avoidedBy": [
+          "Imperial officials"
+        ],
+        "socialClass": [
+          "noble"
+        ],
+        "professionAssociation": [
+          "soldiers"
+        ],
+        "priceCategory": "common",
+        "rarity": "common",
+        "legality": "ordinary provision",
+        "season": [
+          "winter"
+        ],
+        "mealType": [
+          "supper"
+        ],
+        "servingTemperature": "room temperature",
+        "preservationMethod": "salted",
+        "preparationDifficulty": "simple",
+        "preparationTime": "30 minutes",
+        "shelfLife": "2 days",
+        "ingredients": [
+          "hardtack",
+          "rendered fat",
+          "mustard seed"
+        ],
+        "dietaryProperties": [
+          "gluten",
+          "vegetarian"
+        ],
+        "flavourProfile": [
+          "salty",
+          "fresh"
+        ],
+        "texture": "soft",
+        "alcoholic": false,
+        "nature": "mundane",
+        "effectDurationSeconds": 0,
+        "cooldownSeconds": 0,
+        "servings": 1,
+        "weight": 0.75,
+        "purchasePrice": {
+          "value": 9,
+          "denomination": "cp"
+        },
+        "suggestedAvailability": "common",
+        "identificationStatus": "identified",
+        "preparationMethod": "double-baked",
+        "activeEffect": false
+      },
+      "mechanics": {
+        "tier": "1",
+        "effectId": "effect.food.imperial-roads.1.056.ashen-post-double-baked-hardtack-pickle",
+        "summary": "No direct statistical benefit. It counts as one nourishing serving for optional ration, hunger, thirst, or rest integrations.",
+        "summaryDe": "Kein direkter statistischer Vorteil. Es zählt als eine nahrhafte Portion für optionale Rations-, Hunger-, Durst- oder Rastintegrationen.",
+        "durationSeconds": 0,
+        "cooldownSeconds": 0,
+        "activation": "immediate",
+        "stackingGroup": "tier-1",
+        "permanent": false,
+        "duplicatePolicy": "replace-weaker",
+        "requiresConfirmation": false,
+        "effectIntents": []
+      },
+      "localizations": {
+        "de": {
+          "name": "Ashen Post Double-Gebackener Hartkeks Eingelegtes",
+          "description": "<h3>Überblick</h3><p>Die Speise verbindet Hartkeks, ausgelassenes Fett, Senfsaat mit der für Ashen Post typischen Zubereitung „doppelt gebacken“. Geschmack und Textur bleiben bodenständig und von den verfügbaren Vorräten geprägt.</p><h3>Herkunft</h3><p>Sie ist eng mit Ashen Post in der Region Imperial Roads sowie mit der Kultur Imperial Road Communities verbunden.</p><h3>Verfügbarkeit</h3><p>Gewöhnlich ist sie in Straßenherbergen zu finden. Ihre Seltenheit gilt als häufig; die beste Verfügbarkeit besteht während Winter.</p><h3>Typische Verbraucher</h3><p>Sie wird meist von Soldaten gegessen. Besonders geschätzt wird sie von Reisenden, weil Preis, Haltbarkeit, Geschmack oder gesellschaftliche Bedeutung zu deren Alltag passen.</p><h3>Zubereitung</h3><p>Benötigt werden Hartkeks, ausgelassenes Fett, Senfsaat. Die Zubereitung gilt als einfach, dauert 30 minutes und wird bei Raumtemperatur serviert. Die erwartete Haltbarkeit beträgt 2 Tage.</p><h3>Kulturelle Bedeutung</h3><p>Innerhalb von Imperial Road Communities steht die Speise vor allem für eine adlige Lebenslage. Außerhalb ihres üblichen Umfelds kann sie als Gastfreundschaft, Sparsamkeit, Erinnerung, Standeszeichen oder bewusste Kränkung verstanden werden.</p><h3>Mechanischer Effekt</h3><p>Kein direkter statistischer Vorteil. Es zählt als eine nahrhafte Portion für optionale Rations-, Hunger-, Durst- oder Rastintegrationen.</p><h3>Verzehr und Abklingzeit</h3><p>Eine Portion wird als Aktion oder im Rahmen einer Rast verzehrt. Effektdauer: 0 Sekunden. Abklingzeit: keine. Stapelung und Einschränkungen folgen den Welteinstellungen und den stabilen Effektkennungen.</p><h3>Imperialer Status</h3><p>Imperiale Einstufung: gewöhnlicher Proviant. Kontrollen prüfen Herkunft, Wiederholbarkeit, Lizenzierung und mögliche Grenzüberschreitungen von Körper, Identität, Erinnerung, Tod, Traum, Blut oder Geist.</p><section class=\"secret\"><h3>SL-Hinweise</h3><p>Zutaten können durch regional gleichwertige Vorräte ersetzt werden. Fälschungen verwenden meist billigere Grundnahrung, gefärbte Garnitur oder Gewürze, die Verderb verbergen.</p></section>",
+          "mechanicalEffect": "Kein direkter statistischer Vorteil. Es zählt als eine nahrhafte Portion für optionale Rations-, Hunger-, Durst- oder Rastintegrationen."
+        }
+      },
+      "contentSchema": "system-neutral-food-v1"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+<div class="obts-manager-layout">
+  {{#unless isGM}}<p class="notification error">{{localize "runyth-tables-of-sustenance.Errors.GMOnly"}}</p>{{else}}
+  <form class="obts-manager-form">
+    <fieldset><legend>{{localize "runyth-tables-of-sustenance.Manager.ContentTypes"}}</legend>
+      <label class="checkbox"><input type="checkbox" name="kinds" value="foods" {{#if adapterAvailable}}checked{{else}}disabled{{/if}}>{{localize "runyth-tables-of-sustenance.Manager.Foods"}}</label>
+      <label class="checkbox"><input type="checkbox" name="kinds" value="recipes" checked>{{localize "runyth-tables-of-sustenance.Manager.Recipes"}}</label>
+      <label class="checkbox"><input type="checkbox" name="kinds" value="tables" checked>{{localize "runyth-tables-of-sustenance.Manager.Tables"}}</label>
+    </fieldset>
+    {{#unless adapterAvailable}}<p class="notification warning">{{localize "runyth-tables-of-sustenance.Manager.AdapterRequiredForFoods"}}</p>{{/unless}}
+    <div class="obts-manager-selectors">
+      <label><span>{{localize "runyth-tables-of-sustenance.Browser.Tier"}}</span><select name="tiers" multiple size="6">{{#each metadata.tiers}}<option value="{{this}}">{{this}}</option>{{/each}}</select><small>{{localize "runyth-tables-of-sustenance.Manager.EmptyMeansAll"}}</small></label>
+      <label><span>{{localize "runyth-tables-of-sustenance.Browser.Region"}}</span><select name="regions" multiple size="8">{{#each metadata.regions}}<option value="{{this}}">{{this}}</option>{{/each}}</select><small>{{localize "runyth-tables-of-sustenance.Manager.EmptyMeansAll"}}</small></label>
+      <label><span>{{localize "runyth-tables-of-sustenance.Browser.Culture"}}</span><select name="cultures" multiple size="8">{{#each metadata.cultures}}<option value="{{this}}">{{this}}</option>{{/each}}</select><small>{{localize "runyth-tables-of-sustenance.Manager.EmptyMeansAll"}}</small></label>
+      <label><span>{{localize "runyth-tables-of-sustenance.Manager.Categories"}}</span><select name="categories" multiple size="8">{{#each metadata.mealTypes}}<option value="{{this}}">{{this}}</option>{{/each}}</select><small>{{localize "runyth-tables-of-sustenance.Manager.EmptyMeansAll"}}</small></label>
+    </div>
+    <label class="checkbox"><input type="checkbox" name="preserveEdited" checked>{{localize "runyth-tables-of-sustenance.Manager.PreserveEdited"}}</label>
+    <label class="checkbox"><input type="checkbox" name="localized" checked>{{localize "runyth-tables-of-sustenance.Manager.LocalizedImport"}}</label>
+    <label class="checkbox warning"><input type="checkbox" name="force">{{localize "runyth-tables-of-sustenance.Manager.ForceRestore"}}</label>
+    <div class="form-footer"><button type="button" data-action="preview" {{disabled busy}}><i class="fa-solid fa-magnifying-glass"></i>{{localize "runyth-tables-of-sustenance.Common.Preview"}}</button><button type="button" data-action="import" {{disabled busy}}><i class="fa-solid fa-file-import"></i>{{localize "runyth-tables-of-sustenance.Manager.Import"}}</button><button type="button" data-action="remove" class="danger" {{disabled busy}}><i class="fa-solid fa-trash"></i>{{localize "runyth-tables-of-sustenance.Common.Remove"}}</button>{{#if busy}}<button type="button" data-action="cancel"><i class="fa-solid fa-ban"></i>{{localize "runyth-tables-of-sustenance.Common.Cancel"}}</button>{{/if}}<button type="button" data-action="refresh"><i class="fa-solid fa-rotate"></i>{{localize "runyth-tables-of-sustenance.Common.Clear"}}</button></div>
+  </form>
+  {{#if progress}}<section class="obts-progress" aria-live="polite"><progress max="100" value="{{progress.percent}}"></progress><span>{{progress.percent}}% — {{progress.completed}} / {{progress.total}}</span><small>{{progress.name}}</small></section>{{/if}}
+  {{#if preview}}<section><h2>{{localize "runyth-tables-of-sustenance.Manager.PreviewTitle"}}</h2><div class="obts-stat-grid"><span><strong>{{preview.create}}</strong>{{localize "runyth-tables-of-sustenance.Manager.Create"}}</span><span><strong>{{preview.update}}</strong>{{localize "runyth-tables-of-sustenance.Manager.Update"}}</span><span><strong>{{preview.preserve}}</strong>{{localize "runyth-tables-of-sustenance.Manager.Preserve"}}</span><span><strong>{{preview.unchanged}}</strong>{{localize "runyth-tables-of-sustenance.Manager.Unchanged"}}</span></div></section>{{/if}}
+  {{#if report}}<section><h2>{{localize "runyth-tables-of-sustenance.Manager.Report"}}</h2><pre>{{reportJson}}</pre>{{#if report.errors.length}}<div class="notification error">{{#each report.errors}}<p>{{message}}</p>{{/each}}</div>{{/if}}</section>{{/if}}
+  {{/unless}}
+</div>

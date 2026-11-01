@@ -1,0 +1,59 @@
+{
+  "_id": "CFkkvK5SfWyxVFtO",
+  "name": "Recipe: Coldhammer Fortified Cellar-Cured Cabbage Roll",
+  "pages": [
+    {
+      "_id": "9CB2cGxY7FmyyGXf",
+      "name": "Recipe",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<h2>Coldhammer Fortified Cellar-Cured Cabbage Roll</h2><p><strong>Ingredients:</strong> cabbage, dark ale, potato</p><p><strong>Tools:</strong> cook’s utensils and region-appropriate heat source.</p><p><strong>Time:</strong> 30 minutes</p><p><strong>Difficulty:</strong> trained</p><p><strong>Batch:</strong> 2 serving(s).</p><p><strong>Failure:</strong> ingredients are consumed; the result becomes a spoiled Tier 1 ration with no benefit.</p><p><strong>Partial success:</strong> half yield, no mechanical effect, safe to eat.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {}
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "recipe.food.northern-mines.2.007.coldhammer-fortified-cellar-cured-cabbage-roll",
+      "sourceVersion": "1.0.0",
+      "kind": "recipe",
+      "foodSourceId": "food.northern-mines.2.007.coldhammer-fortified-cellar-cured-cabbage-roll",
+      "requirements": {
+        "ingredients": [
+          "cabbage",
+          "dark ale",
+          "potato"
+        ],
+        "tools": [
+          "cook’s utensils"
+        ],
+        "skill": "Cooking",
+        "difficulty": "trained",
+        "time": "30 minutes",
+        "authorization": null
+      },
+      "gmOnly": false,
+      "localizations": {
+        "de": {
+          "name": "Rezept: Coldhammer Stärkender Cellar-Cured Kohl Rolle",
+          "pageName": "Rezept",
+          "content": "<h2>Coldhammer Stärkender Cellar-Cured Kohl Rolle</h2><p><strong>Zutaten:</strong> Kohl, Dunkelbier, Kartoffel</p><p><strong>Werkzeuge:</strong> Kochutensilien und eine regional geeignete Hitzequelle.</p><p><strong>Zeit:</strong> 30 minutes</p><p><strong>Schwierigkeit:</strong> geübt</p><p><strong>Fehlschlag:</strong> Die Zutaten werden verbraucht; das Ergebnis wird zu einer verdorbenen Tier-1-Ration ohne Vorteil.</p><p><strong>Teilerfolg:</strong> Halbe Ausbeute, kein mechanischer Effekt, aber sicher essbar.</p>"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "_id": "Jzj7I7pOFfStaJGG",
+  "name": "Mosswater Resin-Smoked Trout Custard",
+  "img": "modules/runyth-tables-of-sustenance/assets/food/evergreen-marches-drink.svg",
+  "description": "<h3>Overview</h3><p>A silky, sweet custard built around trout, venison, and the resin-smoked technique common near Mosswater.</p><h3>Origin</h3><p>Associated with Mosswater in Evergreen Marches. Marcher dishes encode boundaries, seasons, and hospitality; outsiders often mistake careful custom for secrecy or superstition.</p><h3>Availability</h3><p>Usually encountered in remote settlements; availability is common and strongest during spring.</p><h3>Typical Consumers</h3><p>Most often eaten by travellers, while specific ancestries actively seek it out for its portability, familiarity, or social meaning.</p><h3>Preparation</h3><p>Prepared from trout, venison, venison using ordinary cookware and 1 hour of work. Its expected shelf life is 1 week.</p><h3>Cultural Meaning</h3><p>It signals military circumstances in Marcher and Sylvan-Speaking Communities; serving it outside its normal context can read as hospitality, thrift, nostalgia, or quiet insult.</p><h3>Mechanical Effect</h3><p>No direct statistical benefit. It counts as one nourishing serving for optional ration, hunger, thirst, or rest integrations.</p><h3>Consumption and Cooldown</h3><p>One serving is consumed as an action or as part of a rest. Duration: 0 seconds. No cooldown. Effects of the same tier follow the configured stacking rule.</p><h3>Imperial Status</h3><p>Imperial classification: ordinary provision. Inspection focuses on provenance, repeatability, and whether the preparation is licensed.</p><section class=\"secret\"><h3>GM Notes</h3><p>Substitute another local custard if the ingredient is unavailable. Counterfeits usually replace trout with cheaper grain or conceal spoilage with vinegar.</p></section>",
+  "unidentifiedDescription": "",
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "food.evergreen-marches.1.048.mosswater-resin-smoked-trout-custard",
+      "sourceVersion": "1.0.0",
+      "kind": "food",
+      "meta": {
+        "tier": "1",
+        "tierLabel": "Sustenance",
+        "originRegion": "Evergreen Marches",
+        "originSettlement": "Mosswater",
+        "culture": "Marcher and Sylvan-Speaking Communities",
+        "factionAssociation": [
+          "Imperial Survey Camp"
+        ],
+        "typicalVenue": [
+          "remote settlements",
+          "forests"
+        ],
+        "usualConsumers": [
+          "travellers"
+        ],
+        "preferredConsumers": [
+          "specific ancestries"
+        ],
+        "avoidedBy": [
+          "religious communities"
+        ],
+        "socialClass": [
+          "military"
+        ],
+        "professionAssociation": [
+          "travellers"
+        ],
+        "priceCategory": "common",
+        "rarity": "common",
+        "legality": "ordinary provision",
+        "season": [
+          "spring"
+        ],
+        "mealType": [
+          "drink"
+        ],
+        "servingTemperature": "room temperature",
+        "preservationMethod": "smoked",
+        "preparationDifficulty": "simple",
+        "preparationTime": "1 hour",
+        "shelfLife": "1 week",
+        "ingredients": [
+          "trout",
+          "venison",
+          "venison"
+        ],
+        "dietaryProperties": [
+          "contains fish",
+          "contains meat"
+        ],
+        "flavourProfile": [
+          "sweet",
+          "fresh"
+        ],
+        "texture": "silky",
+        "alcoholic": false,
+        "nature": "mundane",
+        "effectDurationSeconds": 0,
+        "cooldownSeconds": 0,
+        "servings": 1,
+        "weight": 1.0,
+        "purchasePrice": {
+          "value": 9,
+          "denomination": "cp"
+        },
+        "suggestedAvailability": "common",
+        "identificationStatus": "identified",
+        "preparationMethod": "resin-smoked",
+        "activeEffect": false
+      },
+      "mechanics": {
+        "tier": "1",
+        "effectId": "effect.food.evergreen-marches.1.048.mosswater-resin-smoked-trout-custard",
+        "summary": "No direct statistical benefit. It counts as one nourishing serving for optional ration, hunger, thirst, or rest integrations.",
+        "summaryDe": "Kein direkter statistischer Vorteil. Es zählt als eine nahrhafte Portion für optionale Rations-, Hunger-, Durst- oder Rastintegrationen.",
+        "durationSeconds": 0,
+        "cooldownSeconds": 0,
+        "activation": "immediate",
+        "stackingGroup": "tier-1",
+        "permanent": false,
+        "duplicatePolicy": "replace-weaker",
+        "requiresConfirmation": false,
+        "effectIntents": []
+      },
+      "localizations": {
+        "de": {
+          "name": "Mosswater Resin-Geräucherter Forellen Auflauf",
+          "description": "<h3>Überblick</h3><p>Die Speise verbindet Forelle, Wildbret, Wildbret mit der für Mosswater typischen Zubereitung „über Harz geräuchert“. Geschmack und Textur bleiben bodenständig und von den verfügbaren Vorräten geprägt.</p><h3>Herkunft</h3><p>Sie ist eng mit Mosswater in der Region Evergreen Marches sowie mit der Kultur Marcher and Sylvan-Speaking Communities verbunden.</p><h3>Verfügbarkeit</h3><p>Gewöhnlich ist sie in abgelegenen Siedlungen, Wäldern zu finden. Ihre Seltenheit gilt als häufig; die beste Verfügbarkeit besteht während Frühling.</p><h3>Typische Verbraucher</h3><p>Sie wird meist von Reisenden gegessen. Besonders geschätzt wird sie von bestimmten Abstammungen, weil Preis, Haltbarkeit, Geschmack oder gesellschaftliche Bedeutung zu deren Alltag passen.</p><h3>Zubereitung</h3><p>Benötigt werden Forelle, Wildbret, Wildbret. Die Zubereitung gilt als einfach, dauert 1 hour und wird bei Raumtemperatur serviert. Die erwartete Haltbarkeit beträgt 1 Woche.</p><h3>Kulturelle Bedeutung</h3><p>Innerhalb von Marcher and Sylvan-Speaking Communities steht die Speise vor allem für eine militärische Lebenslage. Außerhalb ihres üblichen Umfelds kann sie als Gastfreundschaft, Sparsamkeit, Erinnerung, Standeszeichen oder bewusste Kränkung verstanden werden.</p><h3>Mechanischer Effekt</h3><p>Kein direkter statistischer Vorteil. Es zählt als eine nahrhafte Portion für optionale Rations-, Hunger-, Durst- oder Rastintegrationen.</p><h3>Verzehr und Abklingzeit</h3><p>Eine Portion wird als Aktion oder im Rahmen einer Rast verzehrt. Effektdauer: 0 Sekunden. Abklingzeit: keine. Stapelung und Einschränkungen folgen den Welteinstellungen und den stabilen Effektkennungen.</p><h3>Imperialer Status</h3><p>Imperiale Einstufung: gewöhnlicher Proviant. Kontrollen prüfen Herkunft, Wiederholbarkeit, Lizenzierung und mögliche Grenzüberschreitungen von Körper, Identität, Erinnerung, Tod, Traum, Blut oder Geist.</p><section class=\"secret\"><h3>SL-Hinweise</h3><p>Zutaten können durch regional gleichwertige Vorräte ersetzt werden. Fälschungen verwenden meist billigere Grundnahrung, gefärbte Garnitur oder Gewürze, die Verderb verbergen.</p></section>",
+          "mechanicalEffect": "Kein direkter statistischer Vorteil. Es zählt als eine nahrhafte Portion für optionale Rations-, Hunger-, Durst- oder Rastintegrationen."
+        }
+      },
+      "contentSchema": "system-neutral-food-v1"
+    }
+  }
+}

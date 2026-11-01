@@ -1,0 +1,107 @@
+{
+  "_id": "B9TjQGFpvhLWOjWM",
+  "name": "Tax Quarter Stuffed River Crab Bowl",
+  "img": "modules/runyth-tables-of-sustenance/assets/food/calpheon-midday-meal.svg",
+  "description": "<h3>Overview</h3><p>A dense, spiced bowl built around river crab, almond, and the stuffed technique common near Tax Quarter.</p><h3>Origin</h3><p>Associated with Tax Quarter in Calpheon Basin. Calpheon tables make status visible: the same grain becomes prison mash, clerk’s pie, or a twelve-layer noble course according to who pays.</p><h3>Availability</h3><p>Usually encountered in prisons; availability is common and strongest during lean season.</p><h3>Typical Consumers</h3><p>Most often eaten by labourers, while nobles actively seek it out for its portability, familiarity, or social meaning.</p><h3>Preparation</h3><p>Prepared from river crab, almond, butter using ordinary cookware and 1 hour of work. Its expected shelf life is same day.</p><h3>Cultural Meaning</h3><p>It signals merchant circumstances in Calpheon Metropolitan; serving it outside its normal context can read as hospitality, thrift, nostalgia, or quiet insult.</p><h3>Mechanical Effect</h3><p>No direct statistical benefit. It counts as one nourishing serving for optional ration, hunger, thirst, or rest integrations.</p><h3>Consumption and Cooldown</h3><p>One serving is consumed as an action or as part of a rest. Duration: 0 seconds. No cooldown. Effects of the same tier follow the configured stacking rule.</p><h3>Imperial Status</h3><p>Imperial classification: ordinary provision. Inspection focuses on provenance, repeatability, and whether the preparation is licensed.</p><section class=\"secret\"><h3>GM Notes</h3><p>Substitute another local bowl if the ingredient is unavailable. Counterfeits usually replace river crab with cheaper grain or conceal spoilage with vinegar.</p></section>",
+  "unidentifiedDescription": "",
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "food.calpheon.1.024.tax-quarter-stuffed-river-crab-bowl",
+      "sourceVersion": "1.0.0",
+      "kind": "food",
+      "meta": {
+        "tier": "1",
+        "tierLabel": "Sustenance",
+        "originRegion": "Calpheon Basin",
+        "originSettlement": "Tax Quarter",
+        "culture": "Calpheon Metropolitan",
+        "factionAssociation": [
+          "Noble Household Cooks"
+        ],
+        "typicalVenue": [
+          "prisons"
+        ],
+        "usualConsumers": [
+          "labourers"
+        ],
+        "preferredConsumers": [
+          "nobles"
+        ],
+        "avoidedBy": [
+          "Imperial officials"
+        ],
+        "socialClass": [
+          "merchant"
+        ],
+        "professionAssociation": [
+          "labourers"
+        ],
+        "priceCategory": "common",
+        "rarity": "common",
+        "legality": "ordinary provision",
+        "season": [
+          "lean season"
+        ],
+        "mealType": [
+          "midday meal"
+        ],
+        "servingTemperature": "room temperature",
+        "preservationMethod": "fermented",
+        "preparationDifficulty": "simple",
+        "preparationTime": "1 hour",
+        "shelfLife": "same day",
+        "ingredients": [
+          "river crab",
+          "almond",
+          "butter"
+        ],
+        "dietaryProperties": [
+          "contains fish",
+          "dairy",
+          "nut"
+        ],
+        "flavourProfile": [
+          "spiced",
+          "fresh"
+        ],
+        "texture": "dense",
+        "alcoholic": false,
+        "nature": "mundane",
+        "effectDurationSeconds": 0,
+        "cooldownSeconds": 0,
+        "servings": 1,
+        "weight": 1.0,
+        "purchasePrice": {
+          "value": 9,
+          "denomination": "cp"
+        },
+        "suggestedAvailability": "common",
+        "identificationStatus": "identified",
+        "preparationMethod": "stuffed",
+        "activeEffect": false
+      },
+      "mechanics": {
+        "tier": "1",
+        "effectId": "effect.food.calpheon.1.024.tax-quarter-stuffed-river-crab-bowl",
+        "summary": "No direct statistical benefit. It counts as one nourishing serving for optional ration, hunger, thirst, or rest integrations.",
+        "summaryDe": "Kein direkter statistischer Vorteil. Es zählt als eine nahrhafte Portion für optionale Rations-, Hunger-, Durst- oder Rastintegrationen.",
+        "durationSeconds": 0,
+        "cooldownSeconds": 0,
+        "activation": "immediate",
+        "stackingGroup": "tier-1",
+        "permanent": false,
+        "duplicatePolicy": "replace-weaker",
+        "requiresConfirmation": false,
+        "effectIntents": []
+      },
+      "localizations": {
+        "de": {
+          "name": "Tax Quarter Stuffed Flusskrebs Schale",
+          "description": "<h3>Überblick</h3><p>Die Speise verbindet Flusskrebs, Mandel, Butter mit der für Tax Quarter typischen Zubereitung „gefüllt“. Geschmack und Textur bleiben bodenständig und von den verfügbaren Vorräten geprägt.</p><h3>Herkunft</h3><p>Sie ist eng mit Tax Quarter in der Region Calpheon Basin sowie mit der Kultur Calpheon Metropolitan verbunden.</p><h3>Verfügbarkeit</h3><p>Gewöhnlich ist sie in Gefängnissen zu finden. Ihre Seltenheit gilt als häufig; die beste Verfügbarkeit besteht während lean season.</p><h3>Typische Verbraucher</h3><p>Sie wird meist von Arbeitern gegessen. Besonders geschätzt wird sie von Adligen, weil Preis, Haltbarkeit, Geschmack oder gesellschaftliche Bedeutung zu deren Alltag passen.</p><h3>Zubereitung</h3><p>Benötigt werden Flusskrebs, Mandel, Butter. Die Zubereitung gilt als einfach, dauert 1 hour und wird bei Raumtemperatur serviert. Die erwartete Haltbarkeit beträgt am selben Tag.</p><h3>Kulturelle Bedeutung</h3><p>Innerhalb von Calpheon Metropolitan steht die Speise vor allem für eine kaufmännische Lebenslage. Außerhalb ihres üblichen Umfelds kann sie als Gastfreundschaft, Sparsamkeit, Erinnerung, Standeszeichen oder bewusste Kränkung verstanden werden.</p><h3>Mechanischer Effekt</h3><p>Kein direkter statistischer Vorteil. Es zählt als eine nahrhafte Portion für optionale Rations-, Hunger-, Durst- oder Rastintegrationen.</p><h3>Verzehr und Abklingzeit</h3><p>Eine Portion wird als Aktion oder im Rahmen einer Rast verzehrt. Effektdauer: 0 Sekunden. Abklingzeit: keine. Stapelung und Einschränkungen folgen den Welteinstellungen und den stabilen Effektkennungen.</p><h3>Imperialer Status</h3><p>Imperiale Einstufung: gewöhnlicher Proviant. Kontrollen prüfen Herkunft, Wiederholbarkeit, Lizenzierung und mögliche Grenzüberschreitungen von Körper, Identität, Erinnerung, Tod, Traum, Blut oder Geist.</p><section class=\"secret\"><h3>SL-Hinweise</h3><p>Zutaten können durch regional gleichwertige Vorräte ersetzt werden. Fälschungen verwenden meist billigere Grundnahrung, gefärbte Garnitur oder Gewürze, die Verderb verbergen.</p></section>",
+          "mechanicalEffect": "Kein direkter statistischer Vorteil. Es zählt als eine nahrhafte Portion für optionale Rations-, Hunger-, Durst- oder Rastintegrationen."
+        }
+      },
+      "contentSchema": "system-neutral-food-v1"
+    }
+  }
+}

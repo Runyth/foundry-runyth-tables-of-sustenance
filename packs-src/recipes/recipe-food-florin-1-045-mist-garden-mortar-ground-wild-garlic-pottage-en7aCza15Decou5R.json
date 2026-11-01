@@ -1,0 +1,59 @@
+{
+  "_id": "en7aCza15Decou5R",
+  "name": "Recipe: Mist Garden Mortar-Ground Wild Garlic Pottage",
+  "pages": [
+    {
+      "_id": "7y0CdaNwb6iXHqYe",
+      "name": "Recipe",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<h2>Mist Garden Mortar-Ground Wild Garlic Pottage</h2><p><strong>Ingredients:</strong> wild garlic, mushroom, juniper</p><p><strong>Tools:</strong> cook’s utensils and region-appropriate heat source.</p><p><strong>Time:</strong> 1 hour</p><p><strong>Difficulty:</strong> simple</p><p><strong>Batch:</strong> 1 serving(s).</p><p><strong>Failure:</strong> ingredients are consumed; the result becomes a spoiled Tier 1 ration with no benefit.</p><p><strong>Partial success:</strong> half yield, no mechanical effect, safe to eat.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {}
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "recipe.food.florin.1.045.mist-garden-mortar-ground-wild-garlic-pottage",
+      "sourceVersion": "1.0.0",
+      "kind": "recipe",
+      "foodSourceId": "food.florin.1.045.mist-garden-mortar-ground-wild-garlic-pottage",
+      "requirements": {
+        "ingredients": [
+          "wild garlic",
+          "mushroom",
+          "juniper"
+        ],
+        "tools": [
+          "cook’s utensils"
+        ],
+        "skill": "Cooking",
+        "difficulty": "simple",
+        "time": "1 hour",
+        "authorization": null
+      },
+      "gmOnly": false,
+      "localizations": {
+        "de": {
+          "name": "Rezept: Mist Garden Mortar-Ground Bärlauch Eintopf",
+          "pageName": "Rezept",
+          "content": "<h2>Mist Garden Mortar-Ground Bärlauch Eintopf</h2><p><strong>Zutaten:</strong> Bärlauch, Pilz, Wacholder</p><p><strong>Werkzeuge:</strong> Kochutensilien und eine regional geeignete Hitzequelle.</p><p><strong>Zeit:</strong> 1 hour</p><p><strong>Schwierigkeit:</strong> einfach</p><p><strong>Fehlschlag:</strong> Die Zutaten werden verbraucht; das Ergebnis wird zu einer verdorbenen Tier-1-Ration ohne Vorteil.</p><p><strong>Teilerfolg:</strong> Halbe Ausbeute, kein mechanischer Effekt, aber sicher essbar.</p>"
+        }
+      }
+    }
+  }
+}

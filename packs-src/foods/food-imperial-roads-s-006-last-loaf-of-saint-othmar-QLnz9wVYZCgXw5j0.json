@@ -1,0 +1,112 @@
+{
+  "_id": "QLnz9wVYZCgXw5j0",
+  "name": "Last Loaf of Saint Othmar",
+  "img": "modules/runyth-tables-of-sustenance/assets/food/imperial-roads-legendary-edible-treasure.svg",
+  "description": "<h3>Overview</h3><p>An edible relic whose appearance is understated enough to be mistaken for preserved produce, ritual bread, or an unusual medicinal preparation.</p><h3>Origin</h3><p>Provenance points to Ashen Post in Imperial Roads. Imperial doctrine calls it a symbolic replica; three sealed archives disagree on which loaf was copied.</p><h3>Availability</h3><p>Never sold through ordinary trade. It must be discovered through a singular expedition, inheritance, sacred obligation, classified archive, or impossible harvest.</p><h3>Typical Consumers</h3><p>No ordinary consumer group. Possession itself attracts scholars, officials, cults, smugglers, and people who deny that the substance exists.</p><h3>Preparation</h3><p>Requires the exact provenance-specific method. Substitution destroys the legendary property and produces only ordinary food.</p><h3>Cultural Meaning</h3><p>Its consumption permanently changes how the eater is remembered by at least one community, institution, or supernatural witness.</p><h3>Mechanical Effect</h3><p>Hidden until identified or consumed.</p><h3>Consumption and Cooldown</h3><p>The benefit is permanent. A creature can gain it only once; duplicate consumption is blocked and does not consume the item unless the GM explicitly overrides. The benefit does not stack with itself.</p><h3>Imperial Status</h3><p>Classified anomaly. Unauthorised possession, transport, copying, or public description may trigger seizure and investigation.</p><section class=\"secret\"><h3>GM Notes</h3><p>True benefit: +1 on saving throws against fear caused by Undead. Discovery condition: Granted only after proving that a shrine’s official relic is counterfeit without causing a public riot. Campaign guidance: treat this as a once-in-many-sessions narrative reward, not expected progression.</p></section>",
+  "unidentifiedDescription": "<p>An unidentified edible relic of uncertain provenance.</p>",
+  "flags": {
+    "runyth-tables-of-sustenance": {
+      "sourceId": "food.imperial-roads.s.006.last-loaf-of-saint-othmar",
+      "sourceVersion": "1.0.0",
+      "kind": "food",
+      "meta": {
+        "tier": "S",
+        "tierLabel": "Legendary Sustenance",
+        "originRegion": "Imperial Roads",
+        "originSettlement": "Ashen Post",
+        "culture": "Imperial Road Communities",
+        "factionAssociation": [
+          "Classified Imperial Archive"
+        ],
+        "typicalVenue": [],
+        "usualConsumers": [],
+        "preferredConsumers": [],
+        "avoidedBy": [],
+        "socialClass": [
+          "legendary"
+        ],
+        "professionAssociation": [
+          "historians",
+          "healers",
+          "inquisitors"
+        ],
+        "priceCategory": "priceless",
+        "rarity": "legendary",
+        "legality": "classified anomaly",
+        "season": [
+          "unique event"
+        ],
+        "mealType": [
+          "legendary edible treasure"
+        ],
+        "servingTemperature": "provenance-specific",
+        "preservationMethod": "unique",
+        "preparationDifficulty": "legendary",
+        "preparationTime": "provenance-specific",
+        "shelfLife": "provenance-specific",
+        "ingredients": [
+          "unique legendary source"
+        ],
+        "dietaryProperties": [
+          "unknown until identified"
+        ],
+        "flavourProfile": [
+          "unique"
+        ],
+        "texture": "unique",
+        "alcoholic": false,
+        "nature": "magical",
+        "effectDurationSeconds": null,
+        "cooldownSeconds": null,
+        "servings": 1,
+        "weight": 0.25,
+        "purchasePrice": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "suggestedAvailability": "once per fifty sessions or rarer",
+        "identificationStatus": "unidentified",
+        "preparationMethod": "unique",
+        "activeEffect": false,
+        "legend": "Imperial doctrine calls it a symbolic replica; three sealed archives disagree on which loaf was copied.",
+        "provenance": "Ashen Post, Imperial Roads",
+        "discoveryConditions": "Granted only after proving that a shrine’s official relic is counterfeit without causing a public riot."
+      },
+      "mechanics": {
+        "tier": "S",
+        "effectId": "legendary.last-loaf-of-saint-othmar",
+        "summary": "+1 on saving throws against fear caused by Undead.",
+        "summaryDe": "+1 auf Rettungswürfe gegen von Untoten verursachte Furcht.",
+        "durationSeconds": null,
+        "cooldownSeconds": null,
+        "activation": "immediate",
+        "stackingGroup": "legendary.last-loaf-of-saint-othmar",
+        "permanent": true,
+        "duplicatePolicy": "deny-and-preserve-item",
+        "requiresConfirmation": true,
+        "gmConfirmation": true,
+        "hiddenUntilIdentified": true,
+        "effectIntents": [
+          {
+            "kind": "contextual-resistance-test-bonus",
+            "amount": 1,
+            "context": {
+              "creature": "undead",
+              "effect": "fear"
+            }
+          }
+        ]
+      },
+      "hiddenDescription": "True benefit: +1 on saving throws against fear caused by Undead. Discovery condition: Granted only after proving that a shrine’s official relic is counterfeit without causing a public riot. Campaign guidance: treat this as a once-in-many-sessions narrative reward, not expected progression.",
+      "localizations": {
+        "de": {
+          "name": "Letzter Laib des Heiligen Othmar",
+          "description": "<h3>Überblick</h3><p>Ein essbares Relikt mit unauffälligem Äußeren, das leicht für konservierte Früchte, Ritualbrot oder eine seltene Heilzubereitung gehalten werden kann.</p><h3>Herkunft</h3><p>Die überlieferte Herkunft weist auf Ashen Post, Imperial Roads hin. Legende: Imperial doctrine calls it a symbolic replica; three sealed archives disagree on which loaf was copied.</p><h3>Verfügbarkeit</h3><p>Es wird niemals gewöhnlich verkauft oder zufällig verteilt. Es kann nur durch eine einzigartige Expedition, Erbschaft, heilige Pflicht, klassifizierte Akte oder unmögliche Ernte entdeckt werden.</p><h3>Typische Verbraucher</h3><p>Es besitzt keine gewöhnliche Verbrauchergruppe. Schon der Besitz zieht Gelehrte, Beamte, Kulte, Schmuggler und Personen an, die seine Existenz bestreiten.</p><h3>Zubereitung</h3><p>Es verlangt die genaue, herkunftsgebundene Vorbereitung. Ersatz vernichtet die legendäre Eigenschaft und lässt nur gewöhnliche Nahrung zurück.</p><h3>Kulturelle Bedeutung</h3><p>Der Verzehr verändert dauerhaft, wie mindestens eine Gemeinschaft, Institution oder übernatürliche Zeugin den Essenden wahrnimmt.</p><h3>Mechanischer Effekt</h3><p>Bis zur Identifizierung oder zum Verzehr verborgen.</p><h3>Verzehr und Abklingzeit</h3><p>Der Vorteil ist dauerhaft und kann von derselben Kreatur nur einmal erlangt werden. Ein doppelter Verzehr wird blockiert und verbraucht den Gegenstand nicht, außer die Spielleitung übersteuert dies ausdrücklich. Der Vorteil stapelt sich nicht mit sich selbst.</p><h3>Imperialer Status</h3><p>Imperiale Einstufung: klassifizierte Anomalie. Unbefugter Besitz, Transport, Kopie oder öffentliche Beschreibung kann Beschlagnahmung und Untersuchung auslösen.</p><section class=\"secret\"><h3>SL-Hinweise</h3><p>Tatsächlicher Vorteil: +1 auf Rettungswürfe gegen von Untoten verursachte Furcht. Entdeckungsbedingung: Granted only after proving that a shrine’s official relic is counterfeit without causing a public riot. Kampagnenhinweis: als einmalige erzählerische Belohnung über viele Sitzungen behandeln, nicht als erwarteten Fortschritt.</p></section>",
+          "mechanicalEffect": "+1 auf Rettungswürfe gegen von Untoten verursachte Furcht.",
+          "hiddenDescription": "Wahrer Vorteil: +1 auf Rettungswürfe gegen von Untoten verursachte Furcht. Fundbedingung: Nur verliehen, nachdem die offizielle Reliquie eines Schreins als Fälschung bewiesen wurde, ohne einen Aufruhr auszulösen. Kampagnenhinweis: Als seltene erzählerische Belohnung verwenden, nicht als erwarteten Fortschritt."
+        }
+      },
+      "contentSchema": "system-neutral-food-v1"
+    }
+  }
+}
