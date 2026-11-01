@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 Daniel Braniewski. See the LICENSE file for rights and obligations.
 import { HOOKS, MODULE_ID, SETTINGS, TIER_ORDER } from "../constants.mjs";
 import { contentLibrary } from "./content-library.mjs";
 import { copperValue, deepClone, getFoodMeta, getModuleFlags } from "../lib/utils.mjs";

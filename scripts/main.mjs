@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 Daniel Braniewski. See the LICENSE file for rights and obligations.
 import { FLAG_SCOPE, HOOKS, MODULE_ID } from "./constants.mjs";
 import { api, exposeApi } from "./api.mjs";
 import { ContentManagerApp } from "./apps/content-manager-app.mjs";

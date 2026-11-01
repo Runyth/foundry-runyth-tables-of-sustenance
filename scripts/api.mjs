@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 Daniel Braniewski. See the LICENSE file for rights and obligations.
 import { HOOKS, MODULE_ID } from "./constants.mjs";
 import { BenefitManagerApp } from "./apps/benefit-manager-app.mjs";
 import { ContentManagerApp } from "./apps/content-manager-app.mjs";

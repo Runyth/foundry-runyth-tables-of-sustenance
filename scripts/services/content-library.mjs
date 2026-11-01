@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 Daniel Braniewski. See the LICENSE file for rights and obligations.
 import { DATA_PATHS } from "../constants.mjs";
 import { deepClone, getFoodMeta, getModuleFlags, localizeSource, normalizeText, uniqueSorted } from "../lib/utils.mjs";
 import { imageOverrideService } from "./image-override-service.mjs";

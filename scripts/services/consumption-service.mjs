@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 Daniel Braniewski. See the LICENSE file for rights and obligations.
 import { FLAG_SCOPE, HOOKS, MODULE_ID, SETTINGS } from "../constants.mjs";
 import { canConsumeForActor, formatDuration, getFoodMeta, getMechanics, getModuleFlags, htmlEscape, isFood, notify } from "../lib/utils.mjs";
 import { effectService } from "./effect-service.mjs";
