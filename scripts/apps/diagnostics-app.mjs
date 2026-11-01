@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 Daniel Braniewski. See the LICENSE file for rights and obligations.
 import { APP_IDS, MODULE_ID } from "../constants.mjs";
 import { diagnosticsService } from "../services/diagnostics-service.mjs";
 import { importExportService } from "../services/import-export-service.mjs";

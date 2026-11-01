@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 Daniel Braniewski. See the LICENSE file for rights and obligations.
 import { FLAG_SCOPE, MODULE_ID, PACKS, SETTINGS } from "../constants.mjs";
 import { compendiumService } from "./compendium-service.mjs";
 import { imageOverrideService } from "./image-override-service.mjs";
