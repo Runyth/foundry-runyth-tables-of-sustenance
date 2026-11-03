@@ -70,6 +70,10 @@ runyth-tables-of-sustenance-v<version>-SHA256SUMS.txt
 The `module.json` manifest download URL points at the matching release's installable
 archive, and the marked Latest release is always the highest published version.
 
+## Content licence
+
+Gameplay and homebrew content shipped by this module — the 335 canonical foods, recipes, complication tables and house-rule outcomes — is **CC BY-SA 4.0**. The program source is **AGPL-3.0-or-later**; see the standard licence chapter below.
+
 ## Licence
 Copyright © 2026  [Daniel Braniewski](https://brani.dev/)
 

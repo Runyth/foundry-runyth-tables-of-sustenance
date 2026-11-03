@@ -22,7 +22,7 @@ import { registry } from "./services/registry.mjs";
 import { socketService } from "./services/socket-service.mjs";
 import { systemAdapterService } from "./services/system-adapter-service.mjs";
 
-const API_VERSION = "1.2.0";
+const API_VERSION = "1.2.1";
 const instances = new Map();
 
 function singleton(key, Type) {

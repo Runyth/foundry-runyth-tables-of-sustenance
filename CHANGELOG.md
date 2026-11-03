@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.1 - 2026-11-03
+
+### Fixed and improved
+
+- AGENTS.md conformance release: the manifest author carries the standard organisational URL, and the shipped homebrew content states its CC BY-SA 4.0 content licence in the README and on the content ledger records. No runtime behaviour change; the signed v1.2.1 tag marks the conformance-patched release.
+
 ## 1.2.0 — 2026-11-02
 
 - The module joins the Runyth suite as `runyth-tables-of-sustenance` / **Runyth Tables of Sustenance**: the module id, title, npm package, flag scope, pack names, stylesheet, and class scope were rebranded, and the release moves a minor version for the identity change.

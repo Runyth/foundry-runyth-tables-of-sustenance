@@ -22,7 +22,7 @@ test("the built installable tree has a closed runtime asset graph", async () => 
   const builtRoot = join(rootPath, "dist/module", moduleId);
   execFileSync(process.execPath, [join(rootPath, "scripts-dev/validate-runtime-assets.mjs"), builtRoot], { cwd: rootPath, stdio: "pipe" });
   const manifest = JSON.parse(await readFile(join(builtRoot, "module.json"), "utf8"));
-  assert.equal(manifest.version, "1.2.0");
+  assert.equal(manifest.version, "1.2.1");
   await access(join(builtRoot, "scripts/apps/food-browser-app.mjs"));
   await assert.rejects(access(join(builtRoot, "scripts/apps/food-detail-app.mjs")));
 });
