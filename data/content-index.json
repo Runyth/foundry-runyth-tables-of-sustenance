@@ -1,6 +1,6 @@
 {
   "moduleId": "runyth-tables-of-sustenance",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "totalFoods": 335,
   "totalRecipes": 190,
   "totalTables": 12,
@@ -435,5 +435,6 @@
     "food.calpheon.s.008.memoryless-plum-preserve",
     "food.distant-coasts.s.009.gravewinter-tea",
     "food.heidel.s.010.black-glass-honey"
-  ]
+  ],
+  "contentLicence": "CC BY-SA 4.0"
 }

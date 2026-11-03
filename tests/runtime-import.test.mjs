@@ -43,7 +43,7 @@ globalThis.Hooks = {
   callAll: () => undefined
 };
 globalThis.game = {
-  modules: new Map([["runyth-tables-of-sustenance", { version: "1.2.0" }]]),
+  modules: new Map([["runyth-tables-of-sustenance", { version: "1.2.1" }]]),
   settings: { get: () => ({}), register: () => undefined, registerMenu: () => undefined },
   i18n: { lang: "en", localize: key => key, format: key => key },
   system: { id: "dnd5e" },
@@ -72,6 +72,6 @@ test("the init hook exposes the core API before the ready hook", async () => {
   const init = callbacks.find(entry => entry.name === "init" && entry.mode === "once");
   assert.ok(init);
   init.callback();
-  assert.equal(game["runyth-tables-of-sustenance"].version, "1.2.0");
+  assert.equal(game["runyth-tables-of-sustenance"].version, "1.2.1");
   assert.equal(game.modules.get("runyth-tables-of-sustenance").api, game["runyth-tables-of-sustenance"]);
 });
