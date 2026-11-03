@@ -1,8 +1,6 @@
 # Changelog
 
-## 1.2.1 - 2026-11-03
-
-### Fixed and improved
+## 1.2.1 — 2026-11-03
 
 - AGENTS.md conformance release: the manifest author carries the standard organisational URL, and the shipped homebrew content states its CC BY-SA 4.0 content licence in the README and on the content ledger records. No runtime behaviour change; the signed v1.2.1 tag marks the conformance-patched release.
 
@@ -22,7 +20,6 @@
 - Added regression coverage proving the core entrypoint can initialise without a standalone food-detail module.
 - Re-audited Foundry v13 public API usage and module manifest/runtime paths.
 - No API, content, stable-ID, system-adapter, cooldown, or Tier S identity changes.
-
 
 ## 1.1.0 — 2026-08-09
 
