@@ -86,6 +86,7 @@ export class ImportExportApp extends PersistentApplication {
     if (!game.user.isGM || !this.#payload) return;
     const data = this.#formData();
     const confirmed = await foundry.applications.api.DialogV2.confirm({
+      classes: windowClasses(["rts-confirm-dialog"]),
       window: { title: game.i18n.localize(`${MODULE_ID}.Transfer.ImportTitle`) },
       content: `<p>${game.i18n.localize(`${MODULE_ID}.Transfer.ImportWarning`)}</p>`,
       yes: { label: game.i18n.localize(`${MODULE_ID}.Transfer.Apply`) },

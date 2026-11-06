@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 // Copyright (C) 2026 Daniel Braniewski. See the LICENSE file for rights and obligations.
 import { MODULE_ID, SETTINGS } from "../constants.mjs";
+import { mountWindowIdentity } from "../window-look.mjs";
 
 const { ApplicationV2, HandlebarsApplicationMixin } = foundry.applications.api;
 const SAVE_DELAY_MS = 180;
@@ -19,6 +20,13 @@ export class PersistentApplication extends HandlebarsApplicationMixin(Applicatio
   async close(options = {}) {
     await this.#savePosition();
     return super.close(options);
+  }
+
+  async _onRender(context, options) {
+    await super._onRender?.(context, options);
+    // The fleet look and the window marker mount directly on the rendered
+    // element; never rely on the host forwarding window `classes` options.
+    mountWindowIdentity(this);
   }
 
   async resetGeometry({ size = true, position = true } = {}) {

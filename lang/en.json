@@ -209,6 +209,10 @@
         "Name": "Mechanical food effects",
         "Hint": "Apply mechanics through the active game-system adapter and retain stable permanent-benefit records in the core."
       },
+      "StockFoundryLook": {
+        "Name": "Stock Foundry look",
+        "Hint": "Keep the stock Foundry UI design for the windows of Runyth Tables of Sustenance. By default they use the fleet-wide design language."
+      },
       "hungerThirstCompatibility": {
         "Name": "Hunger and thirst compatibility",
         "Hint": "Expose nourishing and hydration flags for compatible modules."

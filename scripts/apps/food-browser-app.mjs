@@ -6,6 +6,7 @@ import { contentLibrary } from "../services/content-library.mjs";
 import { imageOverrideService } from "../services/image-override-service.mjs";
 import { systemAdapterService } from "../services/system-adapter-service.mjs";
 import { PersistentApplication } from "./base-app.mjs";
+import { windowClasses } from "../ui-look.mjs";
 
 const PAGE_SIZE = 50;
 let detailApp = null;
@@ -18,10 +19,19 @@ export class FoodBrowserApp extends PersistentApplication {
 
   static DEFAULT_OPTIONS = {
     id: APP_IDS.browser,
-    classes: ["rts", "rts-browser", "rts-browser-layout"],
+    classes: ["rts", "rts-browser"],
     tag: "section",
     position: { width: 1180, height: 780 },
-    window: { title: `${MODULE_ID}.Browser.Title`, icon: "fa-solid fa-bowl-food", resizable: true },
+    window: {
+      title: `${MODULE_ID}.Browser.Title`,
+      icon: "fa-solid fa-bowl-food",
+      resizable: true,
+      // The two-column browser layout must apply to the window CONTENT (the
+      // rendered <aside> filter panel and <main> results). On the window root
+      // it would make [window-header, window-content] the grid's two children
+      // and push the title bar into the narrow filter column.
+      contentClasses: ["rts-browser-layout"]
+    },
     actions: {
       reset: FoodBrowserApp.#reset,
       cards: FoodBrowserApp.#cards,
@@ -198,6 +208,7 @@ export class FoodBrowserApp extends PersistentApplication {
 
   static async #savePreset() {
     const name = await foundry.applications.api.DialogV2.prompt({
+      classes: windowClasses(["rts-preset-dialog"]),
       window: { title: game.i18n.localize(`${MODULE_ID}.Browser.SavePreset`) },
       content: `<input type="text" name="name" required aria-label="${game.i18n.localize(`${MODULE_ID}.Browser.PresetName`)}">`,
       ok: {

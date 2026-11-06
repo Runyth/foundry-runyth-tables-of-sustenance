@@ -23,6 +23,7 @@ class ConsumptionService {
     const dietaryConflicts = this.dietaryConflicts(actor, food);
     if (dietaryConflicts.length && !options.skipConfirmation) {
       const accepted = await foundry.applications.api.DialogV2.confirm({
+        classes: windowClasses(["rts-confirm-dialog"]),
         window: { title: game.i18n.localize(`${MODULE_ID}.Consume.DietaryTitle`) },
         content: `<p>${game.i18n.format(`${MODULE_ID}.Consume.DietaryWarning`, { actor: htmlEscape(actor.name), conflicts: htmlEscape(dietaryConflicts.join(", ")) })}</p>`,
         yes: { label: game.i18n.localize(`${MODULE_ID}.Consume.ContinueAnyway`) },
@@ -150,6 +151,7 @@ class ConsumptionService {
         ${override}
       </div>`;
     return foundry.applications.api.DialogV2.confirm({
+      classes: windowClasses(["rts-confirm-dialog"]),
       window: { title: game.i18n.localize(`${MODULE_ID}.Consume.ConfirmTitle`) },
       content,
       yes: { label: game.i18n.localize(`${MODULE_ID}.Common.Consume`), icon: "fa-solid fa-utensils" },
