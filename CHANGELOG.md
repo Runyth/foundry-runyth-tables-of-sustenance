@@ -1,5 +1,31 @@
 # Changelog
 
+
+## 1.3.0 — 2026-11-06
+
+- The Foods browser window frames correctly: the two-column layout class moved
+  from the window root onto the window content, so the window title bar rides
+  the top frame again instead of being squeezed into the narrow filter column
+  that previously held it.
+- The module's windows adopt the fleet-wide design language by default: the
+  dashboard, the Foods browser, the shop and menu generator, the meal
+  composer, the content manager, the import and export tool, the diagnostics
+  window, the window geometry panel, the benefit manager, the food detail
+  sheet, and the confirm and preset dialogs ride the fleet shell with gold
+  headings, gradient buttons, dark field controls, thin scrollbars, and the
+  fleet focus ring. A new client setting, disabled by default, restores the
+  earlier stock Foundry look verbatim when enabled.
+- The look is applied at render time: every module window mounts its window
+  identity, a window marker attribute, and the current look directly on the
+  rendered element, independent of the host's handling of window classes
+  options, and module-level window render hooks repeat the mount for every
+  rendered module window; closing the settings configuration re-syncs all
+  mounted windows in both directions.
+- Added a regression suite covering the browser layout contract, the toggle
+  contract, render-time mounting, hook-path sync in both look states, the
+  marker-based re-sync, dialog window identity classes, and fleet-layer CSS
+  scoping keyed on the fleet class alone.
+
 ## 1.2.1 — 2026-11-03
 
 - AGENTS.md conformance release: the manifest author carries the standard organisational URL, and the shipped homebrew content states its CC BY-SA 4.0 content licence in the README and on the content ledger records. No runtime behaviour change; the signed v1.2.1 tag marks the conformance-patched release.

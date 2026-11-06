@@ -9,7 +9,7 @@ const manifest = JSON.parse(await readFile(new URL("module.json", root), "utf8")
 
 test("manifest targets Foundry v13 without binding the core to a game system", async () => {
   assert.equal(manifest.id, "runyth-tables-of-sustenance");
-  assert.equal(manifest.version, "1.2.1");
+  assert.equal(manifest.version, "1.3.0");
   assert.equal(manifest.compatibility.minimum, "13.347");
   assert.equal(manifest.compatibility.verified, "13.351");
   assert.equal(manifest.compatibility.maximum, "13");
