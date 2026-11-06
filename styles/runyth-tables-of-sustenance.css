@@ -196,3 +196,80 @@
 .rts-status-good { border-color: var(--rts-success) !important; }
 .rts-status-warning { border-color: #c79a4c !important; }
 @media (max-width: 560px) { .rts-food-detail-header { grid-template-columns: 1fr; } .rts-food-detail-header > img { max-height: 260px; } }
+
+/* Fleet UI (default): the fleet-wide design language, scoped so the stock
+   styling above stays verbatim when the module drops the fleet class. Every
+   rule keys on the fleet class alone: the application windows and the small
+   confirm/prompt dialogs carry separate window identities, so compounding
+   with one of them would leave the others on the stock look in every state. */
+.runyth-tables-of-sustenance-fleet-ui {
+  --rts-accent: #d7ad61;
+  --rts-bg: linear-gradient(160deg, #16181c, #20242a 65%, #17191d);
+  --rts-panel: #2b2f36;
+  --rts-panel-hover: #31363f;
+  --rts-border: #555d69;
+  --rts-border-soft: #444b57;
+  --rts-text: #f2f3f5;
+  --rts-muted: #c4c9d0;
+  --rts-focus: #8ec5ff;
+}
+
+.runyth-tables-of-sustenance-fleet-ui .window-header button:hover:not(:disabled),
+.runyth-tables-of-sustenance-fleet-ui .window-header a:hover,
+.runyth-tables-of-sustenance-fleet-ui .window-header .window-control:hover,
+.runyth-tables-of-sustenance-fleet-ui .window-header .header-control:hover {
+  color: var(--rts-text);
+  border-color: #d7ad61;
+}
+
+.runyth-tables-of-sustenance-fleet-ui .window-content {
+  scrollbar-width: thin;
+}
+
+.runyth-tables-of-sustenance-fleet-ui :is(.rts-dashboard-scroll, .rts-food-detail-scroll, .rts-transfer-scroll, .rts-diagnostics-scroll, .rts-window-geometry-scroll, .rts-manager-layout, .rts-composer-layout, .rts-benefit-manager, .rts-filter-panel, .rts-food-grid, .rts-table-scroll, .rts-generator-form, .rts-menu-output, .rts-report) {
+  scrollbar-width: thin;
+}
+
+.runyth-tables-of-sustenance-fleet-ui :is(h1, h2, h3) {
+  color: #f0ca82;
+}
+
+.runyth-tables-of-sustenance-fleet-ui th {
+  background: #17191d;
+  color: #f0ca82;
+}
+
+.runyth-tables-of-sustenance-fleet-ui :is(input, select, textarea) {
+  background: #101216;
+  border: 1px solid #68717f;
+  color: var(--rts-text);
+}
+
+.runyth-tables-of-sustenance-fleet-ui select option {
+  background: #101216;
+  color: var(--rts-text);
+}
+
+.runyth-tables-of-sustenance-fleet-ui button {
+  border: 1px solid #68717f;
+  border-radius: 0.35rem;
+  background: linear-gradient(#343943, #282c33);
+  color: #f6f7f8;
+}
+
+.runyth-tables-of-sustenance-fleet-ui button:hover:not(:disabled) {
+  border-color: #d7ad61;
+  background: linear-gradient(#444b57, #31363f);
+  color: var(--rts-text);
+}
+
+.runyth-tables-of-sustenance-fleet-ui button:disabled {
+  cursor: not-allowed;
+  opacity: 0.48;
+}
+
+.runyth-tables-of-sustenance-fleet-ui :is(button, input, select, textarea):focus-visible,
+.runyth-tables-of-sustenance-fleet-ui .window-header .header-control:focus-visible {
+  outline: 2px solid var(--rts-focus);
+  outline-offset: 1px;
+}

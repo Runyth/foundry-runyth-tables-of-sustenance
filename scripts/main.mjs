@@ -12,9 +12,11 @@ import { effectService } from "./services/effect-service.mjs";
 import { systemAdapterService } from "./services/system-adapter-service.mjs";
 import { registerSettings } from "./settings.mjs";
 import { socketService } from "./services/socket-service.mjs";
+import { ensureWindowLookHooks } from "./window-look.mjs";
 
 Hooks.once("init", () => {
   registerSettings({ DashboardApp, ContentManagerApp, ImportExportApp, DiagnosticsApp, WindowGeometryApp });
+  ensureWindowLookHooks();
   exposeApi();
   console.info(`${MODULE_ID} | Initialised v${game.modules.get(MODULE_ID)?.version} as a system-neutral core.`);
 });

@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 // Copyright (C) 2026 Daniel Braniewski. See the LICENSE file for rights and obligations.
 import { MODULE_ID, SETTINGS } from "./constants.mjs";
+import { SETTING_STOCK_LOOK, syncOpenWindows } from "./ui-look.mjs";
 
 const booleanSettings = [
   [SETTINGS.mechanicsEnabled, true],
@@ -72,9 +73,20 @@ export function registerSettings({ DashboardApp, ContentManagerApp, ImportExport
     type: Object,
     default: { count: 8, maxTier: "2", includeDrinks: true, includeIllicit: false, priceMultiplier: 1 }
   });
+  game.settings.register(MODULE_ID, SETTING_STOCK_LOOK, {
+    name: `${MODULE_ID}.Settings.StockFoundryLook.Name`,
+    hint: `${MODULE_ID}.Settings.StockFoundryLook.Hint`,
+    scope: "client",
+    config: true,
+    type: Boolean,
+    default: false
+  });
+
   game.settings.register(MODULE_ID, SETTINGS.windowState, { scope: "client", config: false, type: Object, default: {} });
   game.settings.register(MODULE_ID, SETTINGS.imageOverrides, { scope: "world", config: false, type: Object, default: {} });
   game.settings.register(MODULE_ID, SETTINGS.diagnosticsHistory, { scope: "world", config: false, type: Array, default: [] });
+
+  Hooks.on("closeSettingsConfig", () => syncOpenWindows());
 
   registerMenu("dashboard", DashboardApp, "fa-solid fa-utensils", false, "Dashboard");
   registerMenu("contentManager", ContentManagerApp, "fa-solid fa-box-archive", true, "ContentManager");

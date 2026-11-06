@@ -100,6 +100,7 @@ export class ContentManagerApp extends PersistentApplication {
 
   static async #removeAction() {
     const confirmed = await foundry.applications.api.DialogV2.confirm({
+      classes: windowClasses(["rts-confirm-dialog"]),
       window: { title: game.i18n.localize(`${MODULE_ID}.Manager.RemoveTitle`) },
       content: `<p>${game.i18n.localize(`${MODULE_ID}.Manager.RemoveWarning`)}</p>`,
       yes: { label: game.i18n.localize(`${MODULE_ID}.Common.Remove`) },

@@ -209,6 +209,10 @@
         "Name": "Mechanische Nahrungseffekte",
         "Hint": "Wendet Mechaniken über den aktiven Spielsystemadapter an und verwaltet stabile Datensätze dauerhafter Vorteile im Kernmodul."
       },
+      "StockFoundryLook": {
+        "Name": "Foundry-Standardlook",
+        "Hint": "Behalte den stock Foundry-Standardlook für die Fenster von Runyth Tables of Sustenance. Standardmäßig nutzen sie den flottenweiten Design-Look."
+      },
       "hungerThirstCompatibility": {
         "Name": "Hunger- und Durst-Kompatibilität",
         "Hint": "Stellt Nährwert- und Flüssigkeitskennzeichen für kompatible Module bereit."
