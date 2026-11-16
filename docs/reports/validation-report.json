@@ -1,11 +1,6 @@
 {
-  "generatedAt": "2026-08-12T21:10:16.631Z",
-  "moduleVersion": "1.1.1",
-  "status": "passed",
-  "systemNeutral": true,
-  "foods": 335,
-  "recipes": 190,
-  "tables": 12,
+  "checkedImages": 335,
+  "checkedLocalizationKeys": 170,
   "counts": {
     "1": 180,
     "2": 80,
@@ -13,9 +8,14 @@
     "4": 20,
     "S": 10
   },
-  "tierSDirectRandomGeneration": false,
-  "checkedImages": 335,
-  "checkedLocalizationKeys": 170,
   "errors": [],
+  "foods": 335,
+  "generatedAt": "2026-08-12T21:10:16.631Z",
+  "moduleVersion": "1.1.1",
+  "recipes": 190,
+  "status": "passed",
+  "systemNeutral": true,
+  "tables": 12,
+  "tierSDirectRandomGeneration": false,
   "warnings": []
 }

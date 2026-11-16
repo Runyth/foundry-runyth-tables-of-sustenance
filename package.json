@@ -1,19 +1,28 @@
 {
-  "name": "runyth-tables-of-sustenance",
-  "version": "1.3.0",
-  "private": true,
-  "type": "module",
   "description": "Build, validation, and test tooling for Runyth Tables of Sustenance.",
-  "scripts": {
-    "test": "node --test tests/*.test.mjs",
-    "check": "node tools/check.mjs && npm test && npm run build && npm run verify:release",
-    "build": "node tools/build.mjs",
-    "verify:release": "node tools/verify-release.mjs",
-    "generate": "python3 scripts-dev/enrich-metadata.py && python3 scripts-dev/localize-content.py && python3 scripts-dev/sync-content.py",
-    "validate": "node scripts-dev/validate-content.mjs && node scripts-dev/validate-runtime-assets.mjs"
-  },
   "engines": {
     "node": ">=22.13.0 <27"
   },
-  "license": "AGPL-3.0-or-later"
+  "license": "AGPL-3.0-or-later",
+  "name": "runyth-tables-of-sustenance",
+  "packageManager": "npm@11.16.0",
+  "private": true,
+  "scripts": {
+    "adopt": "node tools/adopt-existing.mjs",
+    "audit": "node tools/audit-foundry.mjs",
+    "bootstrap": "node tools/bootstrap.mjs",
+    "build": "node tools/build.mjs",
+    "check": "node tools/check.mjs",
+    "format": "node tools/format.mjs --write",
+    "format:check": "node tools/format.mjs --check",
+    "generate": "python3 scripts-dev/enrich-metadata.py && python3 scripts-dev/localize-content.py && python3 scripts-dev/sync-content.py",
+    "release:assert": "node tools/assert-release-tag.mjs",
+    "template:sync": "node tools/template-sync.mjs",
+    "test": "node --test --test-reporter=spec",
+    "validate": "node tools/validate.mjs",
+    "verify:release": "node tools/verify-release.mjs",
+    "version:set": "node tools/set-version.mjs"
+  },
+  "type": "module",
+  "version": "1.3.0"
 }

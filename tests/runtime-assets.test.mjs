@@ -3,7 +3,9 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { access, readFile } from "node:fs/promises";
+import { mkdtempSync, rmSync } from "node:fs";
 import { execFileSync } from "node:child_process";
+import { tmpdir } from "node:os";
 import { join } from "node:path";
 
 const root = new URL("../", import.meta.url);
@@ -19,10 +21,18 @@ test("food detail no longer adds a startup-critical standalone ES module", async
 
 test("the built installable tree has a closed runtime asset graph", async () => {
   execFileSync(process.execPath, [join(rootPath, "tools/build.mjs")], { cwd: rootPath, stdio: "pipe" });
-  const builtRoot = join(rootPath, "dist/module", moduleId);
-  execFileSync(process.execPath, [join(rootPath, "scripts-dev/validate-runtime-assets.mjs"), builtRoot], { cwd: rootPath, stdio: "pipe" });
-  const manifest = JSON.parse(await readFile(join(builtRoot, "module.json"), "utf8"));
-  assert.equal(manifest.version, "1.3.0");
-  await access(join(builtRoot, "scripts/apps/food-browser-app.mjs"));
-  await assert.rejects(access(join(builtRoot, "scripts/apps/food-detail-app.mjs")));
+  const manifestSource = JSON.parse(await readFile(new URL("module.json", root), "utf8"));
+  const archive = join(rootPath, "dist", `${manifestSource.id}-v${manifestSource.version}-mod.zip`);
+  const temporary = mkdtempSync(join(tmpdir(), "tos-install-"));
+  try {
+    execFileSync("unzip", ["-q", archive, "-d", temporary], { stdio: "pipe" });
+    const builtRoot = join(temporary, moduleId);
+    execFileSync(process.execPath, [join(rootPath, "scripts-dev/validate-runtime-assets.mjs"), builtRoot], { cwd: rootPath, stdio: "pipe" });
+    const manifest = JSON.parse(await readFile(join(builtRoot, "module.json"), "utf8"));
+    assert.equal(manifest.version, "1.3.0");
+    await access(join(builtRoot, "scripts/apps/food-browser-app.mjs"));
+    await assert.rejects(access(join(builtRoot, "scripts/apps/food-detail-app.mjs")));
+  } finally {
+    rmSync(temporary, { recursive: true, force: true });
+  }
 });
